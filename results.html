@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Results | Playmaker Sports</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <div class="site-wrapper">
+    <header class="nav-shell">
+      <div class="nav-inner">
+        <div class="nav-left">
+          <div class="nav-logo-img">
+            <img src="logo.png" alt="Playmaker Sports Logo" />
+          </div>
+          <div class="nav-title">
+            <span>Playmaker Sports</span>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="playmakers-cup.html">Playmakers Cup</a>
+          <a href="winter-fest.html">Winter Fest</a>
+          <a href="summer-championship.html">Summer Championship</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="page-shell">
+      <a class="back-link" id="back-link" href="#" style="display:none;">&larr; Back to event</a>
+
+      <section class="page-header">
+        <div class="page-kicker" id="page-kicker">Schedule & Standings</div>
+        <div class="results-header-row" id="results-header-row" style="display:none;">
+          <img class="results-logo" id="results-logo" src="" alt="" />
+          <div>
+            <h1 class="page-title" id="results-title">Loading...</h1>
+            <p class="page-lead" id="results-subtitle"></p>
+          </div>
+        </div>
+        <h1 class="page-title" id="results-title-plain">Loading...</h1>
+      </section>
+
+      <section class="section">
+        <div class="event-info-card">
+          <div id="data-container">
+            <div class="data-loading">Loading data...</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="contact.html">Contact Us</a>
+          <span>•</span>
+          <a href="mailto:info@playmakersports.us">info@playmakersports.us</a>
+          <span>•</span>
+          <a href="contact.html">Sponsor an Event</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://www.instagram.com/playmaker_sports_" target="_blank" rel="noopener" class="social-btn social-instagram">Instagram</a>
+          <a href="https://www.facebook.com/people/Playmaker-Sports/61578334102618/" target="_blank" rel="noopener" class="social-btn social-facebook">Facebook</a>
+          <a href="https://www.youtube.com/@Playmaker-Sports" target="_blank" rel="noopener" class="social-btn social-youtube">YouTube</a>
+          <a href="https://x.com/PlaymakrSports?s=20" target="_blank" rel="noopener" class="social-btn social-twitter">X</a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="site.js"></script>
+  <script src="event-page.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const slug = getParam("slug");
+      const eventId = getParam("event");
+
+      if (!slug && !eventId) {
+        document.getElementById("results-title").textContent = "No event specified";
+        document.getElementById("data-container").innerHTML =
+          '<div class="data-empty">Please select an event from one of the event pages.</div>';
+        return;
+      }
+
+      try {
+        const config = await fetchConfig();
+        var ev, resolvedId;
+
+        if (slug) {
+          // Came from event nav — look up by slug
+          ev = getEventBySlug(config, slug);
+          if (!ev) {
+            document.getElementById("results-title").textContent = "Event not found";
+            document.getElementById("data-container").innerHTML =
+              '<div class="data-empty">Could not find event for slug: ' + slug + '</div>';
+            return;
+          }
+
+          // Show back link to event page
+          var backLink = document.getElementById("back-link");
+          backLink.href = slug + ".html";
+          backLink.style.display = "";
+
+          document.getElementById("page-kicker").textContent = "Schedule & Standings";
+          document.title = ev.eventName + " — Schedule & Standings | Playmaker Sports";
+        } else {
+          // Came from previous results link — look up by event ID
+          ev = config.events[eventId];
+          if (!ev) {
+            document.getElementById("results-title").textContent = "Event not found";
+            document.getElementById("data-container").innerHTML =
+              '<div class="data-empty">Could not find event with ID: ' + eventId + '</div>';
+            return;
+          }
+          ev = { ...ev, eventId: eventId };
+
+          document.getElementById("page-kicker").textContent = "Previous Results";
+          document.title = ev.eventName + " — Results | Playmaker Sports";
+        }
+
+        const theme = getTheme(config, ev.theme);
+
+        // Show logo + title
+        if (ev.logoPath) {
+          document.getElementById("results-logo").src = staticUrl(ev.logoPath);
+          document.getElementById("results-header-row").style.display = "";
+          document.getElementById("results-title-plain").style.display = "none";
+          document.getElementById("results-title").textContent = ev.eventName || "Results";
+        } else {
+          document.getElementById("results-title-plain").textContent = ev.eventName || "Results";
+        }
+
+        const subtitle = document.getElementById("results-subtitle");
+        const parts = [];
+        if (ev.dateText) parts.push(ev.dateText);
+        if (ev.locationText) parts.push(ev.locationText);
+        subtitle.textContent = parts.join(" \u2022 ");
+
+        // Load and render schedule/standings data
+        await loadResultsData(ev, config, theme);
+      } catch (err) {
+        console.error("Error loading data:", err);
+        document.getElementById("data-container").innerHTML =
+          '<div class="data-empty" style="color:var(--danger);">Failed to load data: ' + err.message + '</div>';
+      }
+    });
+
+    async function loadResultsData(ev, config, theme) {
+      const container = document.getElementById("data-container");
+
+      if (ev.scheduleDisabled && !ev.archived) {
+        container.innerHTML =
+          '<div class="data-empty">' +
+            '<p>Schedule and standings will be available closer to the event.</p>' +
+            '<p style="margin-top:8px;color:var(--accent);">Check back soon!</p>' +
+          '</div>';
+        return;
+      }
+
+      container.innerHTML = '<div class="data-loading">Loading event data...</div>';
+
+      let data;
+      try {
+        data = await fetchEventData(ev);
+      } catch (err) {
+        container.innerHTML =
+          '<div class="data-empty" style="color:var(--danger);">Could not load event data: ' + err.message + '</div>';
+        return;
+      }
+
+      container.innerHTML = "";
+      renderScheduleStandingsSection(container, data, theme);
+    }
+  </script>
+</body>
+</html>

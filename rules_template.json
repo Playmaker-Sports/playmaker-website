@@ -1,0 +1,121 @@
+{
+  "templateVersion": 2,
+  "sections": [
+    { "type": "header", "text": "{eventName} Tournament Rules" },
+
+    { "type": "text", "text": "This tournament is sanctioned by the United States Specialty Sports Association (USSSA). This is a Class I tournament and is open to all U.S. Soccer affiliates including USYS, US Club Soccer, USSSA, and AYSO teams." },
+
+    { "type": "text", "text": "At the Mandatory Check In, teams must provide the required credentials. All teams must provide valid laminated Player I.D. Cards with photographs, and signed Medical Release Forms (Cal South Player Registration Application, US Club Soccer form R002 or USSSA Participation Waiver)." },
+
+    { "type": "sectionHeader", "text": "ROSTERS:" },
+    { "type": "text", "text": "U13 – U19 age groups can roster up to 22 players and play 18 players per game" },
+    { "type": "text", "text": "U11 – U12 age groups can roster up to 18 players and play 16 players per game" },
+    { "type": "text", "text": "U7 – U10 age groups can roster up to 16 players and play 14 players per game" },
+    { "type": "italic", "text": "*Any write-ins must be done by Playmaker Sports staff at the check in tent" },
+
+    { "type": "sectionHeader", "text": "GUEST PLAYERS:" },
+    { "type": "text", "text": "Teams may use an unlimited number of guest players as long as they are registered through one of the U.S. Soccer affiliates. All guest players must provide valid laminated Player I.D. Cards with photographs, and signed Medical Release Forms." },
+    { "type": "italic", "text": "*Players who are rostered to a team participating in the tournament may not guest play with another team in the tournament." },
+    { "type": "text", "text": "FIFA Laws of the Game will apply and be modified to the US Soccer mandated rules for 7 v 7 and 9 v 9 games." },
+
+    { "type": "sectionHeader", "text": "GAME LENGTH:" },
+    {
+      "type": "table",
+      "headers": ["Age\nGroup", "Game Length", "Finals Length", "# of\nPlayers", "Ball\nSize"],
+      "columnStyles": ["colAge", null, null, "colSmall", "colSmall"],
+      "rows": [
+        ["U7 – U10", "50 min", "50 min", "7 v 7", "4"],
+        ["U11 – U12", "50 min", "50 min", "9 v 9", "4"],
+        ["U13 – U19", "60 min", "60 min", "11 v 11", "5"]
+      ]
+    },
+    { "type": "italic", "text": "* Final games tied after regulation will go directly to FIFA Kicks from the Mark to determine who is the winner." },
+
+    { "type": "sectionHeader", "text": "POINT SYSTEM:" },
+    { "type": "text", "text": "Teams will be awarded points on the following basis: Six (6) points for each win - Three (3) point for each tie - Zero (0) points for each loss – One (1) point for each goal (Three (3) Maximum) – One (1) point for a shutout" },
+    { "type": "text", "text": "In the event two teams are tied in points at the end of bracket play, the teams to advance will be determined as follows:" },
+    { "type": "listItem", "text": "1. The winner in head to head competition" },
+    { "type": "listItem", "text": "2. Best goal differential" },
+    { "type": "listItem", "text": "3. Most goals for" },
+    { "type": "listItem", "text": "4. Most total wins" },
+    { "type": "listItem", "text": "5. Most shutouts" },
+    { "type": "listItem", "text": "6. Least red cards" },
+    { "type": "listItem", "text": "7. If a tie still exists after steps 1 through 6, the teams will compete in a penalty shootout to determine who will move on." },
+
+    { "type": "sectionHeader", "text": "STRUCTURE:" },
+    { "type": "subHeader", "text": "EIGHT TEAM FLIGHTS" },
+    { "type": "text", "text": "Two (2) brackets of four (4) teams. Each team will play the others within its bracket for a total of three (3) preliminary games with the top team in each bracket advancing to the Final." },
+    { "type": "subHeader", "text": "SIX TEAM FLIGHTS" },
+    { "type": "text", "text": "Two (2) brackets of three (3) teams. Three teams from one bracket will play three teams from the opposite bracket. This is called cross-play. The top two teams with the highest points from all six teams, across both brackets will advance to the Final." },
+    { "type": "subHeader", "text": "FOUR TEAM FLIGHTS" },
+    { "type": "text", "text": "One (1) bracket of four (4) teams. Each team will play the others for a total of three (3) preliminary games with the top two (2) teams in the bracket advancing to the Final." },
+
+    { "type": "sectionHeader", "text": "SUBSTITUTIONS:" },
+    { "type": "text", "text": "Teams will have unlimited substitutions. Substitutions can be made at any stoppage with the referee's permission." },
+
+    { "type": "sectionHeader", "text": "INJURIES & STOPPAGES:" },
+    { "type": "text", "text": "Additional time will not be added to the game for injuries or stoppages unless determined by the tournament director. All games will be played on a running clock. The games will start and end at the scheduled times." },
+
+    { "type": "sectionHeader", "text": "REFEREE DECISIONS:" },
+    { "type": "text", "text": "The decisions of the referee regarding facts connected with play are final. The referee may only change a decision on realizing that it is incorrect or, at his/her discretion, on the advice of an assistant referee, provided that he/she has not restarted play." },
+
+    { "type": "sectionHeader", "text": "PLAYERS' EQUIPMENT:" },
+    { "type": "text", "text": "Players are required to wear shin guards and proper soccer footwear. It will be at the game Referee's discretion to determine the safety and suitability of player equipment including the wearing of a hard brace or cast. Jewelry of any kind is not permitted. Referees will perform safety checks prior to the start of each game." },
+
+    { "type": "sectionHeader", "text": "UNIFORM CONFLICTS:" },
+    { "type": "text", "text": "If there is a conflict with uniform colors, the AWAY team will be required to change uniforms." },
+
+    { "type": "sectionHeader", "text": "COIN FLIP:" },
+    { "type": "text", "text": "There will not be a coin flip before the match. The home team will choose which side they would like to defend, and the away team will have the kick off." },
+
+    { "type": "sectionHeader", "text": "TEAM SIDELINES:" },
+    { "type": "text", "text": "The home team will choose which side of the field they will set up. Parents will sit on the same sideline as their team." },
+
+    { "type": "sectionHeader", "text": "COACH'S RESPONSIBILITIES:" },
+    { "type": "text", "text": "All Coaches have total responsibility for the conduct of their players, substitutes, and spectators at all times. Coaching from the sidelines is permitted, provided: Each coach or substitute remains within 10 yards on either side of the halfway line; No coach, substitute, or spectator makes derogatory remarks or gestures to the referees, other coaches, players, substitutes, or spectators; No coach, substitute, or spectator uses profanity or incites, in any manner, disruptive behavior." },
+
+    { "type": "sectionHeader", "text": "CAUTIONS AND SEND OFFS:" },
+    { "type": "text", "text": "A player receiving two cautions (yellow cards) in a single game will be shown the red card and sent off (ejected). A player who has been sent off will not be replaced, will not return for that game and will not be allowed to participate in the next scheduled game. Any player sent off for Serious Foul Play will not be allowed to participate in the next TWO (2) scheduled games." },
+    { "type": "text", "text": "A player who is ejected for violent conduct or spitting will not be allowed to participate in the next THREE (3) scheduled games, at a minimum. Further suspensions for Violent Conduct or Referee Abuse may be issued at the discretion of the Tournament Director or tournament official." },
+    { "type": "text", "text": "Any player or coach who assaults a referee will be expelled from the Tournament. A coach who has been ejected (sent off) will be suspended the same as a Player ejection. During game suspension(s) for coaches: there will be NO contact between the team and the coach during the game and the coach must be out of sight and sound of the field." },
+
+    { "type": "sectionHeader", "text": "ZERO TOLERANCE POLICIES:" },
+    { "type": "text", "text": "There is a zero tolerance to Fighting, Discrimination, and Racism of any form (Verbal or Gestures) at all Playmaker Sports events." },
+    { "type": "text", "text": "Any player, coach, or spectator will be banned for the rest of the tournament, and potentially all future Playmaker Sports events." },
+
+    { "type": "sectionHeader", "text": "SUSPENDED AND TERMINATED GAMES:" },
+    { "type": "text", "text": "Any suspended or terminated match will be considered as played, if 1 half of play has been completed." },
+    { "type": "text", "text": "If in the opinion of the referee a game must be suspended, the game may be resumed, but is subject to being ended not less than five (5) minutes prior to the scheduled start of the next game." },
+    { "type": "text", "text": "If in the opinion of the referee, a game must be terminated for misconduct of players, bench, coaches, or spectators; the offending team could be suspended from further play and will forfeit that game and all remaining games. All previous points earned remain as played." },
+
+    { "type": "sectionHeader", "text": "FORFEITS:" },
+    { "type": "text", "text": "If a team must forfeit a match, they will be assigned a 1-0 loss. This will award 8 points to the opposing team (6 points for a win, 1 point for a goal, 1 point for shutout)." },
+
+    { "type": "sectionHeader", "text": "7 v 7 and 9 v 9 Rules" },
+
+    { "type": "subHeader", "text": "7 V 7 GAMES:" },
+    { "type": "text", "text": "Deliberate heading is not allowed in 7v7 games. If a player deliberately heads the ball in a game, an indirect free kick should be awarded to the opposing team from the spot of the offense. If the deliberate header occurs within the goal area, the indirect free kick should be taken on the goal area line parallel to the goal line at the nearest point to where the infringement occurred." },
+
+    { "type": "subHeader", "text": "BUILD OUT LINE:" },
+    { "type": "text", "text": "When the goalkeeper has the ball in his or her hands during play from the opponent, the opposing team must move behind the build out line until the ball is put into play. Once the opposing team is behind the build out line, the goalkeeper can pass, throw or roll the ball into play (punts and drop kicks are not allowed)." },
+    { "type": "text", "text": "After the ball is put into play by the goalkeeper, the opposing team can cross the build out line and play resumes as normal. The opposing team must also move behind the build out line during a goal kick until the ball is put in to play." },
+    { "type": "text", "text": "The build out line will also be used to denote where offside offenses can be called. Players cannot be penalized for an offside offense between the halfway line and the build out line. Players can be penalized for an offside offense between the build out line and goal line." },
+    { "type": "text", "text": "If a goalkeeper punts or drop kicks the ball, an indirect free kick should be awarded to the opposing team from the spot of the offense. If the punt or drop kick occurs within the penalty area, the indirect free kick should be taken on the penalty area line, parallel to the goal line, at the nearest point to where the infringement occurred." },
+
+    { "type": "subHeader", "text": "9 V 9 GAMES:" },
+    { "type": "text", "text": "U12 – deliberate heading is permitted." },
+    { "type": "text", "text": "U11 – deliberate heading is NOT allowed." },
+    { "type": "italic", "text": "*If a player deliberately heads the ball in a game, an indirect free kick should be awarded to the opposing team from the spot of the offense. If the deliberate header occurs within the goal area, the indirect free kick should be taken on the goal area line parallel to the goal line at the nearest point to where the infringement occurred." },
+
+    { "type": "sectionHeader", "text": "PAYMENT METHODS:" },
+    { "type": "listItem", "text": "• Credit Card" },
+    { "type": "listItem", "text": "• Zelle - playmakersports.info@gmail.com" },
+    { "type": "italic", "text": "*Payment must be made at registration time." },
+    { "type": "italic", "text": "*Payments made with a credit card will be charged a 3.27% processing fee." },
+    { "type": "italic", "text": "*All payments will include an additional $20 for the GotSport software fee." },
+
+    { "type": "sectionHeader", "text": "{refundHeader}" },
+    { "type": "list", "key": "refundLines" },
+    { "type": "text", "key": "cancellationPolicy" }
+  ]
+}

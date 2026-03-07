@@ -13,13 +13,12 @@
         <div class="nav-left">
           <div class="nav-logo-img">
             <img
-              src="https://static.wixstatic.com/media/2359e4_78e3788b60ce466ca11385bf21dc7582~mv2.png/v1/fill/w_91,h_91,al_c,q_85,enc_avif,quality_auto/Logo%20White%20Gold.png"
+              src="logo.png"
               alt="Playmaker Sports Logo"
             />
           </div>
           <div class="nav-title">
             <span>Playmaker Sports</span>
-            <span>Youth Soccer Events</span>
           </div>
         </div>
         <nav class="nav-links">
@@ -27,54 +26,39 @@
           <a href="playmakers-cup.html">Playmakers Cup</a>
           <a href="winter-fest.html">Winter Fest</a>
           <a href="summer-championship.html">Summer Championship</a>
-          <a href="contact.html">Contact Us</a>
           <a href="news.html">News</a>
+          <a href="contact.html">Contact Us</a>
         </nav>
       </div>
     </header>
 
     <main class="page-shell">
+      <!-- Photo Slideshow -->
+      <section class="section" id="slideshow-section" style="display:none;">
+        <div class="slideshow">
+          <button class="slideshow-arrow slideshow-arrow-left" id="slideshow-prev">&#8249;</button>
+          <div class="slideshow-track" id="slideshow-track"></div>
+          <button class="slideshow-arrow slideshow-arrow-right" id="slideshow-next">&#8250;</button>
+          <div class="slideshow-dots" id="slideshow-dots"></div>
+        </div>
+      </section>
+
       <!-- Hero -->
       <section class="hero">
-        <div>
+        <div id="hero-left">
           <div class="hero-text-eyebrow">Featured Event</div>
-          <h1 class="hero-title">Playmakers Cup 2025</h1>
-          <div class="hero-meta">
-            <span><strong>November 29–30, 2025</strong></span>
-            <span>Moorpark, CA</span>
-          </div>
-          <div class="hero-buttons">
-            <a
-              class="btn btn-primary"
-              href="https://system.gotsport.com/org_event/events/XXXXX"
-              target="_blank"
-              rel="noopener"
-            >
-              Click Here for Schedule
-            </a>
-            <a
-              class="btn btn-ghost"
-              href="https://drive.google.com/XXXXXX"
-              target="_blank"
-              rel="noopener"
-            >
-              Tournament Rules
-            </a>
-          </div>
-          <p class="hero-footnote">
-            A competitive Thanksgiving weekend event at Arroyo Vista Park in Moorpark, CA.
-          </p>
+          <h1 class="hero-title" id="hero-title">Loading...</h1>
+          <div class="hero-meta" id="hero-meta"></div>
+          <div class="hero-buttons" id="hero-buttons"></div>
+          <p class="hero-footnote" id="hero-footnote"></p>
         </div>
 
-        <aside class="hero-map-card">
-          <div class="hero-map-label">Field Map</div>
-          <div class="hero-map-title">Playmakers Cup • Arroyo Vista Park</div>
-          <div class="hero-map-img">
-            <img
-              src="https://static.wixstatic.com/media/2359e4_fea1d88cdcba4b43b35fe62a2c31b092~mv2.png/v1/fill/w_426,h_578,al_c,q_85,enc_avif,quality_auto/Playmakers%20Cup%20Field%20Map.png"
-              alt="Playmakers Cup Field Map"
-            />
-          </div>
+        <aside class="upcoming-card" id="upcoming-card">
+          <div class="upcoming-card-label">Next Event</div>
+          <div class="upcoming-card-logo" id="upcoming-logo"></div>
+          <div class="upcoming-card-name" id="upcoming-name">Loading...</div>
+          <div class="upcoming-card-meta" id="upcoming-meta"></div>
+          <div class="countdown" id="upcoming-countdown"></div>
         </aside>
       </section>
 
@@ -89,72 +73,8 @@
           </div>
         </div>
 
-        <div class="events-grid">
-          <!-- Playmakers Cup -->
-          <article class="event-card">
-            <div class="event-card-img">
-              <img
-                src="https://static.wixstatic.com/media/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png/v1/fill/w_325,h_325,al_c,q_85,enc_avif,quality_auto/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png"
-                alt="Playmakers Cup"
-              />
-            </div>
-            <div class="event-card-body">
-              <div class="event-name">
-                <a href="playmakers-cup.html" style="color: inherit; text-decoration: none;">
-                  Playmakers Cup
-                </a>
-              </div>
-              <div class="event-row">
-                <span>Arroyo Vista Park • Moorpark, CA</span>
-                <span>November 29–30, 2025</span>
-              </div>
-              <div class="event-meta">Boys &amp; Girls 2018–2007</div>
-            </div>
-          </article>
-
-          <!-- Winter Fest -->
-          <article class="event-card">
-            <div class="event-card-img">
-              <img
-                src="https://static.wixstatic.com/media/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png/v1/fill/w_325,h_325,al_c,q_85,enc_avif,quality_auto/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png"
-                alt="Winter Fest"
-              />
-            </div>
-            <div class="event-card-body">
-              <div class="event-name">
-                <a href="winter-fest.html" style="color: inherit; text-decoration: none;">
-                  Winter Fest
-                </a>
-              </div>
-              <div class="event-row">
-                <span>Central Park • Santa Clarita, CA</span>
-                <span>February 28–March 1, 2026</span>
-              </div>
-              <div class="event-meta">Boys &amp; Girls 2018–2007</div>
-            </div>
-          </article>
-
-          <!-- Summer Championship -->
-          <article class="event-card">
-            <div class="event-card-img">
-              <img
-                src="https://static.wixstatic.com/media/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png/v1/fill/w_325,h_328,al_c,q_85,enc_avif,quality_auto/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png"
-                alt="Summer Championship"
-              />
-            </div>
-            <div class="event-card-body">
-              <div class="event-name">
-                <a href="summer-championship.html" style="color: inherit; text-decoration: none;">
-                  Summer Championship
-                </a>
-              </div>
-              <div class="event-row">
-                <span>Arroyo Vista Park • Moorpark, CA</span>
-                <span>August 2–3, 2025</span>
-              </div>
-              <div class="event-meta">Boys &amp; Girls 2018–2007</div>
-            </div>
-          </article>
+        <div class="events-grid" id="events-grid">
+          <!-- Populated dynamically -->
         </div>
       </section>
 
@@ -195,13 +115,229 @@
           <a href="contact.html">Sponsor an Event</a>
         </div>
         <div class="footer-socials">
-          <a href="https://x.com" target="_blank" rel="noopener">X</a>
-          <a href="https://facebook.com" target="_blank" rel="noopener">f</a>
-          <a href="https://instagram.com" target="_blank" rel="noopener">IG</a>
-          <a href="https://youtube.com" target="_blank" rel="noopener">▶</a>
+          <a href="https://www.instagram.com/playmaker_sports_" target="_blank" rel="noopener" class="social-btn social-instagram">Instagram</a>
+          <a href="https://www.facebook.com/people/Playmaker-Sports/61578334102618/" target="_blank" rel="noopener" class="social-btn social-facebook">Facebook</a>
+          <a href="https://www.youtube.com/@Playmaker-Sports" target="_blank" rel="noopener" class="social-btn social-youtube">YouTube</a>
+          <a href="https://x.com/PlaymakrSports?s=20" target="_blank" rel="noopener" class="social-btn social-twitter">X</a>
         </div>
       </div>
     </footer>
   </div>
+
+  <script src="site.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const config = await fetchConfig();
+        renderHero(config);
+        renderUpcomingCard(config);
+        renderSlideshow();
+        renderEventsGrid(config);
+      } catch (err) {
+        console.error("Failed to load config:", err);
+      }
+    });
+
+    function renderHero(config) {
+      const firstId = config.eventOrder[0];
+      const ev = config.events[firstId];
+      if (!ev) return;
+
+      const theme = getTheme(config, ev.theme);
+
+      var slug = eventSlug(ev.eventName);
+      document.getElementById("hero-title").textContent = ev.eventName;
+
+      const metaEl = document.getElementById("hero-meta");
+      metaEl.innerHTML = "";
+      if (ev.dateText) {
+        const s = document.createElement("span");
+        s.innerHTML = "<strong>" + ev.dateText + "</strong>";
+        metaEl.appendChild(s);
+      }
+      if (ev.locationText) {
+        const s = document.createElement("span");
+        s.textContent = getFullAddress(ev.locationText);
+        metaEl.appendChild(s);
+      }
+
+      const btnsEl = document.getElementById("hero-buttons");
+      btnsEl.innerHTML = "";
+
+      if (ev.registrationUrl && !ev.archived) {
+        const a = document.createElement("a");
+        a.className = "btn btn-primary";
+        a.href = ev.registrationUrl;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = "Register Now";
+        btnsEl.appendChild(a);
+      }
+
+      if (slug) {
+        const a = document.createElement("a");
+        a.className = "btn btn-ghost";
+        a.href = eventPageUrl(slug);
+        a.textContent = "Event Details";
+        btnsEl.appendChild(a);
+      }
+
+      const foot = document.getElementById("hero-footnote");
+      foot.textContent = "The 2nd Annual Summer Championship returns to Moorpark this August. Over 100 teams will battle it out across two days of elite competition \u2014 bring the heat, leave with the crown. U6\u2013U19 boys and girls divisions.";
+    }
+
+    function renderUpcomingCard(config) {
+      const ev = getUpcomingEvent(config);
+      if (!ev) {
+        document.getElementById("upcoming-card").style.display = "none";
+        return;
+      }
+
+      const theme = getTheme(config, ev.theme);
+      const card = document.getElementById("upcoming-card");
+      card.style.setProperty("--upcoming-accent", theme.accentColor);
+
+      const logoEl = document.getElementById("upcoming-logo");
+      if (ev.logoPath) {
+        logoEl.innerHTML = '<img src="' + staticUrl(ev.logoPath) + '" alt="' + ev.eventName + '" />';
+      }
+
+      document.getElementById("upcoming-name").textContent = ev.eventName;
+
+      const metaEl = document.getElementById("upcoming-meta");
+      const lines = [];
+      if (ev.dateText) lines.push(ev.dateText);
+      if (ev.locationText) lines.push(getFullAddress(ev.locationText));
+      metaEl.innerHTML = lines.join("<br>");
+
+      const countEl = document.getElementById("upcoming-countdown");
+      const days = daysUntil(ev.startDate);
+      if (days > 0) {
+        countEl.innerHTML =
+          '<span class="countdown-number">' + days + '</span>' +
+          '<span class="countdown-label">days away</span>';
+      } else if (days === 0) {
+        countEl.innerHTML = '<span class="countdown-number">Today!</span>';
+      } else {
+        countEl.innerHTML = '<span class="countdown-label">Event completed</span>';
+      }
+
+      if (ev.registrationUrl && !ev.archived) {
+        const a = document.createElement("a");
+        a.className = "btn btn-primary";
+        a.href = ev.registrationUrl;
+        a.target = "_blank";
+        a.rel = "noopener";
+        a.textContent = "Register Now";
+        a.style.boxShadow = "0 14px 30px " + theme.accentColor + "55";
+        a.style.background = theme.accentColor;
+        a.style.color = theme.buttonTextColor;
+        card.appendChild(a);
+      }
+    }
+
+    function renderSlideshow() {
+      // Collect all photos from all events
+      var allPhotos = [];
+      for (var slug in EVENT_PHOTOS) {
+        EVENT_PHOTOS[slug].forEach(function (url) {
+          allPhotos.push(url);
+        });
+      }
+      if (!allPhotos.length) return;
+
+      // Shuffle
+      for (var i = allPhotos.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1));
+        var tmp = allPhotos[i]; allPhotos[i] = allPhotos[j]; allPhotos[j] = tmp;
+      }
+
+      // Limit to 8
+      allPhotos = allPhotos.slice(0, 8);
+
+      document.getElementById("slideshow-section").style.display = "";
+      var track = document.getElementById("slideshow-track");
+      var dots = document.getElementById("slideshow-dots");
+
+      track.innerHTML = allPhotos.map(function (url, i) {
+        return '<div class="slideshow-slide' + (i === 0 ? ' active' : '') + '">' +
+          '<img src="' + url + '" alt="Playmaker Sports action" loading="lazy" />' +
+        '</div>';
+      }).join("");
+
+      dots.innerHTML = allPhotos.map(function (_, i) {
+        return '<button class="slideshow-dot' + (i === 0 ? ' active' : '') + '" data-idx="' + i + '"></button>';
+      }).join("");
+
+      var currentIdx = 0;
+      var slides = track.querySelectorAll(".slideshow-slide");
+      var dotBtns = dots.querySelectorAll(".slideshow-dot");
+
+      function goTo(idx) {
+        slides[currentIdx].classList.remove("active");
+        dotBtns[currentIdx].classList.remove("active");
+        currentIdx = idx;
+        slides[currentIdx].classList.add("active");
+        dotBtns[currentIdx].classList.add("active");
+      }
+
+      dots.addEventListener("click", function (e) {
+        var btn = e.target.closest(".slideshow-dot");
+        if (btn) goTo(parseInt(btn.getAttribute("data-idx")));
+      });
+
+      document.getElementById("slideshow-prev").addEventListener("click", function () {
+        goTo((currentIdx - 1 + allPhotos.length) % allPhotos.length);
+      });
+      document.getElementById("slideshow-next").addEventListener("click", function () {
+        goTo((currentIdx + 1) % allPhotos.length);
+      });
+
+      // Auto-advance every 5s
+      var autoTimer = setInterval(function () {
+        goTo((currentIdx + 1) % allPhotos.length);
+      }, 5000);
+    }
+
+    function renderEventsGrid(config) {
+      const grid = document.getElementById("events-grid");
+      grid.innerHTML = "";
+
+      for (const id of config.eventOrder) {
+        const ev = config.events[id];
+        if (!ev || !ev.eventName) continue;
+
+        const slug = eventSlug(ev.eventName);
+        const logoSrc = ev.logoPath ? staticUrl(ev.logoPath) : "";
+        // Use first live action photo for the event card, fall back to logo
+        const photos = EVENT_PHOTOS[slug] || [];
+        const bgPhoto = photos[0] || "";
+
+        const article = document.createElement("article");
+        article.className = "event-card";
+        article.innerHTML =
+          '<div class="event-card-img">' +
+            (bgPhoto
+              ? '<img class="event-card-bg" src="' + bgPhoto + '" alt="' + ev.eventName + '" />'
+              : (logoSrc ? '<img src="' + logoSrc + '" alt="' + ev.eventName + '" />' : '')) +
+          '</div>' +
+          '<div class="event-card-body">' +
+            '<div class="event-name-row">' +
+              (logoSrc ? '<img class="event-card-logo-inline" src="' + logoSrc + '" alt="" />' : '') +
+              '<div class="event-name">' +
+                (slug ? '<a href="' + eventPageUrl(slug) + '" style="color:inherit;text-decoration:none;">' + ev.eventName.replace(/ \d{4}$/, '') + '</a>' : ev.eventName) +
+              '</div>' +
+            '</div>' +
+            '<div class="event-card-text">' +
+              '<div class="event-date">' + (ev.dateText || '') + '</div>' +
+              '<div class="event-row">' + getFullAddress(ev.locationText).replace(/\s\u2013\s/, '<br>') + '</div>' +
+              '<div class="event-meta">Boys &amp; Girls, U6&ndash;U19</div>' +
+            '</div>' +
+          '</div>';
+
+        grid.appendChild(article);
+      }
+    }
+  </script>
 </body>
 </html>
