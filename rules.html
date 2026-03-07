@@ -67,7 +67,7 @@
 
         document.title = ev.eventName + " — Tournament Rules | Playmaker Sports";
 
-        // Fetch rules template
+        // Fetch rules template (remote first, local fallback for CORS)
         var template;
         try {
           var res = await fetch(staticUrl("/rules_template.json"));
@@ -77,10 +77,7 @@
           var res2 = await fetch("rules_template.json");
           if (res2.ok) template = await res2.json();
         }
-        if (!template) {
-          document.getElementById("rules-container").innerHTML = '<div class="data-empty">Could not load rules template.</div>';
-          return;
-        }
+        if (!template) throw new Error("Could not load rules template from remote or local.");
 
         var eventRules = ev.rules || {};
         renderRules(template, ev.eventName, eventRules);

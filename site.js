@@ -7,19 +7,18 @@ let _configCache = null;
 
 async function fetchConfig() {
   if (_configCache) return _configCache;
-  // Try remote first, fall back to local copy for dev
+  // Try remote first, fall back to local copy (needed when CORS blocks cross-origin fetch)
   try {
-    const res = await fetch(STATIC_BASE + "/event_config.json");
+    var res = await fetch(STATIC_BASE + "/event_config.json");
     if (res.ok) {
       _configCache = await res.json();
       return _configCache;
     }
-  } catch (e) {
-    console.warn("Remote config fetch failed, trying local fallback:", e.message);
-  }
-  const res = await fetch("event_config.json");
-  if (!res.ok) throw new Error("Failed to load event config from both remote and local: HTTP " + res.status);
-  _configCache = await res.json();
+  } catch (e) {}
+  // Local fallback — kept in sync with static site
+  var res2 = await fetch("event_config.json");
+  if (!res2.ok) throw new Error("Failed to load event config from both remote and local: HTTP " + res2.status);
+  _configCache = await res2.json();
   return _configCache;
 }
 
