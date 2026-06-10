@@ -1,0 +1,13 @@
+{
+  "name": "playmaker-website",
+  "private": true,
+  "scripts": {
+    "extract:pages": "node scripts/extract-page-sources.js",
+    "build": "node scripts/build-pages.js",
+    "serve:dist": "node scripts/serve-dist.js",
+    "qa": "node scripts/qa-dist.js"
+  },
+  "devDependencies": {
+    "playwright": "^1.60.0"
+  }
+}

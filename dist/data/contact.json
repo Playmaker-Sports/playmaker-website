@@ -1,0 +1,44 @@
+{
+  "pageHeader": {
+    "kicker": "Get in Touch",
+    "title": "Contact Us",
+    "lead": "Have a question about an upcoming tournament, want to register your team, or interested in sponsoring an event? We'd love to hear from you."
+  },
+  "socialLabels": ["Instagram", "Facebook"],
+  "cards": [
+    {
+      "type": "email",
+      "icon": "&#9993;",
+      "label": "Email",
+      "email": "info@playmakersports.us"
+    },
+    {
+      "type": "social",
+      "icon": "&#9906;",
+      "label": "Follow Us"
+    },
+    {
+      "type": "text",
+      "icon": "&#9878;",
+      "label": "Sponsor an Event",
+      "text": "Interested in sponsoring a Playmaker Sports tournament? Reach out and we'll send you our sponsorship packages."
+    },
+    {
+      "type": "text",
+      "icon": "&#9917;",
+      "label": "Host a Tournament",
+      "text": "Looking for someone to organize and run a youth soccer tournament or event for your club, league, or organization? Playmaker Sports handles everything - scheduling, field coordination, referees, and day-of operations. Let us bring the experience to you."
+    }
+  ],
+  "form": {
+    "title": "Send a Message",
+    "successMessage": "Message sent! We'll get back to you soon."
+  },
+  "subjectOptions": [
+    { "value": "registration", "label": "Team Registration" },
+    { "value": "sponsorship", "label": "Sponsorship Inquiry" },
+    { "value": "host", "label": "Host a Tournament" },
+    { "value": "general", "label": "General Question" },
+    { "value": "other", "label": "Other" }
+  ]
+}

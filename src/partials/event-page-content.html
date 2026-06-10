@@ -1,0 +1,62 @@
+<main class="page-shell">
+
+      <section class="event-hero-banner">
+        <img
+          class="event-hero-bg"
+          src="{{eventPage.heroImage}}"
+          alt="{{eventPage.heroAlt}}"
+        />
+        <div class="event-hero-overlay">
+          <div class="event-hero-logo" id="event-hero-logo"></div>
+          <div class="event-hero-info">
+            <h1 class="hero-simple-title">{{eventPage.title}}</h1>
+            <p class="hero-simple-subtext">Loading...</p>
+            <div class="hero-buttons"></div>
+            <nav class="event-nav" id="event-nav"></nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="event-info-card">
+          <h2 class="event-info-title">{{eventPage.detailsHeading}}</h2>
+          <div class="event-info-grid">
+            <div class="event-info-row">
+              <span class="info-label">{{eventPage.locationLabel}}</span>
+              <span>Loading...</span>
+            </div>
+            <div class="event-info-row">
+              <span class="info-label">{{eventPage.datesLabel}}</span>
+              <span>Loading...</span>
+            </div>
+            <div class="event-info-row">
+              <span class="info-label">{{eventPage.ageGroupsLabel}}</span>
+              <span>{{eventPage.ageGroupsText}}</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="fieldmap-card">
+          <h2 class="section-title">{{eventPage.fieldMapHeading}}</h2>
+          <img class="fieldmap-img" src="" alt="{{eventPage.fieldMapAlt}}" />
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="event-info-card">
+          <div id="data-container">
+            <div class="data-loading">{{eventPage.dataLoadingText}}</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="previous-results-section" style="display:none;">
+        <div class="event-info-card">
+          <h2 class="event-info-title">{{eventPage.previousResultsHeading}}</h2>
+          <div class="prev-results-grid" id="previous-results"></div>
+        </div>
+      </section>
+
+    </main>

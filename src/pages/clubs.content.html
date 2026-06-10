@@ -1,0 +1,60 @@
+<main class="page-shell">
+      <a class="back-link" id="back-link" href="#">&larr; Back to event</a>
+
+      <section class="page-header">
+        <h1 class="page-title" id="page-title">Loading...</h1>
+        <p class="page-lead" id="page-lead"></p>
+      </section>
+
+      <!-- Clubs/Teams toggle -->
+      <div class="view-toggle" id="ct-toggle" style="display:none;margin-bottom:16px;">
+        <button class="btn btn-primary btn-sm" id="ct-view-clubs">Clubs</button>
+        <button class="btn btn-ghost btn-sm" id="ct-view-teams">Teams</button>
+      </div>
+
+      <!-- Club detail view (hidden by default) -->
+      <section id="club-detail-view" style="display:none;">
+        <div class="team-detail-header" id="club-detail-header"></div>
+        <div class="event-info-card">
+          <h2 class="event-info-title" id="club-teams-title">Teams</h2>
+          <div class="teams-grid" id="club-teams-grid"></div>
+        </div>
+      </section>
+
+      <!-- Team detail view (hidden by default) -->
+      <section id="team-detail-view" style="display:none;">
+        <div class="team-detail-header" id="team-header"></div>
+        <div id="team-record"></div>
+        <div class="event-info-card" style="margin-bottom:20px;">
+          <h2 class="event-info-title">Bracket Standings</h2>
+          <div id="team-standings-container"></div>
+        </div>
+        <div class="event-info-card">
+          <h2 class="event-info-title">Matches</h2>
+          <div class="matches-list" id="team-matches-container"></div>
+        </div>
+      </section>
+
+      <!-- Clubs list view -->
+      <section id="clubs-list-view">
+        <div class="filter-bar">
+          <input type="text" id="clubs-search" placeholder="Search clubs..." />
+        </div>
+        <div class="clubs-grid" id="clubs-grid">
+          <div class="data-loading">Loading clubs...</div>
+        </div>
+      </section>
+
+      <!-- Teams list view (hidden by default) -->
+      <section id="teams-list-view" style="display:none;">
+        <div class="filter-bar">
+          <input type="text" id="teams-search" placeholder="Search teams..." />
+          <select id="teams-age-filter">
+            <option value="">All Age Groups</option>
+          </select>
+        </div>
+        <div class="teams-grid" id="teams-grid">
+          <div class="data-loading">Loading teams...</div>
+        </div>
+      </section>
+    </main>

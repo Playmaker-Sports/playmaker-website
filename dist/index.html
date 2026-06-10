@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>HOME | Playmaker Sports</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="site-wrapper">
+    <header class="nav-shell">
+      <div class="nav-inner">
+        <div class="nav-left">
+          <div class="nav-logo-img">
+            <img src="logo.png" alt="Playmaker Sports Logo" />
+          </div>
+          <div class="nav-title">
+            <span>Playmaker Sports</span>
+          </div>
+        </div>
+        <nav class="nav-links">
+          <a href="index.html" class="nav-active">Home</a>
+          <a href="playmakers-cup.html">Playmakers Cup</a>
+          <a href="winter-fest.html">Winter Fest</a>
+          <a href="summer-championship.html">Summer Championship</a>
+          <a href="news.html">News</a>
+          <a href="contact.html">Contact Us</a>
+        </nav>
+      </div>
+    </header>
+
+<main class="page-shell">
+      <!-- Photo Slideshow -->
+      <section class="section" id="slideshow-section" style="display:none;">
+        <div class="slideshow">
+          <button class="slideshow-arrow slideshow-arrow-left" id="slideshow-prev">&#8249;</button>
+          <div class="slideshow-track" id="slideshow-track"></div>
+          <button class="slideshow-arrow slideshow-arrow-right" id="slideshow-next">&#8250;</button>
+          <div class="slideshow-dots" id="slideshow-dots"></div>
+        </div>
+      </section>
+
+      <!-- Hero -->
+      <section class="hero">
+        <div id="hero-left">
+          <div class="hero-text-eyebrow">Featured Event</div>
+          <h1 class="hero-title" id="hero-title">Loading...</h1>
+          <div class="hero-meta" id="hero-meta"></div>
+          <div class="hero-buttons" id="hero-buttons"></div>
+          <p class="hero-footnote" id="hero-footnote"></p>
+        </div>
+
+        <aside class="upcoming-card" id="upcoming-card">
+          <div class="upcoming-card-label">Next Event</div>
+          <div class="upcoming-card-logo" id="upcoming-logo"></div>
+          <div class="upcoming-card-name" id="upcoming-name">Loading...</div>
+          <div class="upcoming-card-meta" id="upcoming-meta"></div>
+          <div class="countdown" id="upcoming-countdown"></div>
+        </aside>
+      </section>
+
+      <!-- Events section -->
+      <section class="section">
+        <div class="section-header">
+          <div>
+            <div class="section-title">Playmaker Sports Events</div>
+            <div class="section-subtitle">Three competitive tournaments across Southern California.</div>
+          </div>
+        </div>
+
+        <div class="events-grid" id="events-grid">
+          <!-- Populated dynamically -->
+        </div>
+      </section>
+
+      <!-- Join the Club -->
+      <section class="section">
+        <div class="join-card">
+          <div>
+            <div class="join-title">Join the Club</div>
+            <p class="join-text">Join our email list and find out about upcoming events and opportunities for your team!</p>
+          </div>
+          <div>
+            <form class="join-form">
+              <input
+                class="join-input"
+                type="email"
+                placeholder="Enter your email"
+              />
+              <button class="btn btn-primary" type="button">
+                Sign Up
+              </button>
+            </form>
+            <div class="join-success">Thanks for submitting!</div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <div class="footer-links">
+          <a href="contact.html">Contact Us</a>
+          <span>&bull;</span>
+          <a href="mailto:info@playmakersports.us">info@playmakersports.us</a>
+          <span>&bull;</span>
+          <a href="contact.html">Sponsor an Event</a>
+        </div>
+        <div class="footer-socials">
+          <div class="footer-app-links">
+          <a href="https://apps.apple.com/us/app/playmaker-sports-tournaments/id6747785891" target="_blank" rel="noopener" class="store-badge store-badge-ios">
+            <span class="store-badge-copy">
+              <span class="store-badge-kicker">Download on the</span>
+              <span class="store-badge-label">App Store</span>
+            </span>
+          </a>
+          <a href="https://play.google.com/store/apps/details?id=com.playmakersportsapp" target="_blank" rel="noopener" class="store-badge store-badge-android">
+            <span class="store-badge-copy">
+              <span class="store-badge-kicker">Get it on</span>
+              <span class="store-badge-label">Google Play</span>
+            </span>
+          </a>
+          </div>
+        <a href="https://www.instagram.com/playmaker_sports_" target="_blank" rel="noopener" class="social-btn social-instagram">Instagram</a>
+        <a href="https://www.facebook.com/people/Playmaker-Sports/61578334102618/" target="_blank" rel="noopener" class="social-btn social-facebook">Facebook</a>
+        <a href="https://www.youtube.com/@Playmaker-Sports" target="_blank" rel="noopener" class="social-btn social-youtube">YouTube</a>
+        <a href="https://x.com/PlaymakrSports?s=20" target="_blank" rel="noopener" class="social-btn social-twitter">X</a>
+        </div>
+      </div>
+    </footer>
+
+  </div>
+
+<script src="site.js"></script>
+<script src="home-page.js"></script>
+</body>
+</html>

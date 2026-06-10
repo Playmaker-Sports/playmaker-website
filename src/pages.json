@@ -1,0 +1,72 @@
+[
+  {
+    "id": "clubs",
+    "output": "clubs.html",
+    "title": "Clubs & Teams | Playmaker Sports",
+    "navKey": "",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "contact",
+    "output": "contact.html",
+    "title": "Contact Us | Playmaker Sports",
+    "navKey": "contact",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "index",
+    "output": "index.html",
+    "title": "HOME | Playmaker Sports",
+    "navKey": "index",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "news",
+    "output": "news.html",
+    "title": "News | Playmaker Sports",
+    "navKey": "news",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "playmakers-cup",
+    "output": "playmakers-cup.html",
+    "title": "Playmakers Cup | Playmaker Sports",
+    "navKey": "playmakers-cup",
+    "bodyAttributes": "data-event-slug=\"playmakers-cup\""
+  },
+  {
+    "id": "results",
+    "output": "results.html",
+    "title": "Results | Playmaker Sports",
+    "navKey": "",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "rules",
+    "output": "rules.html",
+    "title": "Tournament Rules | Playmaker Sports",
+    "navKey": "",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "summer-championship",
+    "output": "summer-championship.html",
+    "title": "Summer Championship | Playmaker Sports",
+    "navKey": "summer-championship",
+    "bodyAttributes": "data-event-slug=\"summer-championship\""
+  },
+  {
+    "id": "teams",
+    "output": "teams.html",
+    "title": "Teams | Playmaker Sports",
+    "navKey": "",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "winter-fest",
+    "output": "winter-fest.html",
+    "title": "Winter Fest | Playmaker Sports",
+    "navKey": "winter-fest",
+    "bodyAttributes": "data-event-slug=\"winter-fest\""
+  }
+]

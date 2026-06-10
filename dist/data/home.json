@@ -1,0 +1,13 @@
+{
+  "eventsSection": {
+    "title": "Playmaker Sports Events",
+    "subtitle": "Three competitive tournaments across Southern California."
+  },
+  "joinSection": {
+    "title": "Join the Club",
+    "text": "Join our email list and find out about upcoming events and opportunities for your team!",
+    "placeholder": "Enter your email",
+    "buttonLabel": "Sign Up",
+    "successMessage": "Thanks for submitting!"
+  }
+}

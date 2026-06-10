@@ -1,0 +1,63 @@
+{
+  "navLinks": [
+    { "key": "index", "href": "index.html", "label": "Home" },
+    { "key": "playmakers-cup", "href": "playmakers-cup.html", "label": "Playmakers Cup" },
+    { "key": "winter-fest", "href": "winter-fest.html", "label": "Winter Fest" },
+    { "key": "summer-championship", "href": "summer-championship.html", "label": "Summer Championship" },
+    { "key": "news", "href": "news.html", "label": "News" },
+    { "key": "contact", "href": "contact.html", "label": "Contact Us" }
+  ],
+  "appLinks": [
+    {
+      "href": "https://apps.apple.com/us/app/playmaker-sports-tournaments/id6747785891",
+      "className": "store-badge-ios",
+      "kicker": "Download on the",
+      "label": "App Store"
+    },
+    {
+      "href": "https://play.google.com/store/apps/details?id=com.playmakersportsapp",
+      "className": "store-badge-android",
+      "kicker": "Get it on",
+      "label": "Google Play"
+    }
+  ],
+  "footerLinks": [
+    {
+      "type": "page",
+      "href": "contact.html",
+      "label": "Contact Us"
+    },
+    {
+      "type": "email",
+      "href": "mailto:info@playmakersports.us",
+      "label": "info@playmakersports.us"
+    },
+    {
+      "type": "page",
+      "href": "contact.html",
+      "label": "Sponsor an Event"
+    }
+  ],
+  "socialLinks": [
+    {
+      "href": "https://www.instagram.com/playmaker_sports_",
+      "className": "social-instagram",
+      "label": "Instagram"
+    },
+    {
+      "href": "https://www.facebook.com/people/Playmaker-Sports/61578334102618/",
+      "className": "social-facebook",
+      "label": "Facebook"
+    },
+    {
+      "href": "https://www.youtube.com/@Playmaker-Sports",
+      "className": "social-youtube",
+      "label": "YouTube"
+    },
+    {
+      "href": "https://x.com/PlaymakrSports?s=20",
+      "className": "social-twitter",
+      "label": "X"
+    }
+  ]
+}

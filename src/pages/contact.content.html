@@ -1,0 +1,60 @@
+<main class="page-shell">
+
+      <!-- Page header -->
+      <section class="page-header">
+        <div class="page-kicker">{{contact.pageHeader.kicker}}</div>
+        <h1 class="page-title">{{contact.pageHeader.title}}</h1>
+        <p class="page-lead">{{contact.pageHeader.lead}}</p>
+      </section>
+
+      <div class="contact-grid">
+
+        <!-- Contact info cards -->
+        <div class="contact-info-col">
+{{contact_info_cards}}
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-card">
+          <h2 class="contact-card-title">{{contact.form.title}}</h2>
+
+          <form class="contact-form" id="contact-form">
+            <div class="contact-row">
+              <div class="field-group">
+                <label class="field-label">First name *</label>
+                <input class="field-input" type="text" required />
+              </div>
+              <div class="field-group">
+                <label class="field-label">Last name *</label>
+                <input class="field-input" type="text" required />
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label">Email *</label>
+              <input class="field-input" type="email" required />
+            </div>
+
+            <div class="field-group">
+              <label class="field-label">Subject</label>
+              <select class="field-input">
+                <option value="">Select a topic...</option>
+{{contact_subject_options}}
+              </select>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label">Message *</label>
+              <textarea class="field-textarea" rows="5" required></textarea>
+            </div>
+
+            <button class="btn btn-primary" type="submit">Send Message</button>
+
+            <div class="contact-success" id="contact-success" style="display:none;">
+              {{contact.form.successMessage}}
+            </div>
+          </form>
+        </div>
+
+      </div>
+    </main>

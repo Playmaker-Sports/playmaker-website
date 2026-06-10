@@ -1,0 +1,224 @@
+{
+  "configVersion": 4,
+  "staticBaseUrl": "https://playmaker-static.onrender.com",
+  "defaultEventId": "51438",
+  "eventOrder": [
+    "51438",
+    "51480",
+    "50767"
+  ],
+  "socialLinks": {
+    "website": "https://www.playmakersports.us",
+    "instagram": "https://www.instagram.com/playmaker_sports_",
+    "facebook": "https://www.facebook.com/people/Playmaker-Sports/61578334102618/",
+    "contact": "https://www.playmakersports.us/contactus",
+    "privacyPolicy": "https://playmaker-static.onrender.com/privacy-policy.html"
+  },
+  "themes": {
+    "playmakers": {
+      "backgroundColor": "#000000",
+      "cardBackground": "#222222",
+      "accentColor": "#FFD700",
+      "buttonColor": "#FFD700",
+      "buttonTextColor": "#000000",
+      "textColor": "#FFD700"
+    },
+    "winter": {
+      "backgroundColor": "#2C3E50",
+      "cardBackground": "#34495E",
+      "accentColor": "#5DADE2",
+      "buttonColor": "#5DADE2",
+      "buttonTextColor": "#FFFFFF",
+      "textColor": "#FFFFFF"
+    },
+    "summer": {
+      "backgroundColor": "#3D1308",
+      "cardBackground": "#5C1A0B",
+      "accentColor": "#FF8C00",
+      "buttonColor": "#FF8C00",
+      "buttonTextColor": "#000000",
+      "textColor": "#FFB703"
+    }
+  },
+  "events": {
+    "51438": {
+      "eventName": "Summer Championship 2026",
+      "dateText": "August 1–2, 2026",
+      "locationText": "Arroyo Vista Park, Moorpark, CA",
+      "startDate": "2026-08-01",
+      "endDate": "2026-08-02",
+      "theme": "summer",
+      "logoPath": "/logos/summer-championship.jpg",
+      "fieldMapPath": "/field-maps/summer-championship-2025.jpg",
+      "archived": false,
+      "scraperEnabled": false,
+      "scrapeStartDate": "2026-08-01",
+      "scrapeEndDate": "2026-08-02",
+      "scrapeWindowStart": "08:45",
+      "scrapeWindowEnd": "23:59",
+      "scrapeIntervalMinutes": 10,
+      "scrapeDailyWindows": {
+        "2026-08-01": {
+          "start": "08:45",
+          "end": "22:59",
+          "intervalMinutes": 10
+        }
+      },
+      "gotsportUrl": "https://system.gotsport.com/org_event/events/51438",
+      "gotsportOrgId": "79562f500",
+      "gotsportScheduleId": "99798",
+      "registrationUrl": "https://system.gotsport.com/event_regs/fadc69f520",
+      "rulesUrl": null,
+      "photoGalleryFolderId": "1XBkbIqXCJIeh3UVm3EDXjLKLU60vB9gE",
+      "photoUploadFolderId": "1OcUT1DKC9pmxZ5frM6K5RLtHJ5gXh6EL",
+      "resultsButtonText": "Schedule (Coming Soon)",
+      "resultsEventId": null,
+      "scheduleDisabled": true,
+      "fieldMapDisabled": true,
+      "photoGalleryDisabled": true,
+      "photoGalleryButtonText": "Photo Gallery (Coming Soon)",
+      "previousEvents": [
+        {
+          "eventId": "43230",
+          "label": "2025 Results"
+        }
+      ],
+      "rules": {
+        "refundHeader": "Refund Policy:",
+        "refundLines": [
+          "Team drop before June 19, 2026 - Full Refund",
+          "Team drop after June 19, 2026 - 50% Refund",
+          "Team drop after July 6, 2026 – No Refund"
+        ],
+        "cancellationPolicy": "In the unfortunate occurrence of inclement weather or unforeseen circumstances beyond the tournament's control, resulting in a complete cancellation with no games played, Playmaker Sports will provide a 50% refund, OR entry to any Playmaker Sports Event in the next 12 months. Please note that Gotsport fees and credit card processing fees are non-refundable."
+      }
+    },
+    "50767": {
+      "eventName": "Winter Fest 2026",
+      "dateText": "February 28 – March 1, 2026",
+      "locationText": "Central Park, Santa Clarita, CA",
+      "startDate": "2026-02-28",
+      "endDate": "2026-03-01",
+      "theme": "winter",
+      "logoPath": "/logos/winter-fest.jpg",
+      "fieldMapPath": "/field-maps/winter-fest-2026.jpg",
+      "archived": true,
+      "archivedDataFile": "winter-fest-2026",
+      "gotsportUrl": "https://system.gotsport.com/org_event/events/50767",
+      "registrationUrl": "https://system.gotsport.com/event_regs/9436fdeda0",
+      "rulesUrl": null,
+      "photoGalleryFolderId": "1vgN04TAkrFBRO1PZKeZCWj340BQXHDQs",
+      "photoUploadFolderId": "1fX8lDT6XF-SssND136cdzJUNjjs4UKsx",
+      "resultsButtonText": "Schedule & Results",
+      "resultsEventId": null,
+      "previousEvents": [
+        {
+          "eventId": "50767",
+          "label": "2026 Results"
+        },
+        {
+          "eventId": "40700",
+          "label": "2025 Results"
+        }
+      ],
+      "rules": {
+        "refundHeader": "Refund Policy:",
+        "refundLines": [
+          "Team drops before January 19, 2026 - Full Refund",
+          "Team drops before January 31, 2026 - 50% Refund",
+          "Team drops after January 31, 2026 - No Refund",
+          "*Teams participating in State Cup will be eligible for a full refund until February 8."
+        ],
+        "cancellationPolicy": "In the unfortunate occurrence of inclement weather or unforeseen circumstances beyond the tournament's control, resulting in a complete cancellation with no games played, Playmaker Sports will provide a 50% refund, OR entry to any Playmaker Sports Event in the next 12 months. Please note that Gotsport fees and credit card processing fees are non-refundable."
+      }
+    },
+    "51480": {
+      "eventName": "Playmakers Cup 2026",
+      "dateText": "November 2026",
+      "locationText": "Arroyo Vista Park, Moorpark, CA",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-02",
+      "theme": "playmakers",
+      "logoPath": "/logos/playmakers-cup.jpg",
+      "fieldMapPath": "/field-maps/playmakers-cup-2026.jpg",
+      "archived": false,
+      "scraperEnabled": false,
+      "scrapeStartDate": "2026-11-01",
+      "scrapeEndDate": "2026-11-02",
+      "scrapeWindowStart": "08:45",
+      "scrapeWindowEnd": "23:59",
+      "scrapeIntervalMinutes": 10,
+      "scrapeDailyWindows": {
+        "2026-11-01": {
+          "start": "08:45",
+          "end": "22:59",
+          "intervalMinutes": 10
+        }
+      },
+      "gotsportUrl": "https://system.gotsport.com/org_event/events/51480",
+      "registrationUrl": "https://system.gotsport.com/event_regs/8b5d097dcb",
+      "rulesUrl": null,
+      "photoGalleryFolderId": "1M9bHIzbHnPEWKGlyVMM5bN4Rm2JEekNT",
+      "photoUploadFolderId": "1987s-q36VFCUfH_JiaRHt2QnSDcxp_0l",
+      "resultsButtonText": "Schedule (Coming Soon)",
+      "resultsEventId": null,
+      "scheduleDisabled": true,
+      "fieldMapDisabled": true,
+      "photoGalleryDisabled": true,
+      "photoGalleryButtonText": "Photo Gallery (Coming Soon)",
+      "previousEvents": [
+        {
+          "eventId": "47962",
+          "label": "2025 Results"
+        },
+        {
+          "eventId": "35785",
+          "label": "2024 Results (November)"
+        },
+        {
+          "eventId": "29243",
+          "label": "2024 Results (February)"
+        }
+      ],
+      "rules": {
+        "refundHeader": "Refund Policy:",
+        "refundLines": [
+          "Team drop before October 4, 2026 - Full Refund",
+          "Team drop before October 30, 2026 - 50% Refund",
+          "Team drop after October 30, 2026 – No Refund"
+        ],
+        "cancellationPolicy": "In the unfortunate occurrence of inclement weather or unforeseen circumstances beyond the tournament's control, resulting in a complete cancellation with no games played, Playmaker Sports will provide a 50% refund, OR entry to any Playmaker Sports Event in the next 12 months. Please note that Gotsport fees and credit card processing fees are non-refundable."
+      }
+    },
+    "47962": {
+      "eventName": "Playmakers Cup 2025",
+      "theme": "playmakers",
+      "archived": true,
+      "archivedDataFile": "playmakers-cup-2025"
+    },
+    "43230": {
+      "eventName": "Summer Championship 2025",
+      "theme": "summer",
+      "archived": true,
+      "archivedDataFile": "summer-championship-2025"
+    },
+    "40700": {
+      "eventName": "Winter Fest 2025",
+      "theme": "winter",
+      "archived": true,
+      "archivedDataFile": "winter-fest-2025"
+    },
+    "35785": {
+      "eventName": "Playmakers Cup 2024 (November)",
+      "theme": "playmakers",
+      "archived": true,
+      "archivedDataFile": "playmakers-cup-nov-2024"
+    },
+    "29243": {
+      "eventName": "Playmakers Cup 2024 (February)",
+      "theme": "playmakers",
+      "archived": true,
+      "archivedDataFile": "playmakers-cup-feb-2024"
+    }
+  }
+}

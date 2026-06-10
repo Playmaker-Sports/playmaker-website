@@ -1,0 +1,38 @@
+<main class="page-shell">
+      <a class="back-link" id="back-link" href="#">&larr; Back to event</a>
+
+      <section class="page-header">
+        <div class="page-kicker" id="page-kicker">Teams</div>
+        <h1 class="page-title" id="page-title">Loading...</h1>
+        <p class="page-lead" id="page-lead"></p>
+      </section>
+
+      <!-- Team detail view -->
+      <section id="team-detail-view" style="display:none;">
+        <div class="team-detail-header" id="team-header"></div>
+        <div id="team-record"></div>
+
+        <div class="event-info-card" style="margin-bottom:20px;">
+          <h2 class="event-info-title">Bracket Standings</h2>
+          <div id="team-standings-container"></div>
+        </div>
+
+        <div class="event-info-card">
+          <h2 class="event-info-title">Matches</h2>
+          <div class="matches-list" id="team-matches-container"></div>
+        </div>
+      </section>
+
+      <!-- Teams list view -->
+      <section id="teams-list-view">
+        <div class="filter-bar">
+          <input type="text" id="teams-search" placeholder="Search teams..." />
+          <select id="teams-age-filter">
+            <option value="">All Age Groups</option>
+          </select>
+        </div>
+        <div class="teams-grid" id="teams-grid">
+          <div class="data-loading">Loading teams...</div>
+        </div>
+      </section>
+    </main>
