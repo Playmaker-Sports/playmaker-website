@@ -1,13 +1,13 @@
 {
+  "heroFootnote": "The 2nd Annual Summer Championship returns to Moorpark this August. Over 100 teams will battle it out across two days of elite competition — bring the heat, leave with the crown. U6–U19 boys and girls divisions.",
   "eventsSection": {
     "title": "Playmaker Sports Events",
     "subtitle": "Three competitive tournaments across Southern California."
   },
   "joinSection": {
-    "title": "Join the Club",
-    "text": "Join our email list and find out about upcoming events and opportunities for your team!",
-    "placeholder": "Enter your email",
-    "buttonLabel": "Sign Up",
-    "successMessage": "Thanks for submitting!"
+    "title": "Stay in the Loop",
+    "text": "Want updates about upcoming events and opportunities for your team? Reach out and we'll keep you posted.",
+    "buttonLabel": "Contact Us",
+    "buttonHref": "contact.html"
   }
 }

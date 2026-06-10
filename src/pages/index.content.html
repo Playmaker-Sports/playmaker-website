@@ -16,7 +16,7 @@
           <h1 class="hero-title" id="hero-title">Loading...</h1>
           <div class="hero-meta" id="hero-meta"></div>
           <div class="hero-buttons" id="hero-buttons"></div>
-          <p class="hero-footnote" id="hero-footnote"></p>
+          <p class="hero-footnote" id="hero-footnote">{{home.heroFootnote}}</p>
         </div>
 
         <aside class="upcoming-card" id="upcoming-card">
@@ -50,17 +50,9 @@
             <p class="join-text">{{home.joinSection.text}}</p>
           </div>
           <div>
-            <form class="join-form">
-              <input
-                class="join-input"
-                type="email"
-                placeholder="{{home.joinSection.placeholder}}"
-              />
-              <button class="btn btn-primary" type="button">
-                {{home.joinSection.buttonLabel}}
-              </button>
-            </form>
-            <div class="join-success">{{home.joinSection.successMessage}}</div>
+            <a class="btn btn-primary" href="{{home.joinSection.buttonHref}}">
+              {{home.joinSection.buttonLabel}}
+            </a>
           </div>
         </div>
       </section>

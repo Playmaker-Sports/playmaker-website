@@ -3,6 +3,7 @@
     "id": "clubs",
     "output": "clubs.html",
     "title": "Clubs & Teams | Playmaker Sports",
+    "description": "Browse clubs and teams competing in Playmaker Sports youth soccer tournaments.",
     "navKey": "",
     "bodyAttributes": ""
   },
@@ -10,6 +11,7 @@
     "id": "contact",
     "output": "contact.html",
     "title": "Contact Us | Playmaker Sports",
+    "description": "Contact Playmaker Sports with questions about registration, schedules, sponsorship, or our youth soccer tournaments in Southern California.",
     "navKey": "contact",
     "bodyAttributes": ""
   },
@@ -17,6 +19,7 @@
     "id": "index",
     "output": "index.html",
     "title": "HOME | Playmaker Sports",
+    "description": "Playmaker Sports runs competitive youth soccer tournaments across Southern California — Playmakers Cup, Winter Fest, and the Summer Championship. Schedules, live scores, standings, and registration.",
     "navKey": "index",
     "bodyAttributes": ""
   },
@@ -24,6 +27,7 @@
     "id": "news",
     "output": "news.html",
     "title": "News | Playmaker Sports",
+    "description": "News and announcements from Playmaker Sports youth soccer tournaments.",
     "navKey": "news",
     "bodyAttributes": ""
   },
@@ -31,6 +35,7 @@
     "id": "playmakers-cup",
     "output": "playmakers-cup.html",
     "title": "Playmakers Cup | Playmaker Sports",
+    "description": "Playmakers Cup — Playmaker Sports' flagship youth soccer tournament in Moorpark, CA. Boys and girls U6–U19. Registration, schedule, results, and standings.",
     "navKey": "playmakers-cup",
     "bodyAttributes": "data-event-slug=\"playmakers-cup\""
   },
@@ -38,6 +43,7 @@
     "id": "results",
     "output": "results.html",
     "title": "Results | Playmaker Sports",
+    "description": "Schedules, scores, and standings for Playmaker Sports youth soccer tournaments.",
     "navKey": "",
     "bodyAttributes": ""
   },
@@ -45,6 +51,7 @@
     "id": "rules",
     "output": "rules.html",
     "title": "Tournament Rules | Playmaker Sports",
+    "description": "Official tournament rules for Playmaker Sports events, including refund and cancellation policies.",
     "navKey": "",
     "bodyAttributes": ""
   },
@@ -52,6 +59,7 @@
     "id": "summer-championship",
     "output": "summer-championship.html",
     "title": "Summer Championship | Playmaker Sports",
+    "description": "Summer Championship — two days of competitive youth soccer in Moorpark, CA. Boys and girls U6–U19. Registration, schedule, results, and standings.",
     "navKey": "summer-championship",
     "bodyAttributes": "data-event-slug=\"summer-championship\""
   },
@@ -59,6 +67,7 @@
     "id": "teams",
     "output": "teams.html",
     "title": "Teams | Playmaker Sports",
+    "description": "Browse teams competing in Playmaker Sports youth soccer tournaments.",
     "navKey": "",
     "bodyAttributes": ""
   },
@@ -66,6 +75,7 @@
     "id": "winter-fest",
     "output": "winter-fest.html",
     "title": "Winter Fest | Playmaker Sports",
+    "description": "Winter Fest — competitive youth soccer tournament in Santa Clarita, CA. Boys and girls U6–U19. Registration, schedule, results, and standings.",
     "navKey": "winter-fest",
     "bodyAttributes": "data-event-slug=\"winter-fest\""
   }

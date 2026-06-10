@@ -207,8 +207,13 @@ for (const page of pages) {
     contact_subject_options: renderContactSubjectOptions()
   });
 
+  const baseUrl = (site.baseUrl || "").replace(/\/$/, "");
   const html = replaceTokens(layoutTemplate, {
     title: page.title,
+    description: page.description || site.defaultDescription || "",
+    site_name: site.siteName || "Playmaker Sports",
+    page_url: page.output === "index.html" ? `${baseUrl}/` : `${baseUrl}/${page.output}`,
+    og_image: `${baseUrl}/logo.png`,
     body_attributes: page.bodyAttributes ? ` ${page.bodyAttributes}` : "",
     header: renderHeader(page.navKey),
     content: pageContent,

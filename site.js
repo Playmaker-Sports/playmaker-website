@@ -187,19 +187,19 @@ function getParam(name) {
   return new URLSearchParams(window.location.search).get(name) || "";
 }
 
-// Live action photos for events (from previous tournaments)
-// Event banner images (themed logos/banners for each event)
+// Event banner images (themed logos/banners for each event).
+// Served from playmaker-static (/banners/*) — do not hotlink external hosts.
 const EVENT_PHOTOS = {
   "playmakers-cup": [
-    "https://static.wixstatic.com/media/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png/v1/fill/w_980,h_578,al_c,q_85,enc_avif,quality_auto/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png",
-    "https://static.wixstatic.com/media/2359e4_b8c096d14d3648e08482e7293ba9d8a6~mv2.png/v1/fill/w_1000,h_667,al_c,q_90,usm_0.66_1.00_0.01/2359e4_b8c096d14d3648e08482e7293ba9d8a6~mv2.png",
+    staticUrl("/banners/playmakers-cup-1.png"),
+    staticUrl("/banners/playmakers-cup-2.png"),
   ],
   "winter-fest": [
-    "https://static.wixstatic.com/media/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png/v1/fill/w_980,h_578,al_c,q_85,enc_avif,quality_auto/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png",
+    staticUrl("/banners/winter-fest-1.png"),
   ],
   "summer-championship": [
-    "https://static.wixstatic.com/media/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png/v1/fill/w_980,h_578,al_c,q_85,enc_avif,quality_auto/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png",
-    "https://static.wixstatic.com/media/2359e4_c45ee52352d34f7dbe5c266dc7b22341~mv2.jpg/v1/fill/w_1000,h_726,al_c,q_85,usm_0.66_1.00_0.01/2359e4_c45ee52352d34f7dbe5c266dc7b22341~mv2.jpg",
+    staticUrl("/banners/summer-championship-1.png"),
+    staticUrl("/banners/summer-championship-2.jpg"),
   ],
 };
 

@@ -1,7 +1,7 @@
 {
   "playmakers-cup": {
     "title": "Playmakers Cup",
-    "heroImage": "https://static.wixstatic.com/media/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png/v1/fill/w_980,h_578,al_c,q_85,enc_avif,quality_auto/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png",
+    "heroImage": "https://playmaker-static.onrender.com/banners/playmakers-cup-1.png",
     "heroAlt": "Playmakers Cup",
     "detailsHeading": "Event Details",
     "locationLabel": "Location:",
@@ -15,7 +15,7 @@
   },
   "winter-fest": {
     "title": "Winter Fest",
-    "heroImage": "https://static.wixstatic.com/media/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png/v1/fill/w_980,h_578,al_c,q_85,enc_avif,quality_auto/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png",
+    "heroImage": "https://playmaker-static.onrender.com/banners/winter-fest-1.png",
     "heroAlt": "Winter Fest",
     "detailsHeading": "Event Details",
     "locationLabel": "Location:",
@@ -29,7 +29,7 @@
   },
   "summer-championship": {
     "title": "Summer Championship",
-    "heroImage": "https://static.wixstatic.com/media/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png/v1/fill/w_980,h_578,al_c,q_85,enc_avif,quality_auto/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png",
+    "heroImage": "https://playmaker-static.onrender.com/banners/summer-championship-1.png",
     "heroAlt": "Summer Championship",
     "detailsHeading": "Event Details",
     "locationLabel": "Location:",

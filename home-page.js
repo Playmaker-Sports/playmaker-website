@@ -52,8 +52,7 @@ function renderHomeHero(config) {
     buttonsEl.appendChild(detailsLink);
   }
 
-  document.getElementById("hero-footnote").textContent =
-    "The 2nd Annual Summer Championship returns to Moorpark this August. Over 100 teams will battle it out across two days of elite competition — bring the heat, leave with the crown. U6–U19 boys and girls divisions.";
+  // Hero footnote is rendered at build time from src/data/home.json (heroFootnote).
 }
 
 function renderHomeUpcomingCard(config) {

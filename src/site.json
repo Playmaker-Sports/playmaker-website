@@ -1,4 +1,7 @@
 {
+  "baseUrl": "https://www.playmakersports.us",
+  "siteName": "Playmaker Sports",
+  "defaultDescription": "Playmaker Sports runs competitive youth soccer tournaments across Southern California — Playmakers Cup, Winter Fest, and the Summer Championship.",
   "navLinks": [
     { "key": "index", "href": "index.html", "label": "Home" },
     { "key": "playmakers-cup", "href": "playmakers-cup.html", "label": "Playmakers Cup" },
