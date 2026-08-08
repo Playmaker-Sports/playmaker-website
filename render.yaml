@@ -4,6 +4,8 @@ services:
     runtime: static
     branch: main
     autoDeployTrigger: commit
+    domains:
+      - www.playmakersports.us
     buildCommand: cp -R dist render-dist
     staticPublishPath: ./render-dist
     routes:
