@@ -4,8 +4,8 @@ services:
     runtime: static
     branch: main
     autoDeployTrigger: commit
-    buildCommand: echo "Publishing verified dist output"
-    staticPublishPath: ./dist
+    buildCommand: cp -R dist render-dist
+    staticPublishPath: ./render-dist
     routes:
       - type: redirect
         source: /contactus
