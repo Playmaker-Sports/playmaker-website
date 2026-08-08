@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", async function () {
     grid.innerHTML = posts.map(function (post) {
       return '<article class="news-card">' +
         '<div class="news-card-img">' +
-          '<img src="' + post.image + '" alt="' + post.imageAlt + '" />' +
+          '<img src="' + post.image + '" alt="' + post.imageAlt + '" loading="lazy" decoding="async" />' +
         "</div>" +
         '<div class="news-card-body">' +
           '<h2 class="news-card-title">' + post.title + "</h2>" +

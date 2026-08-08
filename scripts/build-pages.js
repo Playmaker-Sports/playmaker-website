@@ -44,6 +44,7 @@ const staticRepoDir = path.resolve(rootDir, "..", "playmaker-static");
 const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived"];
 
 const staticAssets = [
+  "assets",
   "styles.css",
   "site.js",
   "event-page.js",

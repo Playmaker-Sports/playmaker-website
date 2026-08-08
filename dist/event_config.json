@@ -1,10 +1,10 @@
 {
   "configVersion": 4,
   "staticBaseUrl": "https://playmaker-static.onrender.com",
-  "defaultEventId": "51438",
+  "defaultEventId": "51480",
   "eventOrder": [
-    "51438",
     "51480",
+    "51438",
     "50767"
   ],
   "socialLinks": {
@@ -49,8 +49,9 @@
       "endDate": "2026-08-02",
       "theme": "summer",
       "logoPath": "/logos/summer-championship.jpg",
-      "fieldMapPath": "/field-maps/summer-championship-2025.jpg",
-      "archived": false,
+      "fieldMapPath": "https://drive.google.com/uc?export=view&id=1C_HwpOHGwnGLZfPiyAqqk78rn_sAYxuu",
+      "archived": true,
+      "archivedDataFile": "summer-championship-2026",
       "scraperEnabled": false,
       "scrapeStartDate": "2026-08-01",
       "scrapeEndDate": "2026-08-02",
@@ -71,12 +72,12 @@
       "rulesUrl": null,
       "photoGalleryFolderId": "1XBkbIqXCJIeh3UVm3EDXjLKLU60vB9gE",
       "photoUploadFolderId": "1OcUT1DKC9pmxZ5frM6K5RLtHJ5gXh6EL",
-      "resultsButtonText": "Schedule (Coming Soon)",
+      "resultsButtonText": "Results",
       "resultsEventId": null,
-      "scheduleDisabled": true,
-      "fieldMapDisabled": true,
-      "photoGalleryDisabled": true,
-      "photoGalleryButtonText": "Photo Gallery (Coming Soon)",
+      "scheduleDisabled": false,
+      "fieldMapDisabled": false,
+      "photoGalleryDisabled": false,
+      "photoGalleryButtonText": "Photo Gallery",
       "previousEvents": [
         {
           "eventId": "43230",
@@ -134,22 +135,22 @@
     },
     "51480": {
       "eventName": "Playmakers Cup 2026",
-      "dateText": "November 2026",
+      "dateText": "November 28-29, 2026",
       "locationText": "Arroyo Vista Park, Moorpark, CA",
-      "startDate": "2026-11-01",
-      "endDate": "2026-11-02",
+      "startDate": "2026-11-28",
+      "endDate": "2026-11-29",
       "theme": "playmakers",
       "logoPath": "/logos/playmakers-cup.jpg",
       "fieldMapPath": "/field-maps/playmakers-cup-2026.jpg",
       "archived": false,
       "scraperEnabled": false,
-      "scrapeStartDate": "2026-11-01",
-      "scrapeEndDate": "2026-11-02",
+      "scrapeStartDate": "2026-11-28",
+      "scrapeEndDate": "2026-11-29",
       "scrapeWindowStart": "08:45",
       "scrapeWindowEnd": "23:59",
       "scrapeIntervalMinutes": 10,
       "scrapeDailyWindows": {
-        "2026-11-01": {
+        "2026-11-28": {
           "start": "08:45",
           "end": "22:59",
           "intervalMinutes": 10

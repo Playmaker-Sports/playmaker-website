@@ -36,6 +36,15 @@ async function expectCount(page, selector, expected, message) {
   }
 }
 
+async function expectImagesLoaded(page, selector, message) {
+  const unloadedCount = await page.locator(selector).evaluateAll((images) =>
+    images.filter((image) => !image.complete || image.naturalWidth === 0).length
+  );
+  if (unloadedCount > 0) {
+    fail(`${message} (${unloadedCount} image${unloadedCount === 1 ? "" : "s"} failed to load)`);
+  }
+}
+
 async function expectFooter(page) {
   await expectVisible(page, ".site-footer", "Footer should be visible");
   await expectVisible(page, '.footer-app-links a[href*="apps.apple.com"]', "App Store link should be visible");
@@ -49,11 +58,16 @@ async function run() {
 
   await page.goto(`${baseUrl}/index.html`, { waitUntil: "networkidle" });
   await expectTextNotContaining(page, "#hero-title", "Loading", "Homepage hero should load event content");
+  const heroTitle = (await page.locator("#hero-title").textContent().catch(() => "")) || "";
+  if (!heroTitle.includes("Playmakers Cup 2026")) {
+    fail(`Homepage should feature Playmakers Cup 2026 (got "${heroTitle.trim()}")`);
+  }
   await expectCount(page, "#events-grid .event-card", 3, "Homepage should render three event cards");
   await expectFooter(page);
 
   await page.goto(`${baseUrl}/news.html`, { waitUntil: "networkidle" });
-  await expectCount(page, "#news-grid .news-card", 5, "News page should render five posts");
+  await expectCount(page, "#news-grid .news-card", 7, "News page should render seven posts");
+  await expectImagesLoaded(page, "#news-grid .news-card img", "News images should load from the built site");
   await expectFooter(page);
 
   await page.goto(`${baseUrl}/rules.html?slug=playmakers-cup`, { waitUntil: "networkidle" });

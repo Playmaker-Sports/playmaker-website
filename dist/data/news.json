@@ -1,42 +1,58 @@
 [
   {
-    "title": "Summer Championship Heats Up Moorpark",
+    "title": "Winter Fest 2026 Debuts New Winter-Themed Tournament Experience",
+    "snippet": "More than 70 teams competed across 16 brackets at Central Park as Playmaker Sports introduced Winter Fest-themed trophies, medals, pins, backdrops, and an expanded tournament app experience.",
+    "author": "Playmaker Sports",
+    "date": "Mar 11, 2026",
+    "image": "assets/news/winter-fest-2026-recap.webp",
+    "imageAlt": "Winter Fest 2026 tournament recap"
+  },
+  {
+    "title": "Playmakers Cup Delivers a Milestone Weekend in Moorpark With New Innovations",
+    "snippet": "The third annual Playmakers Cup welcomed 96 teams for more than 150 matches and marked the official launch of the Playmaker Sports Tournament App, including Follow My Team and Follow My Club.",
+    "author": "Playmaker Sports",
+    "date": "Dec 10, 2025",
+    "image": "assets/news/playmakers-cup-2025-milestone.webp",
+    "imageAlt": "Playmakers Cup 2025 tournament recap"
+  },
+  {
+    "title": "Playmaker Sports Summer Championship Heats Up Moorpark",
     "snippet": "Over 90 teams from across Southern California gathered at Arroyo Vista Park in Moorpark for the Playmaker Sports Summer Championship. Two-time MLS Cup Champion Bryan Jordan joined to hand out medals and sign autographs.",
     "author": "Playmaker Sports",
-    "date": "Aug 20, 2025",
-    "image": "https://static.wixstatic.com/media/2359e4_c45ee52352d34f7dbe5c266dc7b22341~mv2.jpg/v1/fill/w_742,h_497,al_c,q_85,usm_0.66_1.00_0.01/2359e4_c45ee52352d34f7dbe5c266dc7b22341~mv2.jpg",
+    "date": "Aug 19, 2025",
+    "image": "assets/news/summer-championship-2025-recap.webp",
     "imageAlt": "Summer Championship Recap"
   },
   {
     "title": "Winter Fest 2025 Recap",
     "snippet": "A fantastic weekend of competitive matches across all age groups at Central Park in Santa Clarita.",
     "author": "Playmaker Sports",
-    "date": "Mar 3, 2025",
-    "image": "https://static.wixstatic.com/media/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png/v1/fill/w_742,h_497,al_c,q_85,enc_avif,quality_auto/2359e4_99cc881b54e5436492352aacb8c91342~mv2.png",
+    "date": "Mar 10, 2025",
+    "image": "assets/news/winter-fest-2025-recap.webp",
     "imageAlt": "Winter Fest Recap"
   },
   {
-    "title": "Playmakers Cup Moorpark Recap",
+    "title": "Playmakers Cup - Moorpark Recap",
     "snippet": "116 teams competed in 195 games over two days at Arroyo Vista Park. LA Galaxy and Salvadoran soccer legend Mauricio Cienfuegos presented trophies and medals to champions and finalists.",
     "author": "Playmaker Sports",
     "date": "Nov 29, 2024",
-    "image": "https://static.wixstatic.com/media/2359e4_b8c096d14d3648e08482e7293ba9d8a6~mv2.png/v1/fill/w_742,h_497,al_c,q_90,usm_0.66_1.00_0.01/2359e4_b8c096d14d3648e08482e7293ba9d8a6~mv2.png",
+    "image": "assets/news/playmakers-cup-2024-moorpark.webp",
     "imageAlt": "Playmakers Cup Recap"
   },
   {
     "title": "Playmakers Cup is Back!",
     "snippet": "We're excited to announce the return of our premier Thanksgiving weekend tournament at Arroyo Vista Park in Moorpark, CA.",
     "author": "Playmaker Sports",
-    "date": "Sep 15, 2024",
-    "image": "https://static.wixstatic.com/media/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png/v1/fill/w_742,h_497,al_c,q_85,enc_avif,quality_auto/2359e4_297eb79207cd4c44b2a22a32fc76008e~mv2.png",
+    "date": "Oct 20, 2024",
+    "image": "assets/news/playmakers-cup-is-back.webp",
     "imageAlt": "Playmakers Cup Announcement"
   },
   {
-    "title": "Playmaker's First Ever Event",
-    "snippet": "A successful debut event featuring clubs throughout Southern California. The Summer Championship kicked off what would become three annual tournaments.",
+    "title": "Recap of The First Ever Playmakers Cup!",
+    "snippet": "The inaugural Playmakers Cup brought 62 boys' and girls' teams from across California to Central Park for more than 100 games and crowned champions across 10 divisions.",
     "author": "Playmaker Sports",
-    "date": "Jun 1, 2024",
-    "image": "https://static.wixstatic.com/media/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png/v1/fill/w_742,h_497,al_c,q_85,enc_avif,quality_auto/2359e4_5e40a35956a44b9ab3e52fc6699e8ec9~mv2.png",
-    "imageAlt": "Playmaker First Event"
+    "date": "Jul 22, 2024",
+    "image": "assets/news/first-playmakers-cup-recap.webp",
+    "imageAlt": "First Playmakers Cup recap"
   }
 ]
