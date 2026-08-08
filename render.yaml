@@ -2,7 +2,6 @@ services:
   - type: web
     name: playmaker-website
     runtime: static
-    plan: free
     branch: main
     autoDeployTrigger: commit
     buildCommand: echo "Publishing verified dist output"
