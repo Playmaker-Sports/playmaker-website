@@ -1,0 +1,56 @@
+services:
+  - type: web
+    name: playmaker-website
+    runtime: static
+    plan: free
+    branch: main
+    autoDeployTrigger: commit
+    buildCommand: echo "Publishing verified dist output"
+    staticPublishPath: ./dist
+    routes:
+      - type: redirect
+        source: /contactus
+        destination: /contact.html
+      - type: redirect
+        source: /playmakerscup
+        destination: /playmakers-cup.html
+      - type: redirect
+        source: /winterfest
+        destination: /winter-fest.html
+      - type: redirect
+        source: /summerchampionship
+        destination: /summer-championship.html
+      - type: redirect
+        source: /news
+        destination: /news.html
+      - type: redirect
+        source: /post/*
+        destination: /news.html
+      - type: redirect
+        source: /privacy-policy
+        destination: https://playmaker-static.onrender.com/privacy-policy.html
+    headers:
+      - path: /*.html
+        name: Cache-Control
+        value: no-cache, no-store, must-revalidate
+      - path: /data/*
+        name: Cache-Control
+        value: public, max-age=300
+      - path: /event_config.json
+        name: Cache-Control
+        value: public, max-age=300
+      - path: /archived/*
+        name: Cache-Control
+        value: public, max-age=3600
+      - path: /assets/*
+        name: Cache-Control
+        value: public, max-age=86400
+      - path: /*
+        name: X-Frame-Options
+        value: DENY
+      - path: /*
+        name: X-Content-Type-Options
+        value: nosniff
+      - path: /*
+        name: Referrer-Policy
+        value: strict-origin-when-cross-origin
