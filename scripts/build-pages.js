@@ -35,6 +35,8 @@ const footerTemplate = read(path.join(partialsDir, "footer.html"));
 const home = JSON.parse(read(path.join(dataDir, "home.json")));
 const contact = JSON.parse(read(path.join(dataDir, "contact.json")));
 const eventMarketing = JSON.parse(read(path.join(dataDir, "event-marketing.json")));
+const news = JSON.parse(read(path.join(dataDir, "news.json")));
+const partners = JSON.parse(read(path.join(dataDir, "partners.json")));
 
 // Source-of-truth repo for event config and archived data. The website ships
 // fallback copies (used when the cross-origin fetch fails), but they are
@@ -56,8 +58,18 @@ const staticAssets = [
   "results-page.js",
   "teams-page.js",
   "clubs-page.js",
-  "news-page.js"
+  "news-page.js",
+  "contact-page.js"
 ];
+
+function escapeHtml(value) {
+  return String(value)
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#39;");
+}
 
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
@@ -188,6 +200,48 @@ function renderContactSubjectOptions() {
     .join("\n");
 }
 
+function renderPartnerLogos() {
+  return partners
+    .map((partner) => {
+      return [
+        '      <div class="partner-logo">',
+        `        <img src="${escapeHtml(partner.image)}" alt="${escapeHtml(partner.name)} logo" loading="lazy" decoding="async" />`,
+        "      </div>"
+      ].join("\n");
+    })
+    .join("\n");
+}
+
+function renderNewsArticle(post) {
+  const paragraphs = post.body
+    .map((paragraph) => `        <p>${escapeHtml(paragraph)}</p>`)
+    .join("\n");
+
+  return [
+    '<main class="page-shell article-page">',
+    '  <article class="news-article">',
+    '    <a class="article-back" href="news.html">&larr; All news</a>',
+    '    <header class="article-header">',
+    `      <div class="page-kicker">${escapeHtml(post.date)}</div>`,
+    `      <h1>${escapeHtml(post.title)}</h1>`,
+    `      <p class="article-deck">${escapeHtml(post.snippet)}</p>`,
+    `      <div class="article-byline">By ${escapeHtml(post.author)}</div>`,
+    "    </header>",
+    '    <figure class="article-hero">',
+    `      <img src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt)}" />`,
+    "    </figure>",
+    '    <div class="article-body">',
+    paragraphs,
+    "    </div>",
+    '    <footer class="article-footer">',
+    '      <div><span class="page-kicker">Ready for the next one?</span><h2>Join us on the field.</h2></div>',
+    '      <a class="btn btn-primary" href="playmakers-cup.html">View the next tournament</a>',
+    "    </footer>",
+    "  </article>",
+    "</main>"
+  ].join("\n");
+}
+
 function getPageContentTemplate(page) {
   if (eventMarketing[page.id]) {
     return read(path.join(partialsDir, "event-page-content.html")).trim();
@@ -205,7 +259,8 @@ for (const page of pages) {
     contact,
     eventPage: eventMarketing[page.id] || {},
     contact_info_cards: renderContactCards(),
-    contact_subject_options: renderContactSubjectOptions()
+    contact_subject_options: renderContactSubjectOptions(),
+    partner_logos: renderPartnerLogos()
   });
 
   const baseUrl = (site.baseUrl || "").replace(/\/$/, "");
@@ -224,6 +279,25 @@ for (const page of pages) {
 
   const output = `${html.trim()}\n`;
   fs.writeFileSync(path.join(distDir, page.output), output, "utf8");
+}
+
+const articleBaseUrl = (site.baseUrl || "").replace(/\/$/, "");
+for (const post of news) {
+  const outputName = `post-${post.slug}.html`;
+  const html = replaceTokens(layoutTemplate, {
+    title: `${post.title} | Playmaker Sports`,
+    description: post.snippet,
+    site_name: site.siteName || "Playmaker Sports",
+    page_url: `${articleBaseUrl}/${outputName}`,
+    og_image: `${articleBaseUrl}/${post.image}`,
+    body_attributes: "",
+    header: renderHeader("news"),
+    content: renderNewsArticle(post),
+    footer: renderFooter(),
+    scripts: ""
+  }).replace(/\n{3,}/g, "\n\n");
+
+  fs.writeFileSync(path.join(distDir, outputName), `${html.trim()}\n`, "utf8");
 }
 
 staticAssets.forEach((asset) => {
@@ -250,4 +324,4 @@ syncedFromStaticRepo.forEach((asset) => {
 
 copyIfExists(dataDir, path.join(distDir, "data"));
 
-console.log(`Built ${pages.length} pages`);
+console.log(`Built ${pages.length + news.length} pages`);

@@ -18,40 +18,46 @@
         <div class="contact-card">
           <h2 class="contact-card-title">{{contact.form.title}}</h2>
 
-          <form class="contact-form" id="contact-form">
+          <form class="contact-form" id="contact-form" action="https://formsubmit.co/ajax/info@playmakersports.us" method="POST">
+            <input type="hidden" name="_subject" value="New Playmaker Sports website inquiry" />
+            <input type="hidden" name="_template" value="table" />
+            <input type="text" name="_honey" class="contact-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true" />
             <div class="contact-row">
               <div class="field-group">
-                <label class="field-label">First name *</label>
-                <input class="field-input" type="text" required />
+                <label class="field-label" for="contact-first-name">First name *</label>
+                <input class="field-input" id="contact-first-name" name="first_name" type="text" autocomplete="given-name" required />
               </div>
               <div class="field-group">
-                <label class="field-label">Last name *</label>
-                <input class="field-input" type="text" required />
+                <label class="field-label" for="contact-last-name">Last name *</label>
+                <input class="field-input" id="contact-last-name" name="last_name" type="text" autocomplete="family-name" required />
               </div>
             </div>
 
             <div class="field-group">
-              <label class="field-label">Email *</label>
-              <input class="field-input" type="email" required />
+              <label class="field-label" for="contact-email">Email *</label>
+              <input class="field-input" id="contact-email" name="email" type="email" autocomplete="email" required />
             </div>
 
             <div class="field-group">
-              <label class="field-label">Subject</label>
-              <select class="field-input">
+              <label class="field-label" for="contact-subject">Subject</label>
+              <select class="field-input" id="contact-subject" name="topic">
                 <option value="">Select a topic...</option>
 {{contact_subject_options}}
               </select>
             </div>
 
             <div class="field-group">
-              <label class="field-label">Message *</label>
-              <textarea class="field-textarea" rows="5" required></textarea>
+              <label class="field-label" for="contact-message">Message *</label>
+              <textarea class="field-textarea" id="contact-message" name="message" rows="5" required></textarea>
             </div>
 
-            <button class="btn btn-primary" type="submit">Send Message</button>
+            <button class="btn btn-primary" id="contact-submit" type="submit">Send Message</button>
 
             <div class="contact-success" id="contact-success" style="display:none;">
               {{contact.form.successMessage}}
+            </div>
+            <div class="contact-error" id="contact-error" role="alert" style="display:none;">
+              We couldn't send your message. Please email info@playmakersports.us directly.
             </div>
           </form>
         </div>

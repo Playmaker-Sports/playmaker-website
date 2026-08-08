@@ -24,6 +24,33 @@ services:
         source: /news
         destination: /news.html
       - type: redirect
+        source: /partners
+        destination: /partners.html
+      - type: redirect
+        source: /soccerprogram
+        destination: /soccer-program.html
+      - type: redirect
+        source: /post/winter-fest-2026-debuts-new-winter-themed-tournament-experience
+        destination: /post-winter-fest-2026-debuts-new-winter-themed-tournament-experience.html
+      - type: redirect
+        source: /post/playmakers-cup-delivers-a-milestone-weekend-in-moorpark-with-new-innovations
+        destination: /post-playmakers-cup-delivers-a-milestone-weekend-in-moorpark-with-new-innovations.html
+      - type: redirect
+        source: /post/playmaker-sports-summer-championship-heats-up-moorpark
+        destination: /post-playmaker-sports-summer-championship-heats-up-moorpark.html
+      - type: redirect
+        source: /post/winter-fest-2025-recap
+        destination: /post-winter-fest-2025-recap.html
+      - type: redirect
+        source: /post/playmakers-cup-moorpark-recap
+        destination: /post-playmakers-cup-moorpark-recap.html
+      - type: redirect
+        source: /post/the-playmakers-cup-is-back
+        destination: /post-the-playmakers-cup-is-back.html
+      - type: redirect
+        source: /post/recap-of-the-first-ever-playmakers-cup
+        destination: /post-recap-of-the-first-ever-playmakers-cup.html
+      - type: redirect
         source: /post/*
         destination: /news.html
       - type: redirect

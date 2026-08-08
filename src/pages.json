@@ -32,6 +32,14 @@
     "bodyAttributes": ""
   },
   {
+    "id": "partners",
+    "output": "partners.html",
+    "title": "Partners | Playmaker Sports",
+    "description": "Meet the organizations that partner with Playmaker Sports tournaments and learn how to become an event sponsor.",
+    "navKey": "",
+    "bodyAttributes": ""
+  },
+  {
     "id": "playmakers-cup",
     "output": "playmakers-cup.html",
     "title": "Playmakers Cup | Playmaker Sports",
@@ -53,6 +61,14 @@
     "title": "Tournament Rules | Playmaker Sports",
     "description": "Official tournament rules for Playmaker Sports events, including refund and cancellation policies.",
     "navKey": "",
+    "bodyAttributes": ""
+  },
+  {
+    "id": "soccer-program",
+    "output": "soccer-program.html",
+    "title": "Youth Soccer Program | Playmaker Sports",
+    "description": "Playmaker Sports youth soccer development program for boys and girls ages 6–14 in Encino and Moorpark, California.",
+    "navKey": "soccer-program",
     "bodyAttributes": ""
   },
   {

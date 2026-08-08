@@ -68,6 +68,30 @@ async function run() {
   await page.goto(`${baseUrl}/news.html`, { waitUntil: "networkidle" });
   await expectCount(page, "#news-grid .news-card", 7, "News page should render seven posts");
   await expectImagesLoaded(page, "#news-grid .news-card img", "News images should load from the built site");
+  const firstArticleHref = await page.locator("#news-grid .news-card").first().getAttribute("href");
+  if (!firstArticleHref) {
+    fail("News cards should link to complete article pages");
+  } else {
+    await page.goto(`${baseUrl}/${firstArticleHref}`, { waitUntil: "networkidle" });
+    await expectVisible(page, ".news-article .article-body", "News article should render its full body");
+    await expectCount(page, ".news-article .article-body p", 4, "News article should contain four body paragraphs");
+    await expectImagesLoaded(page, ".article-hero img", "News article hero image should load");
+  }
+  await expectFooter(page);
+
+  await page.goto(`${baseUrl}/partners.html`, { waitUntil: "networkidle" });
+  await expectCount(page, ".partner-grid .partner-logo", 11, "Partners page should render all migrated logos");
+  await expectImagesLoaded(page, ".partner-grid img", "Partner logos should load from the built site");
+  await expectFooter(page);
+
+  await page.goto(`${baseUrl}/soccer-program.html`, { waitUntil: "networkidle" });
+  await expectVisible(page, ".program-hero", "Soccer Program page should render its program overview");
+  await expectVisible(page, '.program-hero a[href="contact.html"]', "Soccer Program should link to current-session contact");
+  await expectFooter(page);
+
+  await page.goto(`${baseUrl}/contact.html`, { waitUntil: "networkidle" });
+  await expectVisible(page, '#contact-form[action*="formsubmit.co"]', "Contact form should have a delivery backend");
+  await expectCount(page, "#contact-form [name]", 8, "Contact form fields should be named for delivery");
   await expectFooter(page);
 
   await page.goto(`${baseUrl}/rules.html?slug=playmakers-cup`, { waitUntil: "networkidle" });
