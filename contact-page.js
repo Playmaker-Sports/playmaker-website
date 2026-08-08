@@ -16,8 +16,11 @@ document.addEventListener("DOMContentLoaded", function () {
     try {
       var response = await fetch(form.action, {
         method: "POST",
-        body: new FormData(form),
-        headers: { Accept: "application/json" }
+        body: JSON.stringify(Object.fromEntries(new FormData(form).entries())),
+        headers: {
+          Accept: "application/json",
+          "Content-Type": "application/json"
+        }
       });
       var result = await response.json().catch(function () { return {}; });
       if (!response.ok || result.success === "false" || result.success === false) {

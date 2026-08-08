@@ -84,15 +84,17 @@ async function run() {
   await expectImagesLoaded(page, ".partner-grid img", "Partner logos should load from the built site");
   await expectFooter(page);
 
-  await page.goto(`${baseUrl}/soccer-program.html`, { waitUntil: "networkidle" });
-  await expectVisible(page, ".program-hero", "Soccer Program page should render its program overview");
-  await expectVisible(page, '.program-hero a[href="contact.html"]', "Soccer Program should link to current-session contact");
+  await page.goto(`${baseUrl}/contact.html`, { waitUntil: "networkidle" });
+  await expectVisible(page, '#contact-form[action="https://playmakersportsapp-api.onrender.com/api/contact"]', "Contact form should use the Playmaker API delivery backend");
+  await expectCount(page, "#contact-form [name]", 6, "Contact form fields should be named for delivery");
   await expectFooter(page);
 
-  await page.goto(`${baseUrl}/contact.html`, { waitUntil: "networkidle" });
-  await expectVisible(page, '#contact-form[action*="formsubmit.co"]', "Contact form should have a delivery backend");
-  await expectCount(page, "#contact-form [name]", 8, "Contact form fields should be named for delivery");
-  await expectFooter(page);
+  for (const eventPage of ["playmakers-cup.html", "winter-fest.html", "summer-championship.html"]) {
+    await page.goto(`${baseUrl}/${eventPage}`, { waitUntil: "networkidle" });
+    await expectCount(page, ".clubs-wall-section", 0, `${eventPage} should not show the club logo wall`);
+    await expectCount(page, "#data-container", 0, `${eventPage} should not fetch club data for a hidden logo wall`);
+    await expectFooter(page);
+  }
 
   await page.goto(`${baseUrl}/rules.html?slug=playmakers-cup`, { waitUntil: "networkidle" });
   await expectVisible(page, "#rules-container .rules-header", "Rules page should render the rules header");

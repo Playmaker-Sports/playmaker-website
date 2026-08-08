@@ -28,9 +28,6 @@ services:
         source: /partners
         destination: /partners.html
       - type: redirect
-        source: /soccerprogram
-        destination: /soccer-program.html
-      - type: redirect
         source: /post/winter-fest-2026-debuts-new-winter-themed-tournament-experience
         destination: /post-winter-fest-2026-debuts-new-winter-themed-tournament-experience.html
       - type: redirect

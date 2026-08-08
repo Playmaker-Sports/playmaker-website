@@ -13,17 +13,13 @@ document.addEventListener("DOMContentLoaded", async () => {
       return;
     }
 
-    const theme = getTheme(config, ev.theme);
-
     populateHero(ev, config);
     populateDetails(ev);
     populateEventNav(ev, slug);
     populateFieldMap(ev);
     populatePreviousResults(ev, config);
-    await loadEventData(ev, config, theme);
   } catch (err) {
     console.error("Error loading event page:", err);
-    showError("data-container", "Failed to load event data. Please try again later. Error: " + err.message);
   }
 });
 
