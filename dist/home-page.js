@@ -2,9 +2,8 @@ document.addEventListener("DOMContentLoaded", async function () {
   try {
     var config = await fetchConfig();
     renderHomeHero(config);
-    renderHomeUpcomingCard(config);
-    renderHomeSlideshow();
     renderHomeEventsGrid(config);
+    enableHomeMotion();
   } catch (error) {
     console.error("Failed to load config:", error);
   }
@@ -16,13 +15,17 @@ function renderHomeHero(config) {
   if (!event) return;
 
   var slug = eventSlug(event.eventName);
+  var photos = EVENT_PHOTOS[slug] || [];
+  var heroImage = document.getElementById("home-hero-image");
+  if (heroImage && photos.length) heroImage.src = photos[0];
+
   document.getElementById("hero-title").textContent = event.eventName;
 
   var metaEl = document.getElementById("hero-meta");
   metaEl.innerHTML = "";
   if (event.dateText) {
     var dateSpan = document.createElement("span");
-    dateSpan.innerHTML = "<strong>" + event.dateText + "</strong>";
+    dateSpan.textContent = event.dateText;
     metaEl.appendChild(dateSpan);
   }
   if (event.locationText) {
@@ -33,7 +36,6 @@ function renderHomeHero(config) {
 
   var buttonsEl = document.getElementById("hero-buttons");
   buttonsEl.innerHTML = "";
-
   if (event.registrationUrl && !event.archived) {
     var registerLink = document.createElement("a");
     registerLink.className = "btn btn-primary";
@@ -43,162 +45,68 @@ function renderHomeHero(config) {
     registerLink.textContent = "Register Now";
     buttonsEl.appendChild(registerLink);
   }
-
   if (slug) {
     var detailsLink = document.createElement("a");
     detailsLink.className = "btn btn-ghost";
     detailsLink.href = eventPageUrl(slug);
-    detailsLink.textContent = "Event Details";
+    detailsLink.textContent = "Tournament Details";
     buttonsEl.appendChild(detailsLink);
   }
-
-  // Hero footnote is rendered at build time from src/data/home.json (heroFootnote).
-}
-
-function renderHomeUpcomingCard(config) {
-  var event = getUpcomingEvent(config);
-  if (!event) {
-    document.getElementById("upcoming-card").style.display = "none";
-    return;
-  }
-
-  var theme = getTheme(config, event.theme);
-  var card = document.getElementById("upcoming-card");
-  card.style.setProperty("--upcoming-accent", theme.accentColor);
-
-  if (event.logoPath) {
-    document.getElementById("upcoming-logo").innerHTML =
-      '<img src="' + staticUrl(event.logoPath) + '" alt="' + event.eventName + '" />';
-  }
-
-  document.getElementById("upcoming-name").textContent = event.eventName;
-
-  var lines = [];
-  if (event.dateText) lines.push(event.dateText);
-  if (event.locationText) lines.push(getFullAddress(event.locationText));
-  document.getElementById("upcoming-meta").innerHTML = lines.join("<br>");
-
-  var countdown = document.getElementById("upcoming-countdown");
-  var days = daysUntil(event.startDate);
-  if (days > 0) {
-    countdown.innerHTML = '<span class="countdown-number">' + days + '</span><span class="countdown-label">days away</span>';
-  } else if (days === 0) {
-    countdown.innerHTML = '<span class="countdown-number">Today!</span>';
-  } else {
-    countdown.innerHTML = '<span class="countdown-label">Event completed</span>';
-  }
-
-  if (event.registrationUrl && !event.archived && !card.querySelector(".btn")) {
-    var registerLink = document.createElement("a");
-    registerLink.className = "btn btn-primary";
-    registerLink.href = event.registrationUrl;
-    registerLink.target = "_blank";
-    registerLink.rel = "noopener";
-    registerLink.textContent = "Register Now";
-    registerLink.style.boxShadow = "0 14px 30px " + theme.accentColor + "55";
-    registerLink.style.background = theme.accentColor;
-    registerLink.style.color = theme.buttonTextColor;
-    card.appendChild(registerLink);
-  }
-}
-
-function renderHomeSlideshow() {
-  var allPhotos = [];
-  Object.keys(EVENT_PHOTOS).forEach(function (slug) {
-    EVENT_PHOTOS[slug].forEach(function (url) {
-      allPhotos.push(url);
-    });
-  });
-  if (!allPhotos.length) return;
-
-  for (var i = allPhotos.length - 1; i > 0; i--) {
-    var j = Math.floor(Math.random() * (i + 1));
-    var temp = allPhotos[i];
-    allPhotos[i] = allPhotos[j];
-    allPhotos[j] = temp;
-  }
-  allPhotos = allPhotos.slice(0, 8);
-
-  document.getElementById("slideshow-section").style.display = "";
-  var track = document.getElementById("slideshow-track");
-  var dots = document.getElementById("slideshow-dots");
-
-  track.innerHTML = allPhotos.map(function (url, index) {
-    return '<div class="slideshow-slide' + (index === 0 ? " active" : "") + '">' +
-      '<img src="' + url + '" alt="Playmaker Sports action" loading="lazy" />' +
-    "</div>";
-  }).join("");
-
-  dots.innerHTML = allPhotos.map(function (_, index) {
-    return '<button class="slideshow-dot' + (index === 0 ? " active" : "") + '" data-idx="' + index + '"></button>';
-  }).join("");
-
-  var currentIndex = 0;
-  var slides = track.querySelectorAll(".slideshow-slide");
-  var dotButtons = dots.querySelectorAll(".slideshow-dot");
-
-  function goTo(index) {
-    slides[currentIndex].classList.remove("active");
-    dotButtons[currentIndex].classList.remove("active");
-    currentIndex = index;
-    slides[currentIndex].classList.add("active");
-    dotButtons[currentIndex].classList.add("active");
-  }
-
-  dots.addEventListener("click", function (event) {
-    var button = event.target.closest(".slideshow-dot");
-    if (button) goTo(parseInt(button.getAttribute("data-idx"), 10));
-  });
-
-  document.getElementById("slideshow-prev").addEventListener("click", function () {
-    goTo((currentIndex - 1 + allPhotos.length) % allPhotos.length);
-  });
-  document.getElementById("slideshow-next").addEventListener("click", function () {
-    goTo((currentIndex + 1) % allPhotos.length);
-  });
-
-  setInterval(function () {
-    goTo((currentIndex + 1) % allPhotos.length);
-  }, 5000);
 }
 
 function renderHomeEventsGrid(config) {
   var grid = document.getElementById("events-grid");
   grid.innerHTML = "";
 
-  config.eventOrder.forEach(function (id) {
+  config.eventOrder.forEach(function (id, index) {
     var event = config.events[id];
     if (!event || !event.eventName) return;
 
     var slug = eventSlug(event.eventName);
-    var logoSrc = event.logoPath ? staticUrl(event.logoPath) : "";
     var photos = EVENT_PHOTOS[slug] || [];
-    var bgPhoto = photos[0] || "";
-
-    var article = document.createElement("article");
-    article.className = "event-card";
+    var bgPhoto = photos[index % Math.max(photos.length, 1)] || photos[0] || "";
+    var article = document.createElement("a");
+    article.className = "event-card event-story reveal-on-scroll";
+    article.href = eventPageUrl(slug);
     article.innerHTML =
       '<div class="event-card-img">' +
-        (bgPhoto
-          ? '<img class="event-card-bg" src="' + bgPhoto + '" alt="' + event.eventName + '" />'
-          : (logoSrc ? '<img src="' + logoSrc + '" alt="' + event.eventName + '" />' : "")) +
-      "</div>" +
+        (bgPhoto ? '<img class="event-card-bg" src="' + bgPhoto + '" alt="' + event.eventName + '" />' : "") +
+      '</div>' +
       '<div class="event-card-body">' +
-        '<div class="event-name-row">' +
-          (logoSrc ? '<img class="event-card-logo-inline" src="' + logoSrc + '" alt="" />' : "") +
-          '<div class="event-name">' +
-            (slug
-              ? '<a href="' + eventPageUrl(slug) + '" style="color:inherit;text-decoration:none;">' + event.eventName.replace(/ \d{4}$/, "") + "</a>"
-              : event.eventName) +
-          "</div>" +
-        "</div>" +
+        '<div class="event-name">' + event.eventName.replace(/ \d{4}$/, "") + '</div>' +
         '<div class="event-card-text">' +
-          '<div class="event-date">' + (event.dateText || "") + "</div>" +
-          '<div class="event-row">' + getFullAddress(event.locationText).replace(/\s\u2013\s/, "<br>") + "</div>" +
+          '<div class="event-date">' + (event.dateText || "") + '</div>' +
+          '<div class="event-row">' + getFullAddress(event.locationText).replace(/\s\u2013\s/, "<br>") + '</div>' +
           '<div class="event-meta">Boys &amp; Girls, U6&ndash;U19</div>' +
-        "</div>" +
-      "</div>";
-
+        '</div>' +
+        '<span class="event-story-arrow" aria-hidden="true">View event &rarr;</span>' +
+      '</div>';
     grid.appendChild(article);
+  });
+}
+
+function enableHomeMotion() {
+  window.requestAnimationFrame(function () {
+    document.body.classList.add("home-ready");
+  });
+
+  var heroImage = document.getElementById("home-hero-image");
+  window.addEventListener("scroll", function () {
+    if (!heroImage) return;
+    var shift = Math.min(window.scrollY * 0.08, 36);
+    heroImage.style.transform = "scale(1.035) translateY(" + shift + "px)";
+  }, { passive: true });
+
+  if (!("IntersectionObserver" in window)) return;
+  var observer = new IntersectionObserver(function (entries) {
+    entries.forEach(function (entry) {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("is-visible");
+        observer.unobserve(entry.target);
+      }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll(".reveal-on-scroll").forEach(function (element) {
+    observer.observe(element);
   });
 }

@@ -191,15 +191,15 @@ function getParam(name) {
 // Served from playmaker-static (/banners/*) — do not hotlink external hosts.
 const EVENT_PHOTOS = {
   "playmakers-cup": [
-    staticUrl("/banners/playmakers-cup-1.png"),
-    staticUrl("/banners/playmakers-cup-2.png"),
+    "banners/playmakers-cup-1.png",
+    "banners/playmakers-cup-2.png",
   ],
   "winter-fest": [
-    staticUrl("/banners/winter-fest-1.png"),
+    "banners/winter-fest-1.png",
   ],
   "summer-championship": [
-    staticUrl("/banners/summer-championship-1.png"),
-    staticUrl("/banners/summer-championship-2.jpg"),
+    "banners/summer-championship-1.png",
+    "banners/summer-championship-2.jpg",
   ],
 };
 

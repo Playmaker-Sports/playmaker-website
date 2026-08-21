@@ -1,7 +1,7 @@
 {
   "playmakers-cup": {
     "title": "Playmakers Cup",
-    "heroImage": "https://playmaker-static.onrender.com/banners/playmakers-cup-1.png",
+    "heroImage": "banners/playmakers-cup-1.png",
     "heroAlt": "Playmakers Cup",
     "detailsHeading": "Event Details",
     "locationLabel": "Location:",
@@ -15,7 +15,7 @@
   },
   "winter-fest": {
     "title": "Winter Fest",
-    "heroImage": "https://playmaker-static.onrender.com/banners/winter-fest-1.png",
+    "heroImage": "banners/winter-fest-1.png",
     "heroAlt": "Winter Fest",
     "detailsHeading": "Event Details",
     "locationLabel": "Location:",
@@ -29,7 +29,7 @@
   },
   "summer-championship": {
     "title": "Summer Championship",
-    "heroImage": "https://playmaker-static.onrender.com/banners/summer-championship-1.png",
+    "heroImage": "banners/summer-championship-1.png",
     "heroAlt": "Summer Championship",
     "detailsHeading": "Event Details",
     "locationLabel": "Location:",

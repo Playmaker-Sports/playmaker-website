@@ -43,7 +43,7 @@ const partners = JSON.parse(read(path.join(dataDir, "partners.json")));
 // always synced from playmaker-static at build time — never edited here.
 const staticRepoDir = path.resolve(rootDir, "..", "playmaker-static");
 
-const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived"];
+const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived", "banners"];
 
 const staticAssets = [
   "assets",

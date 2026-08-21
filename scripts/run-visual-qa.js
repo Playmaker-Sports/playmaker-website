@@ -63,6 +63,9 @@ async function run() {
     fail(`Homepage should feature Playmakers Cup 2026 (got "${heroTitle.trim()}")`);
   }
   await expectCount(page, "#events-grid .event-card", 3, "Homepage should render three event cards");
+  await expectVisible(page, "#home-hero-image", "Homepage should lead with tournament photography");
+  await expectImagesLoaded(page, "#home-hero-image", "Homepage hero media should load");
+  await expectCount(page, ".event-card-logo-inline", 0, "Homepage tournament cards should not show tournament logos");
   await expectFooter(page);
 
   await page.goto(`${baseUrl}/news.html`, { waitUntil: "networkidle" });
@@ -93,8 +96,14 @@ async function run() {
     await page.goto(`${baseUrl}/${eventPage}`, { waitUntil: "networkidle" });
     await expectCount(page, ".clubs-wall-section", 0, `${eventPage} should not show the club logo wall`);
     await expectCount(page, "#data-container", 0, `${eventPage} should not fetch club data for a hidden logo wall`);
+    await expectCount(page, ".event-hero-logo", 0, `${eventPage} should not show a tournament logo tile`);
+    await expectCount(page, "#previous-results-section", 0, `${eventPage} should not show previous-results links`);
+    await expectVisible(page, '.event-nav a[href*="system.gotsport.com"]', `${eventPage} should link to official GotSport`);
     await expectFooter(page);
   }
+
+  await page.goto(`${baseUrl}/summer-championship.html`, { waitUntil: "networkidle" });
+  await expectVisible(page, '.event-nav a[href="results.html?slug=summer-championship"]', "Summer Championship should link to Playmaker's imported results");
 
   await page.goto(`${baseUrl}/rules.html?slug=playmakers-cup`, { waitUntil: "networkidle" });
   await expectVisible(page, "#rules-container .rules-header", "Rules page should render the rules header");

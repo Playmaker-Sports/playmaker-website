@@ -1,59 +1,36 @@
-<main class="page-shell">
-      <!-- Photo Slideshow -->
-      <section class="section" id="slideshow-section" style="display:none;">
-        <div class="slideshow">
-          <button class="slideshow-arrow slideshow-arrow-left" id="slideshow-prev">&#8249;</button>
-          <div class="slideshow-track" id="slideshow-track"></div>
-          <button class="slideshow-arrow slideshow-arrow-right" id="slideshow-next">&#8250;</button>
-          <div class="slideshow-dots" id="slideshow-dots"></div>
-        </div>
-      </section>
+<main class="home-main">
+  <section class="hero home-hero">
+    <img class="home-hero-media" id="home-hero-image" src="" alt="Playmaker Sports tournament action" />
+    <div class="home-hero-shade"></div>
+    <div class="home-hero-content" id="hero-left">
+      <div class="hero-text-eyebrow">Next on the field</div>
+      <h1 class="hero-title" id="hero-title">Loading...</h1>
+      <div class="hero-meta" id="hero-meta"></div>
+      <div class="hero-buttons" id="hero-buttons"></div>
+      <p class="hero-footnote" id="hero-footnote">{{home.heroFootnote}}</p>
+    </div>
+    <div class="home-hero-mark">Playmaker Sports <span>Southern California</span></div>
+  </section>
 
-      <!-- Hero -->
-      <section class="hero">
-        <div id="hero-left">
-          <div class="hero-text-eyebrow">Featured Event</div>
-          <h1 class="hero-title" id="hero-title">Loading...</h1>
-          <div class="hero-meta" id="hero-meta"></div>
-          <div class="hero-buttons" id="hero-buttons"></div>
-          <p class="hero-footnote" id="hero-footnote">{{home.heroFootnote}}</p>
-        </div>
+  <section class="section home-events-section">
+    <div class="section-header">
+      <div>
+        <div class="section-title">{{home.eventsSection.title}}</div>
+        <div class="section-subtitle">{{home.eventsSection.subtitle}}</div>
+      </div>
+    </div>
+    <div class="events-grid" id="events-grid"></div>
+  </section>
 
-        <aside class="upcoming-card" id="upcoming-card">
-          <div class="upcoming-card-label">Next Event</div>
-          <div class="upcoming-card-logo" id="upcoming-logo"></div>
-          <div class="upcoming-card-name" id="upcoming-name">Loading...</div>
-          <div class="upcoming-card-meta" id="upcoming-meta"></div>
-          <div class="countdown" id="upcoming-countdown"></div>
-        </aside>
-      </section>
-
-      <!-- Events section -->
-      <section class="section">
-        <div class="section-header">
-          <div>
-            <div class="section-title">{{home.eventsSection.title}}</div>
-            <div class="section-subtitle">{{home.eventsSection.subtitle}}</div>
-          </div>
-        </div>
-
-        <div class="events-grid" id="events-grid">
-          <!-- Populated dynamically -->
-        </div>
-      </section>
-
-      <!-- Join the Club -->
-      <section class="section">
-        <div class="join-card">
-          <div>
-            <div class="join-title">{{home.joinSection.title}}</div>
-            <p class="join-text">{{home.joinSection.text}}</p>
-          </div>
-          <div>
-            <a class="btn btn-primary" href="{{home.joinSection.buttonHref}}">
-              {{home.joinSection.buttonLabel}}
-            </a>
-          </div>
-        </div>
-      </section>
-    </main>
+  <section class="section home-join-section">
+    <div class="join-card">
+      <div>
+        <div class="join-title">{{home.joinSection.title}}</div>
+        <p class="join-text">{{home.joinSection.text}}</p>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="{{home.joinSection.buttonHref}}">{{home.joinSection.buttonLabel}}</a>
+      </div>
+    </div>
+  </section>
+</main>
