@@ -1,0 +1,25 @@
+{
+  "domain": "playmakersports.us",
+  "capturedAt": "2026-09-02",
+  "source": "Public DNS lookup cross-checked against Wix Manage DNS Records screenshots",
+  "records": [
+    { "type": "NS", "host": "@", "value": "ns4.wixdns.net", "ttl": 86400 },
+    { "type": "NS", "host": "@", "value": "ns5.wixdns.net", "ttl": 86400 },
+    { "type": "A", "host": "@", "value": "185.230.63.107", "ttl": 3600 },
+    { "type": "A", "host": "@", "value": "185.230.63.186", "ttl": 3600 },
+    { "type": "A", "host": "@", "value": "185.230.63.171", "ttl": 3600 },
+    { "type": "CNAME", "host": "www", "value": "cdn3.wixdns.net", "ttl": 3600 },
+    { "type": "MX", "host": "@", "value": "mx.zoho.com", "priority": 10, "ttl": 3600 },
+    { "type": "MX", "host": "@", "value": "mx2.zoho.com", "priority": 20, "ttl": 3600 },
+    { "type": "MX", "host": "@", "value": "mx3.zoho.com", "priority": 50, "ttl": 3600 },
+    { "type": "TXT", "host": "@", "value": "google-site-verification=9iD_ZVhy9qBbuEz4GTtI8vz1y4sQREeS1iCRBllz0B4", "ttl": 3600 },
+    { "type": "TXT", "host": "@", "value": "v=spf1 include:zoho.com ~all", "ttl": 3600 },
+    { "type": "TXT", "host": "@", "value": "zoho-verification=zb07762551.zmverify.zoho.com", "ttl": 3600 },
+    { "type": "TXT", "host": "31711._domainkey", "value": "k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCbHQKh8qoIW99deEFW4KEZ0OL+mk3fzDxyO7kprsR48PJsQxmF9Qe3Rtf2/R0+4yYtajpxDd7dfS3AXjer0W1da4TraTL06oaS3G8smB3epIuGPTwhso6hBsVj3TS7QsutwPCSg7XqsDOnZ/QGH8iDEWEilE7jlVDD72P8lyiO+QIDAQAB", "ttl": 3600 },
+    { "type": "TXT", "host": "zmail._domainkey", "value": "v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDLwcyOZwKjD/Wkzf1YSJyu3D/KxJjr2mrvqazb6KlM7fkSQNASXfiAtvXd8MPIZo0WPJHfmsqhIC+c2+NfMipQ4QTS2FZVA0OUwxSz55bPxT38FPGjorsktDSiZ5bFFTAHLvxQXN0aUxjPvZN38QKocEoG0T776noRmNAEkGh0GQIDAQAB", "ttl": 3600 }
+  ],
+  "observations": [
+    "No _dmarc.playmakersports.us TXT response was present at capture time.",
+    "DNS does not provide a safe way to enumerate unknown hostnames; compare this snapshot with every remaining Wix DNS section before changing nameservers."
+  ]
+}
