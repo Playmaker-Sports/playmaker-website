@@ -21,14 +21,11 @@
   <div class="site-wrapper">
     <header class="nav-shell">
       <div class="nav-inner">
-        <div class="nav-left">
-          <div class="nav-logo-img">
-            <img src="logo.png" alt="Playmaker Sports Logo" />
-          </div>
-          <div class="nav-title">
-            <span>Playmaker Sports</span>
-          </div>
-        </div>
+        <a class="nav-left nav-wordmark" href="index.html" aria-label="Playmaker Sports home">
+          <span class="nav-logo-img" aria-hidden="true"><img src="logo.png" alt="" /></span>
+          <span class="nav-wordmark-playmaker">Playmaker</span>
+          <span class="nav-wordmark-sports">Sports</span>
+        </a>
         <nav class="nav-links">
           <a href="index.html">Home</a>
           <a href="playmakers-cup.html">Playmakers Cup</a>
@@ -42,7 +39,7 @@
 
 <main class="event-page-shell">
   <section class="event-hero-banner">
-    <img class="event-hero-bg" src="banners/summer-championship-1.png" alt="Summer Championship" />
+    <img class="event-hero-bg" src="banners/summer-championship-2.jpg" alt="Summer Championship" />
     <div class="event-hero-overlay">
       <div class="event-hero-info">
         <div class="event-hero-kicker">Playmaker Sports Tournament</div>
@@ -58,6 +55,10 @@
     <section class="section event-details-section">
       <div class="event-info-card event-details-rail">
         <div class="event-info-intro">
+          <div class="event-info-identity">
+            <img class="event-info-logo" src="" alt="" />
+            <div class="event-countdown" hidden></div>
+          </div>
           <div class="event-section-kicker">Tournament information</div>
           <h2 class="event-info-title">Event Details</h2>
         </div>
@@ -98,17 +99,11 @@
         </div>
         <div class="footer-socials">
           <div class="footer-app-links">
-          <a href="https://apps.apple.com/us/app/playmaker-sports-tournaments/id6747785891" target="_blank" rel="noopener" class="store-badge store-badge-ios">
-            <span class="store-badge-copy">
-              <span class="store-badge-kicker">Download on the</span>
-              <span class="store-badge-label">App Store</span>
-            </span>
+          <a href="https://apps.apple.com/us/app/playmaker-sports-tournaments/id6747785891" target="_blank" rel="noopener" class="store-badge store-badge-official store-badge-ios" aria-label="Download on the App Store">
+            <img src="assets/store/app-store-badge.svg" alt="Download on the App Store" decoding="async" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=com.playmakersportsapp" target="_blank" rel="noopener" class="store-badge store-badge-android">
-            <span class="store-badge-copy">
-              <span class="store-badge-kicker">Get it on</span>
-              <span class="store-badge-label">Google Play</span>
-            </span>
+          <a href="https://play.google.com/store/apps/details?id=com.playmakersportsapp" target="_blank" rel="noopener" class="store-badge store-badge-official store-badge-android" aria-label="Get it on Google Play">
+            <img src="assets/store/google-play-badge.png" alt="Get it on Google Play" decoding="async" />
           </a>
           </div>
         <a href="https://www.instagram.com/playmaker_sports_" target="_blank" rel="noopener" class="social-btn social-instagram">Instagram</a>

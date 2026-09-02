@@ -22,6 +22,12 @@ document.addEventListener("DOMContentLoaded", async function () {
 });
 
 function populateHero(event) {
+  var logo = document.querySelector(".event-info-logo");
+  if (logo) {
+    logo.src = eventLogoUrl(event);
+    logo.alt = event.eventName + " logo";
+  }
+
   var title = document.querySelector(".hero-simple-title");
   if (title) title.textContent = event.eventName;
 
@@ -30,6 +36,13 @@ function populateHero(event) {
     subtext.textContent = [event.dateText, getFullAddress(event.locationText)]
       .filter(Boolean)
       .join(" • ");
+  }
+
+  var countdown = document.querySelector(".event-countdown");
+  var remainingDays = event.startDate ? daysUntil(event.startDate) : -1;
+  if (countdown && !event.archived && remainingDays >= 0) {
+    countdown.hidden = false;
+    countdown.innerHTML = '<strong>' + remainingDays + '</strong><span>days to kickoff</span>';
   }
 
   var buttons = document.querySelector(".event-hero-info .hero-buttons");
@@ -65,7 +78,6 @@ function populateEventNav(event, slug) {
   if (!nav) return;
 
   var links = [
-    { label: "Official GotSport", href: event.gotsportUrl, external: true, disabled: !event.gotsportUrl },
     {
       label: "Playmaker Schedule & Standings",
       href: "results.html?slug=" + slug,

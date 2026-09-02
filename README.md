@@ -9,6 +9,16 @@ This repo is a modular static site. The goal is to keep it easy for multiple peo
 3. Run `npm.cmd run qa` or `node scripts/qa-dist.js`.
 4. Commit both the source changes and the generated `dist/` output.
 
+## Publish a news article
+
+1. Add the article image to `assets/news/` (prefer WebP and a descriptive filename).
+2. Add the newest article first in `src/data/news.json`. Keep the `slug` lowercase with hyphens; it becomes `post-<slug>.html`.
+3. Run `npm.cmd run build` and `npm.cmd run qa`.
+4. Commit the source, image, and generated `dist/` output, then push `main`.
+5. Render deploys the pushed commit automatically. Verify `/news.html` and the new article URL after the deploy is live.
+
+See [WIX_MIGRATION.md](WIX_MIGRATION.md) for the hosting architecture, domain cutover, Wix export, rollback, and final cancellation checklist.
+
 ## Repo structure
 
 - `src/` is the source of truth for page structure and editable content.

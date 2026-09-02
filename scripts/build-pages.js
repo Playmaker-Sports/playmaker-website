@@ -44,6 +44,7 @@ const partners = JSON.parse(read(path.join(dataDir, "partners.json")));
 const staticRepoDir = path.resolve(rootDir, "..", "playmaker-static");
 
 const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived", "banners"];
+const eventLogoAssets = ["playmakers-cup.jpg", "winter-fest.jpg", "summer-championship.jpg"];
 
 const staticAssets = [
   "assets",
@@ -99,6 +100,13 @@ function renderHeader(activeKey) {
 function renderAppLinks() {
   return site.appLinks
     .map((link) => {
+      if (link.badgeImage) {
+        return [
+          `          <a href="${link.href}" target="_blank" rel="noopener" class="store-badge store-badge-official ${link.className}" aria-label="${link.kicker} ${link.label}">`,
+          `            <img src="${link.badgeImage}" alt="${link.kicker} ${link.label}" decoding="async" />`,
+          "          </a>"
+        ].join("\n");
+      }
       return [
         `          <a href="${link.href}" target="_blank" rel="noopener" class="store-badge ${link.className}">`,
         '            <span class="store-badge-copy">',
@@ -320,6 +328,15 @@ syncedFromStaticRepo.forEach((asset) => {
     process.exit(1);
   }
   fs.cpSync(fromPath, path.join(distDir, asset), { recursive: true });
+});
+
+eventLogoAssets.forEach((asset) => {
+  const fromPath = path.join(staticRepoDir, "logos", asset);
+  if (!fs.existsSync(fromPath)) {
+    console.error(`Missing event logo ${asset} in ${path.join(staticRepoDir, "logos")}.`);
+    process.exit(1);
+  }
+  copyIfExists(fromPath, path.join(distDir, "event-logos", asset));
 });
 
 copyIfExists(dataDir, path.join(distDir, "data"));

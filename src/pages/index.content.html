@@ -1,18 +1,42 @@
 <main class="home-main">
   <section class="hero home-hero">
-    <img class="home-hero-media" id="home-hero-image" src="" alt="Playmaker Sports tournament action" />
-    <div class="home-hero-shade"></div>
-    <div class="home-hero-content" id="hero-left">
-      <div class="hero-text-eyebrow">Next on the field</div>
-      <h1 class="hero-title" id="hero-title">Loading...</h1>
-      <div class="hero-meta" id="hero-meta"></div>
-      <div class="hero-buttons" id="hero-buttons"></div>
-      <p class="hero-footnote" id="hero-footnote">{{home.heroFootnote}}</p>
+    <div class="home-hero-media-stack" id="home-hero-media">
+      <img class="home-hero-media is-active" src="" alt="Playmaker Sports tournament action" />
+      <img class="home-hero-media" src="" alt="Playmaker Sports tournament action" />
     </div>
-    <div class="home-hero-mark">Playmaker Sports <span>Southern California</span></div>
+    <div class="home-hero-shade"></div>
+    <h1 class="home-hero-title-visually-hidden" id="hero-title">{{home.heroTitle}}</h1>
+    <div class="home-hero-pagination" id="home-hero-pagination" aria-label="Homepage photos"></div>
   </section>
 
-  <section class="section home-events-section">
+  <section class="home-positioning home-upcoming" id="upcoming-event" aria-labelledby="upcoming-title">
+    <div class="home-positioning-copy">
+      <div class="home-light-kicker">Next tournament</div>
+      <h2 id="upcoming-title">Loading...</h2>
+    </div>
+    <div class="home-positioning-detail">
+      <div class="home-upcoming-meta" id="upcoming-meta"></div>
+      <p id="upcoming-summary">Loading tournament information...</p>
+      <div class="home-upcoming-actions" id="upcoming-actions"></div>
+    </div>
+  </section>
+
+  <section class="home-experience" aria-labelledby="home-experience-title">
+    <div class="home-experience-media">
+      <img src="assets/news/summer-championship-2025-recap.webp" alt="Playmaker Sports champions celebrating together" decoding="async" />
+    </div>
+    <div class="home-experience-copy">
+      <div class="home-light-kicker">The Playmaker experience</div>
+      <h2 id="home-experience-title">Built for the moments teams remember.</h2>
+      <div class="home-experience-points">
+        <div><strong>Competitive fields</strong><span>Meaningful matchups across boys and girls age groups.</span></div>
+        <div><strong>Professional operations</strong><span>Clear schedules, field information, and tournament communication.</span></div>
+        <div><strong>Southern California</strong><span>Destination weekends at established community venues.</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section home-events-section" id="events">
     <div class="section-header">
       <div>
         <div class="section-title">{{home.eventsSection.title}}</div>
@@ -24,11 +48,12 @@
 
   <section class="section home-join-section">
     <div class="join-card">
-      <div>
-        <div class="join-title">{{home.joinSection.title}}</div>
+      <div class="join-copy">
+        <div class="join-kicker">Stay connected</div>
+        <h2 class="join-title">{{home.joinSection.title}}</h2>
         <p class="join-text">{{home.joinSection.text}}</p>
       </div>
-      <div>
+      <div class="join-action">
         <a class="btn btn-primary" href="{{home.joinSection.buttonHref}}">{{home.joinSection.buttonLabel}}</a>
       </div>
     </div>

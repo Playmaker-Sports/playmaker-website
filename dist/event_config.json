@@ -4,8 +4,8 @@
   "defaultEventId": "51480",
   "eventOrder": [
     "51480",
-    "51438",
-    "50767"
+    "winter-fest-2027",
+    "51438"
   ],
   "socialLinks": {
     "website": "https://www.playmakersports.us",
@@ -41,6 +41,35 @@
     }
   },
   "events": {
+    "winter-fest-2027": {
+      "eventName": "Winter Fest 2027",
+      "dateText": "February 27–28, 2027",
+      "locationText": "Central Park, Santa Clarita, CA",
+      "startDate": "2027-02-27",
+      "endDate": "2027-02-28",
+      "theme": "winter",
+      "logoPath": "/logos/winter-fest.jpg",
+      "fieldMapPath": "/field-maps/winter-fest-2026.jpg",
+      "archived": false,
+      "scraperEnabled": false,
+      "gotsportUrl": null,
+      "registrationUrl": null,
+      "rulesUrl": null,
+      "scheduleDisabled": true,
+      "fieldMapDisabled": true,
+      "photoGalleryDisabled": true,
+      "photoGalleryButtonText": "Photo Gallery (Coming Soon)",
+      "previousEvents": [
+        {
+          "eventId": "50767",
+          "label": "2026 Results"
+        },
+        {
+          "eventId": "40700",
+          "label": "2025 Results"
+        }
+      ]
+    },
     "51438": {
       "eventName": "Summer Championship 2026",
       "dateText": "August 1–2, 2026",

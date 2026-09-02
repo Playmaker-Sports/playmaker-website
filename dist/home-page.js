@@ -15,26 +15,18 @@ function renderHomeHero(config) {
   if (!event) return;
 
   var slug = eventSlug(event.eventName);
-  var photos = EVENT_PHOTOS[slug] || [];
-  var heroImage = document.getElementById("home-hero-image");
-  if (heroImage && photos.length) heroImage.src = photos[0];
+  setupHomeHeroSlideshow(event);
+  document.getElementById("upcoming-title").textContent = event.eventName.replace(/ \d{4}$/, "");
 
-  document.getElementById("hero-title").textContent = event.eventName;
+  var metaEl = document.getElementById("upcoming-meta");
+  metaEl.innerHTML =
+    '<span>' + (event.dateText || "Dates coming soon") + '</span>' +
+    '<span>' + getFullAddress(event.locationText) + '</span>';
 
-  var metaEl = document.getElementById("hero-meta");
-  metaEl.innerHTML = "";
-  if (event.dateText) {
-    var dateSpan = document.createElement("span");
-    dateSpan.textContent = event.dateText;
-    metaEl.appendChild(dateSpan);
-  }
-  if (event.locationText) {
-    var locationSpan = document.createElement("span");
-    locationSpan.textContent = getFullAddress(event.locationText);
-    metaEl.appendChild(locationSpan);
-  }
+  var summaryEl = document.getElementById("upcoming-summary");
+  summaryEl.textContent = "Boys and girls U6–U19. A competitive tournament weekend designed for players, clubs, and families.";
 
-  var buttonsEl = document.getElementById("hero-buttons");
+  var buttonsEl = document.getElementById("upcoming-actions");
   buttonsEl.innerHTML = "";
   if (event.registrationUrl && !event.archived) {
     var registerLink = document.createElement("a");
@@ -47,9 +39,9 @@ function renderHomeHero(config) {
   }
   if (slug) {
     var detailsLink = document.createElement("a");
-    detailsLink.className = "btn btn-ghost";
+    detailsLink.className = "text-link";
     detailsLink.href = eventPageUrl(slug);
-    detailsLink.textContent = "Tournament Details";
+    detailsLink.innerHTML = 'Tournament details <span aria-hidden="true">&rarr;</span>';
     buttonsEl.appendChild(detailsLink);
   }
 }
@@ -64,9 +56,9 @@ function renderHomeEventsGrid(config) {
 
     var slug = eventSlug(event.eventName);
     var photos = EVENT_PHOTOS[slug] || [];
-    var bgPhoto = photos[index % Math.max(photos.length, 1)] || photos[0] || "";
+    var bgPhoto = HOME_EVENT_CARD_PHOTOS[slug] || photos[0] || "";
     var article = document.createElement("a");
-    article.className = "event-card event-story reveal-on-scroll";
+    article.className = "event-card event-story event-story-" + slug + " reveal-on-scroll";
     article.href = eventPageUrl(slug);
     article.innerHTML =
       '<div class="event-card-img">' +
@@ -90,11 +82,12 @@ function enableHomeMotion() {
     document.body.classList.add("home-ready");
   });
 
-  var heroImage = document.getElementById("home-hero-image");
+  var heroImages = document.querySelectorAll(".home-hero-media");
   window.addEventListener("scroll", function () {
-    if (!heroImage) return;
     var shift = Math.min(window.scrollY * 0.08, 36);
-    heroImage.style.transform = "scale(1.035) translateY(" + shift + "px)";
+    heroImages.forEach(function (heroImage) {
+      heroImage.style.transform = "scale(1.035) translateY(" + shift + "px)";
+    });
   }, { passive: true });
 
   if (!("IntersectionObserver" in window)) return;
@@ -109,4 +102,69 @@ function enableHomeMotion() {
   document.querySelectorAll(".reveal-on-scroll").forEach(function (element) {
     observer.observe(element);
   });
+}
+
+function setupHomeHeroSlideshow(event) {
+  var layers = Array.prototype.slice.call(document.querySelectorAll(".home-hero-media"));
+  var pagination = document.getElementById("home-hero-pagination");
+  var photos = HOME_HERO_PHOTOS.slice();
+  if (!layers.length || !photos.length) return;
+
+  var currentIndex = 0;
+  var activeLayer = 0;
+  var timer = null;
+
+  layers[0].src = photos[0];
+  layers[0].alt = event.eventName + " tournament photo 1";
+  layers[0].style.objectPosition = HOME_HERO_POSITIONS[0] || "center";
+  if (photos[1]) {
+    layers[1].src = photos[1];
+    layers[1].alt = event.eventName + " tournament photo 2";
+    layers[1].style.objectPosition = HOME_HERO_POSITIONS[1] || "center";
+  }
+
+  function updateDots() {
+    if (!pagination) return;
+    pagination.querySelectorAll("button").forEach(function (button, index) {
+      button.classList.toggle("is-active", index === currentIndex);
+      button.setAttribute("aria-current", index === currentIndex ? "true" : "false");
+    });
+  }
+
+  function showPhoto(index) {
+    if (index === currentIndex) return;
+    var nextLayer = activeLayer === 0 ? 1 : 0;
+    layers[nextLayer].src = photos[index];
+    layers[nextLayer].alt = event.eventName + " tournament photo " + (index + 1);
+    layers[nextLayer].style.objectPosition = HOME_HERO_POSITIONS[index] || "center";
+    layers[nextLayer].classList.add("is-active");
+    layers[activeLayer].classList.remove("is-active");
+    activeLayer = nextLayer;
+    currentIndex = index;
+    updateDots();
+  }
+
+  if (pagination) {
+    photos.forEach(function (_, index) {
+      var button = document.createElement("button");
+      button.type = "button";
+      button.setAttribute("aria-label", "Show homepage photo " + (index + 1));
+      button.addEventListener("click", function () {
+        showPhoto(index);
+        restartTimer();
+      });
+      pagination.appendChild(button);
+    });
+    updateDots();
+  }
+
+  function restartTimer() {
+    if (timer) window.clearInterval(timer);
+    if (photos.length < 2 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    timer = window.setInterval(function () {
+      showPhoto((currentIndex + 1) % photos.length);
+    }, 6000);
+  }
+
+  restartTimer();
 }

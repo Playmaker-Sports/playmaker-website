@@ -14,12 +14,14 @@
     {
       "href": "https://apps.apple.com/us/app/playmaker-sports-tournaments/id6747785891",
       "className": "store-badge-ios",
+      "badgeImage": "assets/store/app-store-badge.svg",
       "kicker": "Download on the",
       "label": "App Store"
     },
     {
       "href": "https://play.google.com/store/apps/details?id=com.playmakersportsapp",
       "className": "store-badge-android",
+      "badgeImage": "assets/store/google-play-badge.png",
       "kicker": "Get it on",
       "label": "Google Play"
     }

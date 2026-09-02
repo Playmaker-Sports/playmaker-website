@@ -191,17 +191,41 @@ function getParam(name) {
 // Served from playmaker-static (/banners/*) — do not hotlink external hosts.
 const EVENT_PHOTOS = {
   "playmakers-cup": [
-    "banners/playmakers-cup-1.png",
     "banners/playmakers-cup-2.png",
+    "banners/playmakers-cup-1.png",
   ],
   "winter-fest": [
     "banners/winter-fest-1.png",
   ],
   "summer-championship": [
-    "banners/summer-championship-1.png",
     "banners/summer-championship-2.jpg",
+    "banners/summer-championship-1.png",
   ],
 };
+
+const EVENT_LOGOS = {
+  "playmakers-cup": "event-logos/playmakers-cup.jpg",
+  "winter-fest": "event-logos/winter-fest.jpg",
+  "summer-championship": "event-logos/summer-championship.jpg",
+};
+
+const HOME_HERO_PHOTOS = [
+  "banners/playmakers-cup-2.png",
+  "assets/news/summer-championship-2025-recap.webp",
+  "assets/news/winter-fest-2026-recap.webp",
+];
+
+const HOME_HERO_POSITIONS = ["center 42%", "center 46%", "center 44%"];
+
+const HOME_EVENT_CARD_PHOTOS = {
+  "playmakers-cup": "assets/news/first-playmakers-cup-recap.webp",
+  "summer-championship": "assets/news/summer-championship-2025-recap.webp",
+  "winter-fest": "banners/winter-fest-1.png",
+};
+
+function eventLogoUrl(event) {
+  return EVENT_LOGOS[eventSlug(event.eventName)] || "";
+}
 
 // Full addresses for venues
 const VENUE_ADDRESSES = {
