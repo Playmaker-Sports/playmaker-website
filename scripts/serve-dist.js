@@ -18,7 +18,10 @@ const mimeTypes = {
 };
 
 function send(response, statusCode, body, contentType) {
-  response.writeHead(statusCode, { "Content-Type": contentType });
+  response.writeHead(statusCode, {
+    "Content-Type": contentType,
+    "Cache-Control": "no-store"
+  });
   response.end(body);
 }
 

@@ -210,12 +210,12 @@ const EVENT_LOGOS = {
 };
 
 const HOME_HERO_PHOTOS = [
-  "banners/playmakers-cup-2.png",
-  "assets/news/summer-championship-2025-recap.webp",
-  "assets/news/winter-fest-2026-recap.webp",
+  "assets/gallery/champions-surf-ventura.jpg",
+  "assets/gallery/champions-legends-fc.jpg",
+  "assets/gallery/champions-malibu-winter-fest.jpg",
 ];
 
-const HOME_HERO_POSITIONS = ["center 42%", "center 46%", "center 44%"];
+const HOME_HERO_POSITIONS = ["center 30%", "center 30%", "center 35%"];
 
 const HOME_EVENT_CARD_PHOTOS = {
   "playmakers-cup": "assets/news/first-playmakers-cup-recap.webp",
