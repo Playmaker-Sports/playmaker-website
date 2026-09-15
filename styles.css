@@ -601,10 +601,9 @@ body {
 
 .footer-socials {
   display: flex;
-  align-items: center;
+  flex-direction: column;
+  align-items: flex-end;
   gap: 10px;
-  flex-wrap: wrap;
-  justify-content: flex-end;
 }
 
 .footer-app-links {
@@ -612,6 +611,13 @@ body {
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+}
+
+.footer-social-links {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: nowrap;
 }
 
 .store-badge {
@@ -721,9 +727,13 @@ body {
   }
 
   .footer-links,
-  .footer-socials,
-  .footer-app-links {
+  .footer-app-links,
+  .footer-social-links {
     justify-content: center;
+  }
+
+  .footer-socials {
+    align-items: center;
   }
 }
 
@@ -2861,6 +2871,18 @@ body {
 
 .home-hero-media-stack .home-hero-media.is-active {
   opacity: 1;
+}
+
+.home-hero-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  width: clamp(360px, 54vw, 660px);
+  height: auto;
+  transform: translate(-50%, -50%);
+  filter: drop-shadow(0 6px 24px rgba(0, 0, 0, 0.45));
+  pointer-events: none;
 }
 
 .home-hero-pagination {

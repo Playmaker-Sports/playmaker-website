@@ -200,14 +200,6 @@ function renderContactCards() {
     .join("\n\n");
 }
 
-function renderContactSubjectOptions() {
-  return contact.subjectOptions
-    .map((option) => {
-      return `                <option value="${option.value}">${option.label}</option>`;
-    })
-    .join("\n");
-}
-
 function renderPartnerLogos() {
   return partners
     .map((partner) => {
@@ -267,7 +259,6 @@ for (const page of pages) {
     contact,
     eventPage: eventMarketing[page.id] || {},
     contact_info_cards: renderContactCards(),
-    contact_subject_options: renderContactSubjectOptions(),
     partner_logos: renderPartnerLogos()
   });
 

@@ -33,12 +33,5 @@
   "form": {
     "title": "Send a Message",
     "successMessage": "Message sent! We'll get back to you soon."
-  },
-  "subjectOptions": [
-    { "value": "registration", "label": "Team Registration" },
-    { "value": "sponsorship", "label": "Sponsorship Inquiry" },
-    { "value": "host", "label": "Host a Tournament" },
-    { "value": "general", "label": "General Question" },
-    { "value": "other", "label": "Other" }
-  ]
+  }
 }
