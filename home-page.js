@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", async function () {
+  renderLatestNews();
   try {
     var config = await fetchConfig();
     renderHomeHero(config);
@@ -8,6 +9,29 @@ document.addEventListener("DOMContentLoaded", async function () {
     console.error("Failed to load config:", error);
   }
 });
+
+function renderLatestNews() {
+  var card = document.getElementById("latest-news-card");
+  if (!card) return;
+
+  fetch("data/news.json")
+    .then(function (response) { return response.json(); })
+    .then(function (posts) {
+      var post = posts && posts[0];
+      if (!post) return;
+
+      card.href = "post-" + post.slug + ".html";
+      var image = document.getElementById("latest-news-image");
+      image.src = post.image;
+      image.alt = post.imageAlt || post.title;
+      document.getElementById("latest-news-date").textContent = post.date;
+      document.getElementById("latest-news-heading").textContent = post.title;
+      document.getElementById("latest-news-snippet").textContent = post.snippet;
+    })
+    .catch(function (error) {
+      console.error("Failed to load latest news:", error);
+    });
+}
 
 function renderHomeHero(config) {
   var firstId = config.eventOrder[0];
