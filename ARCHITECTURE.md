@@ -63,12 +63,13 @@ Route manifest for generated pages.
 
 Shared browser behavior is intentionally kept in reusable root scripts:
 
-- `site.js` for site-wide bootstrapping and shared helpers already used across pages
+- `playmaker-data.js` (copied into `dist/` from `playmaker-static/contract/` at build time, never edited here) normalizes event data and provides standings order, team match lookup, rules rendering and HTML escaping shared with the mobile app
+- `site.js` for site-wide bootstrapping: config/data fetching (remote first, bundled fallback) and event lookups by series `slug`
 - `event-page.js` for event landing-page behavior
 - `results-page.js` for standings, schedule, and prior results flow
 - `teams-page.js` and `clubs-page.js` for team and club views
 - `team-directory.js` for shared team/club helper rendering
-- `page-utils.js` for generic UI helpers
+- `page-utils.js` for generic UI helpers, including `esc()`/`safeUrl()`. Every value that did not come from this repo must go through them before `innerHTML`
 
 ## Event boundary
 

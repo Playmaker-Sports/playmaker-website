@@ -1,80 +1,67 @@
-// site.js — Shared config loader and utilities for Playmaker Sports website
+// site.js — Shared config loader and utilities for Playmaker Sports website.
+// Event data shape, standings, match lookup and rules rendering come from the
+// shared contract (playmaker-data.js, synced from playmaker-static/contract).
 
 const STATIC_BASE = "https://playmaker-static.onrender.com";
 const API_BASE = "https://playmakersportsapp-api.onrender.com";
+const FETCH_TIMEOUT_MS = 15000;
 
 let _configCache = null;
 
-async function fetchConfig() {
-  if (_configCache) return _configCache;
-  // Try remote first, fall back to local copy (needed when CORS blocks cross-origin fetch)
+async function fetchWithTimeout(url) {
+  const controller = new AbortController();
+  const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   try {
-    var res = await fetch(STATIC_BASE + "/event_config.json");
-    if (res.ok) {
-      _configCache = await res.json();
-      return _configCache;
-    }
+    return await fetch(url, { signal: controller.signal });
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+// Remote first; the local copy (synced into dist/ from ../playmaker-static at
+// build time) is used when the static site is unreachable or blocks CORS.
+async function fetchStaticJson(path) {
+  try {
+    const res = await fetchWithTimeout(STATIC_BASE + "/" + path);
+    if (res.ok) return await res.json();
   } catch (e) {}
-  // Local fallback — synced into dist/ from ../playmaker-static at build time
-  var res2 = await fetch("event_config.json");
-  if (!res2.ok) throw new Error("Failed to load event config from both remote and local: HTTP " + res2.status);
-  _configCache = await res2.json();
+  const local = await fetchWithTimeout(path);
+  if (!local.ok) throw new Error("Could not load " + path + " (HTTP " + local.status + ")");
+  return local.json();
+}
+
+async function fetchConfig() {
+  if (!_configCache) _configCache = await fetchStaticJson("event_config.json");
   return _configCache;
 }
 
 function staticUrl(path) {
-  return STATIC_BASE + path;
+  return PlaymakerData.resolveUrl(STATIC_BASE, path);
 }
 
-// Slug mapping: URL slug → event name prefix matching
-const SLUG_MAP = {
-  "playmakers-cup": "Playmakers Cup",
-  "winter-fest": "Winter Fest",
-  "summer-championship": "Summer Championship",
-};
-
-// Get the current (non-archived) event for a given slug
+// Current (first in eventOrder) event of a series slug, e.g. "winter-fest".
 function getEventBySlug(config, slug) {
-  const prefix = SLUG_MAP[slug];
-  if (!prefix) return null;
-
-  // First try events in eventOrder (these are the current/active ones)
-  for (const id of config.eventOrder) {
-    const ev = config.events[id];
-    if (ev && ev.eventName && ev.eventName.startsWith(prefix)) {
-      return { ...ev, eventId: id };
-    }
-  }
-
-  // Fallback: search all events
-  for (const [id, ev] of Object.entries(config.events)) {
-    if (ev.eventName && ev.eventName.startsWith(prefix)) {
-      return { ...ev, eventId: id };
-    }
-  }
-  return null;
+  return PlaymakerData.eventForSeries(config, slug);
 }
 
-// Find the next upcoming event (startDate in the future, not archived)
+// Ops selects the featured/current event explicitly; dates must not override it.
 function getUpcomingEvent(config) {
+  if (Object.prototype.hasOwnProperty.call(config, "defaultEventId")) {
+    const id = String(config.defaultEventId || "");
+    const event = config.events[id];
+    return !PlaymakerData.isPlaceholderEventId(id) && event && !event.archived ? PlaymakerData.withId(event, id) : null;
+  }
+  // Backward compatibility for legacy configs without a current-event pointer.
   const today = new Date().toISOString().slice(0, 10);
   let closest = null;
-  let closestDate = null;
-
   for (const id of config.eventOrder) {
     const ev = config.events[id];
-    if (!ev || ev.archived || !ev.startDate) continue;
-    if (ev.startDate >= today) {
-      if (!closestDate || ev.startDate < closestDate) {
-        closest = { ...ev, eventId: id };
-        closestDate = ev.startDate;
-      }
-    }
+    if (!ev || ev.archived || !ev.startDate || ev.startDate < today) continue;
+    if (!closest || ev.startDate < closest.startDate) closest = PlaymakerData.withId(ev, id);
   }
   return closest;
 }
 
-// Get the theme colors for an event
 function getTheme(config, themeName) {
   return config.themes[themeName] || config.themes.playmakers;
 }
@@ -87,108 +74,43 @@ function daysUntil(dateStr) {
   return Math.ceil((target - now) / (1000 * 60 * 60 * 24));
 }
 
-// Get slug from event name
-function eventSlug(eventName) {
-  if (eventName.startsWith("Playmakers Cup")) return "playmakers-cup";
-  if (eventName.startsWith("Winter Fest")) return "winter-fest";
-  if (eventName.startsWith("Summer Championship")) return "summer-championship";
-  return "";
+function eventSlug(event) {
+  return PlaymakerData.seriesSlug(event);
 }
 
-// Get the page URL for an event slug
 function eventPageUrl(slug) {
   return slug + ".html";
 }
 
-// Fetch event data (archived or live) — shared by all sub-pages
+// Fetch event data (archived or live), normalized to the shared contract.
 let _eventDataCache = {};
 
 async function fetchEventData(ev) {
-  const cacheKey = ev.eventId;
-  if (_eventDataCache[cacheKey]) return _eventDataCache[cacheKey];
+  const eventId = String(ev.resultsEventId || ev.eventId);
+  if (_eventDataCache[eventId]) return _eventDataCache[eventId];
 
-  let data;
+  let raw;
   if (ev.archived && ev.archivedDataFile) {
-    const remoteUrl = staticUrl("/archived/" + ev.archivedDataFile + ".json");
-    let res;
-    try { res = await fetch(remoteUrl); } catch (e) {}
-    if (!res || !res.ok) {
-      res = await fetch("archived/" + ev.archivedDataFile + ".json");
-    }
-    if (!res.ok) throw new Error("HTTP " + res.status + " fetching archived data");
-    data = await res.json();
+    raw = await fetchStaticJson("archived/" + ev.archivedDataFile + ".json");
+  } else if (PlaymakerData.isPlaceholderEventId(eventId)) {
+    // Ops placeholder: not on GotSport yet, so there is nothing to fetch.
+    raw = { teams: [], clubs: [], matches: [] };
   } else {
-    const eventId = ev.resultsEventId || ev.eventId;
-    const url = API_BASE + "/api/events/" + eventId + "/data";
-    const res = await fetch(url);
-    if (!res.ok) throw new Error("HTTP " + res.status + " fetching live data");
-    data = await res.json();
+    const res = await fetchWithTimeout(API_BASE + "/api/events/" + encodeURIComponent(eventId) + "/data");
+    if (!res.ok) throw new Error(res.status === 404 ? "Results are not available yet." : "HTTP " + res.status + " fetching live data");
+    raw = await res.json();
   }
 
-  _eventDataCache[cacheKey] = data;
+  const data = PlaymakerData.normalizeEventData(raw, eventId);
+  _eventDataCache[eventId] = data;
   return data;
 }
 
-// Extract all teams from event data (handles both formats)
-function extractTeams(data) {
-  var teams = [];
-  if (data.clubs && Array.isArray(data.clubs)) {
-    data.clubs.forEach(function (club) {
-      if (club.teams) {
-        club.teams.forEach(function (t) {
-          teams.push({
-            id: t.id, name: t.name, club: t.club || club.name,
-            logoUrl: t.logoUrl || club.logoUrl,
-            age: t.age, gender: t.gender, bracket: t.bracket, group: t.group,
-            mp: t.mp, w: t.w, l: t.l, d: t.d, gf: t.gf, ga: t.ga, gd: t.gd, pts: t.pts,
-          });
-        });
-      }
-    });
-  } else if (data.teams && Array.isArray(data.teams)) {
-    data.teams.forEach(function (t) {
-      teams.push({
-        id: t.id, name: t.name || t.team_name, club: t.club || "",
-        logoUrl: t.logoUrl || "",
-        age: t.age || "", gender: t.gender || "", bracket: t.bracket || "", group: t.group || "",
-        mp: t.mp, w: t.w, l: t.l, d: t.d, gf: t.gf, ga: t.ga, gd: t.gd, pts: t.pts,
-      });
-    });
-  }
-  return teams;
-}
-
-// Extract clubs from event data
-function extractClubs(data) {
-  if (data.clubs && Array.isArray(data.clubs)) return data.clubs;
-  // Build clubs from flat teams list
-  var clubMap = {};
-  var teams = extractTeams(data);
-  teams.forEach(function (t) {
-    var cname = t.club || "Unknown";
-    if (!clubMap[cname]) {
-      clubMap[cname] = { name: cname, logoUrl: t.logoUrl, teams: [], totalPoints: 0, totalMatches: 0 };
-    }
-    clubMap[cname].teams.push(t);
-    clubMap[cname].totalPoints += (t.pts || 0);
-    clubMap[cname].totalMatches += (t.mp || 0);
-  });
-  return Object.values(clubMap).map(function (c) {
-    c.ppg = c.totalMatches > 0 ? (c.totalPoints / c.totalMatches).toFixed(2) : "0";
-    c.winPercentage = c.totalMatches > 0
-      ? (c.teams.reduce(function (s, t) { return s + (t.w || 0); }, 0) / c.totalMatches * 100).toFixed(1)
-      : "0";
-    return c;
-  });
-}
-
-// Get URL query param
 function getParam(name) {
   return new URLSearchParams(window.location.search).get(name) || "";
 }
 
-// Event banner images (themed logos/banners for each event).
-// Served from playmaker-static (/banners/*) — do not hotlink external hosts.
+// Website presentation: which photos show on each page (event data lives in config).
 const EVENT_PHOTOS = {
   "playmakers-cup": [
     "banners/playmakers-cup-2.png",
@@ -201,12 +123,6 @@ const EVENT_PHOTOS = {
     "banners/summer-championship-2.jpg",
     "banners/summer-championship-1.png",
   ],
-};
-
-const EVENT_LOGOS = {
-  "playmakers-cup": "event-logos/playmakers-cup.jpg",
-  "winter-fest": "event-logos/winter-fest.jpg",
-  "summer-championship": "event-logos/summer-championship.jpg",
 };
 
 const HOME_HERO_PHOTOS = [
@@ -224,17 +140,23 @@ const HOME_EVENT_CARD_PHOTOS = {
 };
 
 function eventLogoUrl(event) {
-  return EVENT_LOGOS[eventSlug(event.eventName)] || "";
+  return event && event.logoPath ? staticUrl(event.logoPath) : "";
 }
 
-// Full addresses for venues
-const VENUE_ADDRESSES = {
-  "Arroyo Vista Park": "Arroyo Vista Park \u2013 4550 Tierra Rejada Rd, Moorpark, CA 93021",
-  "Central Park": "Central Park \u2013 27150 Bouquet Canyon Rd, Santa Clarita, CA 91350",
-};
+// Full venue address from config (`address`), falling back to locationText.
+function getFullAddress(event) {
+  return (event && (event.address || event.locationText)) || "";
+}
 
-function getFullAddress(locationText) {
-  if (!locationText) return "";
-  var parkName = locationText.split(",")[0].trim();
-  return VENUE_ADDRESSES[parkName] || locationText;
+function formatMatchWhen(match) {
+  return [match.date, match.startTime].filter(Boolean).join(" ") || match.time || "TBD";
+}
+
+function formatScore(match) {
+  if (match.homeScore === null || match.awayScore === null) return "";
+  let text = match.homeScore + " - " + match.awayScore;
+  if (match.hasPKs && match.homePK !== null && match.awayPK !== null) {
+    text += " (PKs " + match.homePK + "-" + match.awayPK + ")";
+  }
+  return text;
 }

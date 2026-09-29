@@ -1,14 +1,32 @@
 (function () {
+  // Escape every value that did not come from this repo before it goes into
+  // innerHTML. Team/club names and locations are typed into GotSport by third
+  // parties and flow through the API unchanged.
+  function esc(value) {
+    return String(value == null ? "" : value)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;")
+      .replace(/'/g, "&#39;");
+  }
+
+  // Only allow http(s) and relative URLs in src/href attributes.
+  function safeUrl(value) {
+    var url = String(value || "").trim();
+    return /^(https?:\/\/|[a-z0-9._\/-]+$)/i.test(url) && !/^javascript:/i.test(url) ? esc(url) : "";
+  }
+
   function renderStateMessage(message, tone) {
-    var color = tone === "error" ? ' style="color:var(--danger);"' : "";
-    return '<div class="data-empty"' + color + ">" + message + "</div>";
+    var className = tone === "error" ? "data-empty data-error" : "data-empty";
+    return '<div class="' + className + '"' + (tone === "error" ? ' style="color:var(--danger);"' : "") + ">" + esc(message) + "</div>";
   }
 
   function setBackLink(id, href, label) {
     var link = document.getElementById(id);
     if (!link) return;
     link.href = href;
-    if (label) link.innerHTML = label;
+    if (label) link.textContent = label;
     link.style.display = "";
   }
 
@@ -47,20 +65,6 @@
     });
   }
 
-  async function fetchStaticJsonWithFallback(remotePath, localPath) {
-    var response;
-    try {
-      response = await fetch(staticUrl(remotePath));
-      if (response.ok) return await response.json();
-    } catch (error) {}
-
-    var fallbackResponse = await fetch(localPath);
-    if (!fallbackResponse.ok) {
-      throw new Error("Could not load " + localPath + ": HTTP " + fallbackResponse.status);
-    }
-    return await fallbackResponse.json();
-  }
-
   async function loadEventBySlug(slug) {
     var config = await fetchConfig();
     var event = getEventBySlug(config, slug);
@@ -69,7 +73,8 @@
   }
 
   window.pageUtils = {
-    fetchStaticJsonWithFallback: fetchStaticJsonWithFallback,
+    esc: esc,
+    safeUrl: safeUrl,
     loadEventBySlug: loadEventBySlug,
     populateAgeFilter: populateAgeFilter,
     renderStateMessage: renderStateMessage,

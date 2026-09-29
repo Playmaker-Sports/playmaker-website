@@ -2,7 +2,7 @@
   "eventId": "50767",
   "eventName": "Winter Fest 2026",
   "lastUpdated": "2026-03-04T02:25:09.988329",
-  "dateText": "February 28 \u2013 March 1, 2026",
+  "dateText": "February 28 – March 1, 2026",
   "locationText": "Central Park, Santa Clarita, CA",
   "startDate": "2026-02-28",
   "endDate": "2026-03-01",
@@ -34,7 +34,9 @@
           "mp": 3,
           "name": "Antelope Valley Futbol Club B2014 Israel",
           "pts": 9,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 5
         },
         {
           "age": "U15",
@@ -52,7 +54,9 @@
           "mp": 3,
           "name": "Antelope Valley Futbol Club B2011 Vela",
           "pts": 10,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 4
         },
         {
           "age": "U18",
@@ -70,7 +74,9 @@
           "mp": 3,
           "name": "Antelope Valley Futbol Club B2008 Vela",
           "pts": 13,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+          "rank": 2
         }
       ],
       "totalMatches": 9,
@@ -100,7 +106,9 @@
           "mp": 3,
           "name": "Autobahn SC B13 Blue",
           "pts": 19,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+          "rank": 3
         }
       ],
       "totalMatches": 3,
@@ -130,7 +138,9 @@
           "mp": 3,
           "name": "California Athletic SC B2014 Blue",
           "pts": 5,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 6
         }
       ],
       "totalMatches": 3,
@@ -160,7 +170,9 @@
           "mp": 3,
           "name": "California Odyssey Soccer Club COSC ECNL RL G12",
           "pts": 8,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 8
         }
       ],
       "totalMatches": 3,
@@ -190,7 +202,9 @@
           "mp": 3,
           "name": "Central Cal Aztecs B17 Academy",
           "pts": 12,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+          "rank": 3
         }
       ],
       "totalMatches": 3,
@@ -220,7 +234,9 @@
           "mp": 3,
           "name": "City SC Central Valley B2016",
           "pts": 28,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+          "rank": 2
         },
         {
           "age": "U10",
@@ -238,7 +254,9 @@
           "mp": 3,
           "name": "City SC Central Valley AV B2016 Navy",
           "pts": 9,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+          "rank": 5
         }
       ],
       "totalMatches": 6,
@@ -268,7 +286,9 @@
           "mp": 3,
           "name": "Club Deportivo La Esperanza G12",
           "pts": 9,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 6
         }
       ],
       "totalMatches": 3,
@@ -298,7 +318,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU09 Select",
           "pts": 1,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+          "rank": 4
         },
         {
           "age": "U10",
@@ -316,7 +338,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU10 Select",
           "pts": 9,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+          "rank": 3
         },
         {
           "age": "U10",
@@ -334,7 +358,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU10 Premier",
           "pts": 3,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+          "rank": 6
         },
         {
           "age": "U11",
@@ -352,7 +378,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU11 Select",
           "pts": 5,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+          "rank": 4
         },
         {
           "age": "U12",
@@ -370,7 +398,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU12 Select",
           "pts": 13,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 3
         },
         {
           "age": "U12",
@@ -388,7 +418,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU12 Premier",
           "pts": 10,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 4
         },
         {
           "age": "U13",
@@ -406,7 +438,9 @@
           "mp": 3,
           "name": "Development Academy of CA BU13 Premier",
           "pts": 3,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+          "rank": 6
         }
       ],
       "totalMatches": 21,
@@ -436,7 +470,9 @@
           "mp": 3,
           "name": "Evolution Soccer Club Tejeda B2010",
           "pts": 27,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+          "rank": 1
         }
       ],
       "totalMatches": 3,
@@ -466,7 +502,9 @@
           "mp": 3,
           "name": "GB United B2016",
           "pts": 13,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+          "rank": 3
         }
       ],
       "totalMatches": 3,
@@ -496,7 +534,9 @@
           "mp": 3,
           "name": "Kickers FC (CA) B2009",
           "pts": 8,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+          "rank": 3
         }
       ],
       "totalMatches": 3,
@@ -526,7 +566,9 @@
           "mp": 3,
           "name": "LAFC So Cal G2012 ECRL",
           "pts": 28,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 5
         },
         {
           "age": "U14",
@@ -544,7 +586,9 @@
           "mp": 3,
           "name": "LAFC So Cal G2013 ECNL RL",
           "pts": 9,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 7
         }
       ],
       "totalMatches": 6,
@@ -574,7 +618,9 @@
           "mp": 3,
           "name": "Legends FC (CA) SGV B12 FC",
           "pts": 20,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 2
         },
         {
           "age": "U15",
@@ -592,7 +638,9 @@
           "mp": 3,
           "name": "Legends FC (CA) AV G11 FC",
           "pts": 18,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 8
         }
       ],
       "totalMatches": 6,
@@ -622,7 +670,9 @@
           "mp": 2,
           "name": "Legends FC Santa Clarita SFV B17 FC",
           "pts": 19,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+          "rank": 2
         },
         {
           "age": "U10",
@@ -640,7 +690,9 @@
           "mp": 3,
           "name": "Legends FC Santa Clarita SCV B17 GOLD",
           "pts": 29,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+          "rank": 1
         },
         {
           "age": "U15",
@@ -658,7 +710,9 @@
           "mp": 3,
           "name": "Legends FC Santa Clarita SCV G11 GOLD",
           "pts": 1,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 10
         },
         {
           "age": "U17",
@@ -676,7 +730,9 @@
           "mp": 3,
           "name": "Legends FC Santa Clarita SCV G09 BLACK",
           "pts": 4,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+          "rank": 4
         }
       ],
       "totalMatches": 11,
@@ -706,7 +762,9 @@
           "mp": 3,
           "name": "Lightning SC Red 2012",
           "pts": 10,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 3
         }
       ],
       "totalMatches": 3,
@@ -736,7 +794,9 @@
           "mp": 3,
           "name": "Moorpark SC G2015 Huisenga",
           "pts": 23,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 6
         },
         {
           "age": "U12",
@@ -754,7 +814,9 @@
           "mp": 3,
           "name": "Moorpark SC G2014 Chavez",
           "pts": 17,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 8
         }
       ],
       "totalMatches": 6,
@@ -784,7 +846,9 @@
           "mp": 3,
           "name": "Oaks FC B2011 EA1",
           "pts": 27,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U16",
@@ -802,7 +866,9 @@
           "mp": 3,
           "name": "Oaks FC B2011 MLS Next",
           "pts": 1,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+          "rank": 6
         },
         {
           "age": "U12",
@@ -820,7 +886,9 @@
           "mp": 3,
           "name": "Oaks FC G15 Pre-DPL",
           "pts": 4,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 9
         }
       ],
       "totalMatches": 9,
@@ -850,7 +918,9 @@
           "mp": 3,
           "name": "Oxnard United SC B2011",
           "pts": 21,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+          "rank": 2
         }
       ],
       "totalMatches": 3,
@@ -880,7 +950,9 @@
           "mp": 3,
           "name": "Oxnard Wave FC G16",
           "pts": 10,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 7
         },
         {
           "age": "U15",
@@ -898,7 +970,9 @@
           "mp": 3,
           "name": "Oxnard Wave FC G11",
           "pts": 9,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 9
         }
       ],
       "totalMatches": 6,
@@ -928,7 +1002,9 @@
           "mp": 2,
           "name": "Premier Touch Futbol Club LA B2017",
           "pts": 19,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U13",
@@ -946,7 +1022,9 @@
           "mp": 3,
           "name": "Premier Touch Futbol Club LA B2014",
           "pts": 14,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+          "rank": 4
         }
       ],
       "totalMatches": 5,
@@ -976,7 +1054,9 @@
           "mp": 3,
           "name": "Sherman Oaks Extreme SC B2016",
           "pts": 2,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+          "rank": 4
         },
         {
           "age": "U12",
@@ -994,7 +1074,9 @@
           "mp": 3,
           "name": "Sherman Oaks Extreme SC B2015",
           "pts": 23,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 2
         }
       ],
       "totalMatches": 6,
@@ -1024,7 +1106,9 @@
           "mp": 3,
           "name": "Simi Valley Soccer Club B2016/2017 White",
           "pts": 11,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+          "rank": 3
         },
         {
           "age": "U11",
@@ -1042,7 +1126,9 @@
           "mp": 3,
           "name": "Simi Valley Soccer Club B2015 White",
           "pts": 12,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 2
         },
         {
           "age": "U11",
@@ -1060,7 +1146,9 @@
           "mp": 3,
           "name": "Simi Valley Soccer Club B2015 Blue",
           "pts": 26,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+          "rank": 1
         }
       ],
       "totalMatches": 9,
@@ -1090,7 +1178,9 @@
           "mp": 3,
           "name": "Socal Pride Futbol Club B2011 Ruiz",
           "pts": 1,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 6
         }
       ],
       "totalMatches": 3,
@@ -1120,7 +1210,9 @@
           "mp": 3,
           "name": "Steel United California Bakersfield 2011B Elite",
           "pts": 10,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 5
         },
         {
           "age": "U11",
@@ -1138,7 +1230,9 @@
           "mp": 3,
           "name": "Steel United California Bakersfield 2015G Elite",
           "pts": 24,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 5
         }
       ],
       "totalMatches": 6,
@@ -1168,7 +1262,9 @@
           "mp": 3,
           "name": "TOTAL FUTBOL ACADEMY (CA) NE B2015 Red",
           "pts": 11,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 4
         },
         {
           "age": "U18",
@@ -1186,7 +1282,9 @@
           "mp": 3,
           "name": "TOTAL FUTBOL ACADEMY (CA) AV B2009 White",
           "pts": 8,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+          "rank": 4
         }
       ],
       "totalMatches": 6,
@@ -1216,7 +1314,9 @@
           "mp": 3,
           "name": "United SoCal Conejo Valley B2011",
           "pts": 22,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 2
         },
         {
           "age": "U15",
@@ -1234,7 +1334,9 @@
           "mp": 3,
           "name": "United SoCal AV B2011",
           "pts": 14,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 3
         },
         {
           "age": "U16",
@@ -1252,7 +1354,9 @@
           "mp": 3,
           "name": "United SoCal AV B2010",
           "pts": 13,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+          "rank": 3
         },
         {
           "age": "U15",
@@ -1270,7 +1374,9 @@
           "mp": 3,
           "name": "United SoCal Santa Clarita G2011 Blue",
           "pts": 26,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+          "rank": 7
         },
         {
           "age": "U17",
@@ -1288,7 +1394,9 @@
           "mp": 3,
           "name": "United SoCal Conejo Valley G2010 White",
           "pts": 30,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U17",
@@ -1306,7 +1414,9 @@
           "mp": 3,
           "name": "United SoCal Santa Clarita G2009",
           "pts": 18,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+          "rank": 2
         },
         {
           "age": "U17",
@@ -1324,7 +1434,9 @@
           "mp": 3,
           "name": "United SoCal Santa Clarita G2010 White",
           "pts": 4,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+          "rank": 3
         }
       ],
       "totalMatches": 21,
@@ -1354,7 +1466,9 @@
           "mp": 3,
           "name": "Valley United SC B2015 White",
           "pts": 19,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+          "rank": 2
         }
       ],
       "totalMatches": 3,
@@ -1384,7 +1498,9 @@
           "mp": 3,
           "name": "Views FC B2016",
           "pts": 29,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U11",
@@ -1402,7 +1518,9 @@
           "mp": 3,
           "name": "Views FC B2015",
           "pts": 11,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 3
         },
         {
           "age": "U13",
@@ -1420,7 +1538,9 @@
           "mp": 3,
           "name": "Views FC B2013",
           "pts": 5,
-          "w": 0
+          "w": 0,
+          "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+          "rank": 5
         }
       ],
       "totalMatches": 9,
@@ -1450,7 +1570,9 @@
           "mp": 3,
           "name": "ZeroGravity USA Academy 2014 Girls",
           "pts": 30,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 7
         }
       ],
       "totalMatches": 3,
@@ -1480,7 +1602,9 @@
           "mp": 3,
           "name": "Worldwide FC B2015A",
           "pts": 29,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U13",
@@ -1498,7 +1622,9 @@
           "mp": 3,
           "name": "Worldwide FC B2013",
           "pts": 27,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U14",
@@ -1516,7 +1642,9 @@
           "mp": 3,
           "name": "Worldwide FC B2012",
           "pts": 30,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+          "rank": 1
         },
         {
           "age": "U18",
@@ -1534,7 +1662,9 @@
           "mp": 3,
           "name": "Worldwide FC B2008",
           "pts": 22,
-          "w": 2
+          "w": 2,
+          "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+          "rank": 1
         }
       ],
       "totalMatches": 12,
@@ -1564,7 +1694,9 @@
           "mp": 3,
           "name": "Lightning SC CA Red B2014",
           "pts": 30,
-          "w": 3
+          "w": 3,
+          "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+          "rank": 1
         }
       ],
       "totalMatches": 3,
@@ -1594,7 +1726,9 @@
           "mp": 3,
           "name": "Santos Laguna North 2010",
           "pts": 10,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+          "rank": 4
         }
       ],
       "totalMatches": 3,
@@ -1624,7 +1758,9 @@
           "mp": 3,
           "name": "Lightning Soccer Club Red (2010)",
           "pts": 10,
-          "w": 1
+          "w": 1,
+          "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+          "rank": 5
         }
       ],
       "totalMatches": 3,
@@ -1648,7 +1784,16 @@
       "matchNum": "36",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U9",
@@ -1665,7 +1810,16 @@
       "matchNum": "37",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U9",
@@ -1682,7 +1836,16 @@
       "matchNum": "38",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U9",
@@ -1699,7 +1862,16 @@
       "matchNum": "39",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U9",
@@ -1716,7 +1888,16 @@
       "matchNum": "41",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U9",
@@ -1733,7 +1914,16 @@
       "matchNum": "40",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST No Contest",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "No Contest",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U9",
@@ -1750,7 +1940,16 @@
       "matchNum": "42",
       "stage": "Final",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1767,7 +1966,16 @@
       "matchNum": "44",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1784,7 +1992,16 @@
       "matchNum": "43",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1801,7 +2018,16 @@
       "matchNum": "46",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1818,7 +2044,16 @@
       "matchNum": "45",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1835,7 +2070,16 @@
       "matchNum": "47",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1852,7 +2096,16 @@
       "matchNum": "48",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1869,7 +2122,16 @@
       "matchNum": "49",
       "stage": "Final",
       "time": "Mar 01, 2026 12:30 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "12:30 PM",
+      "kickoff": "2026-03-01T12:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1886,7 +2148,16 @@
       "matchNum": "50",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1903,7 +2174,16 @@
       "matchNum": "52",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1920,7 +2200,16 @@
       "matchNum": "51",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1937,7 +2226,16 @@
       "matchNum": "55",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1954,7 +2252,16 @@
       "matchNum": "53",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1971,7 +2278,16 @@
       "matchNum": "54",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -1988,7 +2304,16 @@
       "matchNum": "56",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -2005,7 +2330,16 @@
       "matchNum": "57",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -2022,7 +2356,16 @@
       "matchNum": "58",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U10",
@@ -2039,7 +2382,16 @@
       "matchNum": "59",
       "stage": "Final",
       "time": "Mar 01, 2026 1:45 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "1:45 PM",
+      "kickoff": "2026-03-01T13:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2056,7 +2408,16 @@
       "matchNum": "61",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2073,7 +2434,16 @@
       "matchNum": "60",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2090,7 +2460,16 @@
       "matchNum": "63",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2107,7 +2486,16 @@
       "matchNum": "62",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2124,7 +2512,16 @@
       "matchNum": "65",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2141,7 +2538,16 @@
       "matchNum": "64",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2158,7 +2564,16 @@
       "matchNum": "66",
       "stage": "Final",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2175,7 +2590,16 @@
       "matchNum": "68",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2192,7 +2616,16 @@
       "matchNum": "67",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2209,7 +2642,16 @@
       "matchNum": "69",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2226,7 +2668,16 @@
       "matchNum": "70",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2243,7 +2694,16 @@
       "matchNum": "71",
       "stage": "",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2260,7 +2720,16 @@
       "matchNum": "72",
       "stage": "",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -2277,7 +2746,16 @@
       "matchNum": "73",
       "stage": "Final",
       "time": "Mar 01, 2026 3:00 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "3:00 PM",
+      "kickoff": "2026-03-01T15:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2294,7 +2772,16 @@
       "matchNum": "74",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2311,7 +2798,16 @@
       "matchNum": "76",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2328,7 +2824,16 @@
       "matchNum": "75",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2345,7 +2850,16 @@
       "matchNum": "78",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2362,7 +2876,16 @@
       "matchNum": "79",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2379,7 +2902,16 @@
       "matchNum": "77",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2396,7 +2928,16 @@
       "matchNum": "80",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2413,7 +2954,16 @@
       "matchNum": "81",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2430,7 +2980,16 @@
       "matchNum": "82",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -2447,7 +3006,16 @@
       "matchNum": "83",
       "stage": "Final",
       "time": "Mar 01, 2026 1:00 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-03-01T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2464,7 +3032,16 @@
       "matchNum": "84",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2481,7 +3058,16 @@
       "matchNum": "86",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2498,7 +3084,16 @@
       "matchNum": "85",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2515,7 +3110,16 @@
       "matchNum": "89",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2532,7 +3136,16 @@
       "matchNum": "87",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2549,7 +3162,16 @@
       "matchNum": "88",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2566,7 +3188,16 @@
       "matchNum": "90",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2583,7 +3214,16 @@
       "matchNum": "92",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2600,7 +3240,16 @@
       "matchNum": "91",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U13",
@@ -2617,7 +3266,16 @@
       "matchNum": "93",
       "stage": "Final",
       "time": "Mar 01, 2026 1:45 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "1:45 PM",
+      "kickoff": "2026-03-01T13:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2634,7 +3292,16 @@
       "matchNum": "95",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2652,7 +3319,16 @@
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
       "type": "Group",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2670,7 +3346,16 @@
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
       "type": "Group",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2687,7 +3372,16 @@
       "matchNum": "96",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2704,7 +3398,16 @@
       "matchNum": "99",
       "stage": "",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2722,7 +3425,16 @@
       "stage": "",
       "time": "Mar 01, 2026 11:45 AM PST",
       "type": "Group",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -2740,7 +3452,16 @@
       "stage": "Final",
       "time": "Mar 01, 2026 3:00 PM PST",
       "type": "Playoffs",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "3:00 PM",
+      "kickoff": "2026-03-01T15:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2757,7 +3478,16 @@
       "matchNum": "102",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2774,7 +3504,16 @@
       "matchNum": "101",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2791,7 +3530,16 @@
       "matchNum": "103",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2808,7 +3556,16 @@
       "matchNum": "105",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2825,7 +3582,16 @@
       "matchNum": "104",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2842,7 +3608,16 @@
       "matchNum": "106",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2859,7 +3634,16 @@
       "matchNum": "108",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2876,7 +3660,16 @@
       "matchNum": "107",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2893,7 +3686,16 @@
       "matchNum": "109",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -2910,7 +3712,16 @@
       "matchNum": "110",
       "stage": "Final",
       "time": "Mar 01, 2026 1:00 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-03-01T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -2928,7 +3739,16 @@
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
       "type": "Group",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -2945,7 +3765,16 @@
       "matchNum": "111",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -2962,7 +3791,16 @@
       "matchNum": "112",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -2979,7 +3817,16 @@
       "matchNum": "114",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -2997,7 +3844,16 @@
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
       "type": "Group",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -3014,7 +3870,16 @@
       "matchNum": "125",
       "stage": "",
       "time": "Feb 28, 2026 4:45 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "4:45 PM",
+      "kickoff": "2026-02-28T16:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -3031,7 +3896,16 @@
       "matchNum": "127",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -3049,7 +3923,16 @@
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
       "type": "Group",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -3066,7 +3949,16 @@
       "matchNum": "116",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U16",
@@ -3084,7 +3976,16 @@
       "stage": "Final",
       "time": "Mar 01, 2026 1:00 PM PST",
       "type": "Playoffs",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-03-01T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3101,7 +4002,16 @@
       "matchNum": "119",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3118,7 +4028,16 @@
       "matchNum": "118",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3135,7 +4054,16 @@
       "matchNum": "120",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3152,7 +4080,16 @@
       "matchNum": "121",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3169,7 +4106,16 @@
       "matchNum": "123",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3186,7 +4132,16 @@
       "matchNum": "122",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U18",
@@ -3203,7 +4158,16 @@
       "matchNum": "124",
       "stage": "Final",
       "time": "Mar 01, 2026 1:45 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "1:45 PM",
+      "kickoff": "2026-03-01T13:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3220,7 +4184,16 @@
       "matchNum": "9",
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3237,7 +4210,16 @@
       "matchNum": "8",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3254,7 +4236,16 @@
       "matchNum": "11",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3271,7 +4262,16 @@
       "matchNum": "10",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3288,7 +4288,16 @@
       "matchNum": "13",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3305,7 +4314,16 @@
       "matchNum": "12",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U11",
@@ -3322,7 +4340,16 @@
       "matchNum": "14",
       "stage": "Final",
       "time": "Mar 01, 2026 2:15 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-03-01T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3339,7 +4366,16 @@
       "matchNum": "15",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3356,7 +4392,16 @@
       "matchNum": "16",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3373,7 +4418,16 @@
       "matchNum": "18",
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3390,7 +4444,16 @@
       "matchNum": "17",
       "stage": "",
       "time": "Feb 28, 2026 4:45 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "4:45 PM",
+      "kickoff": "2026-02-28T16:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3407,7 +4470,16 @@
       "matchNum": "19",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3424,7 +4496,16 @@
       "matchNum": "20",
       "stage": "",
       "time": "Mar 01, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-03-01T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U12",
@@ -3441,7 +4522,16 @@
       "matchNum": "21",
       "stage": "Final",
       "time": "Mar 01, 2026 2:00 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "2:00 PM",
+      "kickoff": "2026-03-01T14:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3458,7 +4548,16 @@
       "matchNum": "22",
       "stage": "",
       "time": "Feb 28, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-02-28T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3475,7 +4574,16 @@
       "matchNum": "23",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3492,7 +4600,16 @@
       "matchNum": "24",
       "stage": "",
       "time": "Feb 28, 2026 4:45 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "4:45 PM",
+      "kickoff": "2026-02-28T16:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3509,7 +4626,16 @@
       "matchNum": "25",
       "stage": "",
       "time": "Feb 28, 2026 4:45 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "4:45 PM",
+      "kickoff": "2026-02-28T16:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3526,7 +4652,16 @@
       "matchNum": "27",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3543,7 +4678,16 @@
       "matchNum": "26",
       "stage": "",
       "time": "Mar 01, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-03-01T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U14",
@@ -3560,7 +4704,16 @@
       "matchNum": "28",
       "stage": "Final",
       "time": "Mar 01, 2026 2:30 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "2:30 PM",
+      "kickoff": "2026-03-01T14:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3578,7 +4731,16 @@
       "stage": "",
       "time": "Feb 28, 2026 8:00 AM PST",
       "type": "Group",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-02-28T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3595,7 +4757,16 @@
       "matchNum": "1",
       "stage": "",
       "time": "Feb 28, 2026 10:30 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "10:30 AM",
+      "kickoff": "2026-02-28T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3612,7 +4783,16 @@
       "matchNum": "3",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3630,7 +4810,16 @@
       "stage": "",
       "time": "Feb 28, 2026 3:30 PM PST",
       "type": "Group",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "3:30 PM",
+      "kickoff": "2026-02-28T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3647,7 +4836,16 @@
       "matchNum": "5",
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3665,7 +4863,16 @@
       "stage": "",
       "time": "Mar 01, 2026 8:00 AM PST",
       "type": "Group",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "8:00 AM",
+      "kickoff": "2026-03-01T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U15",
@@ -3683,7 +4890,16 @@
       "stage": "Final",
       "time": "Mar 01, 2026 11:45 AM PST",
       "type": "Playoffs",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3700,7 +4916,16 @@
       "matchNum": "29",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3717,7 +4942,16 @@
       "matchNum": "30",
       "stage": "",
       "time": "Feb 28, 2026 9:15 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "9:15 AM",
+      "kickoff": "2026-02-28T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3734,7 +4968,16 @@
       "matchNum": "31",
       "stage": "",
       "time": "Feb 28, 2026 1:00 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "1:00 PM",
+      "kickoff": "2026-02-28T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3751,7 +4994,16 @@
       "matchNum": "32",
       "stage": "",
       "time": "Feb 28, 2026 2:15 PM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Feb 28, 2026",
+      "startTime": "2:15 PM",
+      "kickoff": "2026-02-28T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3768,7 +5020,16 @@
       "matchNum": "33",
       "stage": "",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3785,7 +5046,16 @@
       "matchNum": "34",
       "stage": "",
       "time": "Mar 01, 2026 11:45 AM PST",
-      "type": "Group"
+      "type": "Group",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "11:45 AM",
+      "kickoff": "2026-03-01T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "age": "U17",
@@ -3802,1366 +5072,225 @@
       "matchNum": "35",
       "stage": "Final",
       "time": "Mar 01, 2026 3:00 PM PST",
-      "type": "Playoffs"
+      "type": "Playoffs",
+      "homePK": null,
+      "awayPK": null,
+      "date": "Mar 01, 2026",
+      "startTime": "3:00 PM",
+      "kickoff": "2026-03-01T15:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     }
   ],
   "standings": {
-    "U10_2016 Championship": [
-      {
-        "age": "U10",
-        "bracket": "2016 Championship",
-        "club": "Legends FC Santa Clarita",
-        "d": 0,
-        "ga": 1,
-        "gd": 12,
-        "gender": "Boys",
-        "gf": 13,
-        "group": "Bracket A",
-        "id": "3848458",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/977/full/10035176_d062efd178df4d9bad10bdf22c744479.jpg?1686271867",
-        "mp": 3,
-        "name": "Legends FC Santa Clarita SCV B17 GOLD",
-        "pts": 29,
-        "w": 3
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Championship",
-        "club": "City SC Central Valley",
-        "d": 0,
-        "ga": 2,
-        "gd": 9,
-        "gender": "Boys",
-        "gf": 11,
-        "group": "Bracket A",
-        "id": "3836731",
-        "l": 0,
-        "logoUrl": "https://playmaker-static.onrender.com/logos/winter-fest-2026-city-sc-central-valley.png",
-        "mp": 3,
-        "name": "City SC Central Valley B2016",
-        "pts": 28,
-        "w": 3
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Championship",
-        "club": "Simi Valley Soccer Club",
-        "d": 0,
-        "ga": 8,
-        "gd": 1,
-        "gender": "Boys",
-        "gf": 9,
-        "group": "Bracket A",
-        "id": "3744801",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "name": "Simi Valley Soccer Club B2016/2017 White",
-        "pts": 11,
-        "w": 1
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Championship",
-        "club": "",
-        "d": 0,
-        "ga": 10,
-        "gd": 0,
-        "gender": "Boys",
-        "gf": 10,
-        "group": "Bracket A",
-        "id": "3793694",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/640/389/full/IMG_7202.jpeg?1751911828",
-        "mp": 3,
-        "name": "Maccabee FA 2016 White",
-        "pts": 11,
-        "w": 1
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Championship",
-        "club": "City SC Central Valley",
-        "d": 0,
-        "ga": 9,
-        "gd": -6,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3846827",
-        "l": 2,
-        "logoUrl": "https://playmaker-static.onrender.com/logos/winter-fest-2026-city-sc-central-valley.png",
-        "mp": 3,
-        "name": "City SC Central Valley AV B2016 Navy",
-        "pts": 9,
-        "w": 1
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Championship",
-        "club": "Development Academy of CA",
-        "d": 0,
-        "ga": 19,
-        "gd": -16,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3848191",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU10 Premier",
-        "pts": 3,
-        "w": 0
-      }
-    ],
-    "U10_2016 Premier": [
-      {
-        "age": "U10",
-        "bracket": "2016 Premier",
-        "club": "Views FC",
-        "d": 0,
-        "ga": 0,
-        "gd": 9,
-        "gender": "Boys",
-        "gf": 9,
-        "group": "Bracket A",
-        "id": "3856738",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/302/full/vfclogo.png?1740037540",
-        "mp": 3,
-        "name": "Views FC B2016",
-        "pts": 29,
-        "w": 3
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Premier",
-        "club": "",
-        "d": 0,
-        "ga": 2,
-        "gd": 1,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3732271",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/604/786/full/IMG_7202.jpeg?1747198461",
-        "mp": 3,
-        "name": "Maccabee FA 2016 Blue",
-        "pts": 17,
-        "w": 2
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Premier",
-        "club": "Development Academy of CA",
-        "d": 0,
-        "ga": 8,
-        "gd": -5,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3726722",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU10 Select",
-        "pts": 9,
-        "w": 1
-      },
-      {
-        "age": "U10",
-        "bracket": "2016 Premier",
-        "club": "Sherman Oaks Extreme SC",
-        "d": 0,
-        "ga": 7,
-        "gd": -5,
-        "gender": "Boys",
-        "gf": 2,
-        "group": "Bracket A",
-        "id": "3847960",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/894/full/LOGO.png?1684193677",
-        "mp": 3,
-        "name": "Sherman Oaks Extreme SC B2016",
-        "pts": 2,
-        "w": 0
-      }
-    ],
-    "U11_2015 Championship": [
-      {
-        "age": "U11",
-        "bracket": "2015 Championship",
-        "club": "Simi Valley Soccer Club",
-        "d": 0,
-        "ga": 3,
-        "gd": 7,
-        "gender": "Boys",
-        "gf": 10,
-        "group": "Bracket A",
-        "id": "3835293",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "name": "Simi Valley Soccer Club B2015 Blue",
-        "pts": 26,
-        "w": 3
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Championship",
-        "club": "Valley United SC",
-        "d": 0,
-        "ga": 7,
-        "gd": 3,
-        "gender": "Boys",
-        "gf": 10,
-        "group": "Bracket A",
-        "id": "3795471",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/784/full/Valley_UNited_LOGO_.PNG?1626976468",
-        "mp": 3,
-        "name": "Valley United SC B2015 White",
-        "pts": 19,
-        "w": 2
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Championship",
-        "club": "GB United",
-        "d": 0,
-        "ga": 12,
-        "gd": -3,
-        "gender": "Boys",
-        "gf": 9,
-        "group": "Bracket A",
-        "id": "3883272",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/030/293/full/GB_UNITED_transparent_bg.png?1710449320",
-        "mp": 3,
-        "name": "GB United B2016",
-        "pts": 13,
-        "w": 1
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Championship",
-        "club": "Development Academy of CA",
-        "d": 0,
-        "ga": 12,
-        "gd": -7,
-        "gender": "Boys",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3848200",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU11 Select",
-        "pts": 5,
-        "w": 0
-      }
-    ],
-    "U11_2015 Premier": [
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "Worldwide FC",
-        "d": 0,
-        "ga": 1,
-        "gd": 11,
-        "gender": "Boys",
-        "gf": 12,
-        "group": "Bracket A",
-        "id": "3829428",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/273/554/full/WWSA_Logo.png?1761932674",
-        "mp": 3,
-        "name": "Worldwide FC B2015A",
-        "pts": 29,
-        "w": 3
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "Simi Valley Soccer Club",
-        "d": 0,
-        "ga": 11,
-        "gd": -2,
-        "gender": "Boys",
-        "gf": 9,
-        "group": "Bracket A",
-        "id": "3835221",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "name": "Simi Valley Soccer Club B2015 White",
-        "pts": 12,
-        "w": 1
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "Views FC",
-        "d": 0,
-        "ga": 13,
-        "gd": -8,
-        "gender": "Boys",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3860942",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/302/full/vfclogo.png?1740037540",
-        "mp": 3,
-        "name": "Views FC B2015",
-        "pts": 11,
-        "w": 1
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "TOTAL FUTBOL ACADEMY (CA)",
-        "d": 0,
-        "ga": 8,
-        "gd": -1,
-        "gender": "Boys",
-        "gf": 7,
-        "group": "Bracket A",
-        "id": "3867818",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/613/full/TFA-15.jpg?1626281272",
-        "mp": 3,
-        "name": "TOTAL FUTBOL ACADEMY (CA) NE B2015 Red",
-        "pts": 11,
-        "w": 1
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "Steel United California",
-        "d": 1,
-        "ga": 1,
-        "gd": 8,
-        "gender": "Girls",
-        "gf": 9,
-        "group": "Bracket A",
-        "id": "3835100",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "name": "Steel United California Bakersfield 2015G Elite",
-        "pts": 24,
-        "w": 2
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "Moorpark SC",
-        "d": 1,
-        "ga": 2,
-        "gd": 16,
-        "gender": "Girls",
-        "gf": 18,
-        "group": "Bracket A",
-        "id": "3869230",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "name": "Moorpark SC G2015 Huisenga",
-        "pts": 23,
-        "w": 2
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "Oxnard Wave FC",
-        "d": 0,
-        "ga": 11,
-        "gd": -4,
-        "gender": "Girls",
-        "gf": 7,
-        "group": "Bracket A",
-        "id": "3866049",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/430/full/Oxnard2_%281%29.png?1652812097",
-        "mp": 3,
-        "name": "Oxnard Wave FC G16",
-        "pts": 10,
-        "w": 1
-      },
-      {
-        "age": "U11",
-        "bracket": "2015 Premier",
-        "club": "",
-        "d": 0,
-        "ga": 21,
-        "gd": -20,
-        "gender": "Girls",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3726707",
-        "l": 3,
-        "logoUrl": "",
-        "mp": 3,
-        "name": "SVYSL U10G Haugen",
-        "pts": 1,
-        "w": 0
-      }
-    ],
-    "U12_2014 Premier": [
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Lightning SC CA",
-        "d": 0,
-        "ga": 0,
-        "gd": 11,
-        "gender": "Boys",
-        "gf": 11,
-        "group": "Bracket A",
-        "id": "3766401",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/615/352/full/Screenshot_20250227_210621_Google.jpg?1747374927",
-        "mp": 3,
-        "name": "Lightning SC CA Red B2014",
-        "pts": 30,
-        "w": 3
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Sherman Oaks Extreme SC",
-        "d": 1,
-        "ga": 2,
-        "gd": 5,
-        "gender": "Boys",
-        "gf": 7,
-        "group": "Bracket A",
-        "id": "3888989",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/894/full/LOGO.png?1684193677",
-        "mp": 3,
-        "name": "Sherman Oaks Extreme SC B2015",
-        "pts": 23,
-        "w": 2
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Development Academy of CA",
-        "d": 1,
-        "ga": 5,
-        "gd": 1,
-        "gender": "Boys",
-        "gf": 6,
-        "group": "Bracket A",
-        "id": "3726630",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU12 Select",
-        "pts": 13,
-        "w": 1
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Development Academy of CA",
-        "d": 0,
-        "ga": 10,
-        "gd": -4,
-        "gender": "Boys",
-        "gf": 6,
-        "group": "Bracket A",
-        "id": "3848207",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU12 Premier",
-        "pts": 10,
-        "w": 1
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Antelope Valley Futbol Club",
-        "d": 0,
-        "ga": 8,
-        "gd": -4,
-        "gender": "Boys",
-        "gf": 4,
-        "group": "Bracket A",
-        "id": "3810064",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/244/full/FFF9F640-F302-4FEB-86FF-64A777E1978D.jpeg?1649899021",
-        "mp": 3,
-        "name": "Antelope Valley Futbol Club B2014 Israel",
-        "pts": 9,
-        "w": 1
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "California Athletic SC",
-        "d": 0,
-        "ga": 14,
-        "gd": -9,
-        "gender": "Boys",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3873731",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/008/337/full/CASC_Crest.png?1706331351",
-        "mp": 3,
-        "name": "California Athletic SC B2014 Blue",
-        "pts": 5,
-        "w": 0
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "ZeroGravity USA Academy",
-        "d": 0,
-        "ga": 0,
-        "gd": 18,
-        "gender": "Girls",
-        "gf": 18,
-        "group": "Bracket A",
-        "id": "3877421",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/655/full/Unknown.png?1769021378",
-        "mp": 3,
-        "name": "ZeroGravity USA Academy 2014 Girls",
-        "pts": 30,
-        "w": 3
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Moorpark SC",
-        "d": 0,
-        "ga": 6,
-        "gd": -3,
-        "gender": "Girls",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3890182",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "name": "Moorpark SC G2014 Chavez",
-        "pts": 17,
-        "w": 2
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "Oaks FC",
-        "d": 1,
-        "ga": 4,
-        "gd": -4,
-        "gender": "Girls",
-        "gf": 0,
-        "group": "Bracket A",
-        "id": "3870574",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "name": "Oaks FC G15 Pre-DPL",
-        "pts": 4,
-        "w": 0
-      },
-      {
-        "age": "U12",
-        "bracket": "2014 Premier",
-        "club": "",
-        "d": 1,
-        "ga": 11,
-        "gd": -11,
-        "gender": "Girls",
-        "gf": 0,
-        "group": "Bracket A",
-        "id": "3818239",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/705/462/full/Cal_United_Logo.jpg?1769636998",
-        "mp": 3,
-        "name": "California United 2014G",
-        "pts": 4,
-        "w": 0
-      }
-    ],
-    "U13_2013 Premier": [
-      {
-        "age": "U13",
-        "bracket": "2013 Premier",
-        "club": "Worldwide FC",
-        "d": 0,
-        "ga": 2,
-        "gd": 8,
-        "gender": "Boys",
-        "gf": 10,
-        "group": "Bracket A",
-        "id": "3853720",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/273/407/full/WW_Logo.jpg?1658473985",
-        "mp": 3,
-        "name": "Worldwide FC B2013",
-        "pts": 27,
-        "w": 3
-      },
-      {
-        "age": "U13",
-        "bracket": "2013 Premier",
-        "club": "",
-        "d": 0,
-        "ga": 4,
-        "gd": 4,
-        "gender": "Boys",
-        "gf": 8,
-        "group": "Bracket A",
-        "id": "3889217",
-        "l": 1,
-        "logoUrl": "",
-        "mp": 3,
-        "name": "LA SURF B2014",
-        "pts": 19,
-        "w": 2
-      },
-      {
-        "age": "U13",
-        "bracket": "2013 Premier",
-        "club": "Autobahn SC",
-        "d": 0,
-        "ga": 3,
-        "gd": 3,
-        "gender": "Boys",
-        "gf": 6,
-        "group": "Bracket A",
-        "id": "3874636",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/928/full/Autobahn_Logo_300_x_300.JPG?1701904733",
-        "mp": 3,
-        "name": "Autobahn SC B13 Blue",
-        "pts": 19,
-        "w": 2
-      },
-      {
-        "age": "U13",
-        "bracket": "2013 Premier",
-        "club": "Premier Touch Futbol Club",
-        "d": 1,
-        "ga": 8,
-        "gd": -2,
-        "gender": "Boys",
-        "gf": 6,
-        "group": "Bracket A",
-        "id": "3827404",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/030/439/full/IMG_2306.jpeg?1702106324",
-        "mp": 3,
-        "name": "Premier Touch Futbol Club LA B2014",
-        "pts": 14,
-        "w": 1
-      },
-      {
-        "age": "U13",
-        "bracket": "2013 Premier",
-        "club": "Views FC",
-        "d": 1,
-        "ga": 6,
-        "gd": -4,
-        "gender": "Boys",
-        "gf": 2,
-        "group": "Bracket A",
-        "id": "3860961",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/302/full/vfclogo.png?1740037540",
-        "mp": 3,
-        "name": "Views FC B2013",
-        "pts": 5,
-        "w": 0
-      },
-      {
-        "age": "U13",
-        "bracket": "2013 Premier",
-        "club": "Development Academy of CA",
-        "d": 0,
-        "ga": 12,
-        "gd": -9,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3848224",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU13 Premier",
-        "pts": 3,
-        "w": 0
-      }
-    ],
-    "U14_2012 Premier": [
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "Worldwide FC",
-        "d": 0,
-        "ga": 0,
-        "gd": 13,
-        "gender": "Boys",
-        "gf": 13,
-        "group": "Bracket A",
-        "id": "3877150",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/273/551/full/WWSA_Logo.png?1712945726",
-        "mp": 3,
-        "name": "Worldwide FC B2012",
-        "pts": 30,
-        "w": 3
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "Legends FC (CA)",
-        "d": 0,
-        "ga": 4,
-        "gd": 7,
-        "gender": "Boys",
-        "gf": 11,
-        "group": "Bracket A",
-        "id": "3803119",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/030/full/lfc_crest_fullcolor_stars.png?1628123567",
-        "mp": 3,
-        "name": "Legends FC (CA) SGV B12 FC",
-        "pts": 20,
-        "w": 2
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "Lightning SC",
-        "d": 0,
-        "ga": 10,
-        "gd": -7,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3889911",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/006/237/full/lsc.png?1762883018",
-        "mp": 3,
-        "name": "Lightning SC Red 2012",
-        "pts": 10,
-        "w": 1
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "",
-        "d": 0,
-        "ga": 13,
-        "gd": -13,
-        "gender": "Boys",
-        "gf": 0,
-        "group": "Bracket A",
-        "id": "3808406",
-        "l": 3,
-        "logoUrl": "",
-        "mp": 3,
-        "name": "Ventura County Fusion B13 MLS Next",
-        "pts": 0,
-        "w": 0
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "LAFC So Cal",
-        "d": 0,
-        "ga": 0,
-        "gd": 8,
-        "gender": "Girls",
-        "gf": 8,
-        "group": "Bracket A",
-        "id": "3888921",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/257/full/LAFC_So_Cal_Youth_Full_Color-01.png?1625763655",
-        "mp": 3,
-        "name": "LAFC So Cal G2012 ECRL",
-        "pts": 28,
-        "w": 3
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "Club Deportivo La Esperanza",
-        "d": 0,
-        "ga": 6,
-        "gd": -3,
-        "gender": "Girls",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3772985",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/026/full/Unknown.png?1652199817",
-        "mp": 3,
-        "name": "Club Deportivo La Esperanza G12",
-        "pts": 9,
-        "w": 1
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "LAFC So Cal",
-        "d": 0,
-        "ga": 6,
-        "gd": -4,
-        "gender": "Girls",
-        "gf": 2,
-        "group": "Bracket A",
-        "id": "3841868",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/257/full/LAFC_So_Cal_Youth_Full_Color-01.png?1625763655",
-        "mp": 3,
-        "name": "LAFC So Cal G2013 ECNL RL",
-        "pts": 9,
-        "w": 1
-      },
-      {
-        "age": "U14",
-        "bracket": "2012 Premier",
-        "club": "California Odyssey Soccer Club",
-        "d": 0,
-        "ga": 2,
-        "gd": -1,
-        "gender": "Girls",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3821451",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/012/988/full/Odyssey_Logo_25-26.png?1747320954",
-        "mp": 3,
-        "name": "California Odyssey Soccer Club COSC ECNL RL G12",
-        "pts": 8,
-        "w": 1
-      }
-    ],
-    "U15_2011 Premier": [
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Oaks FC",
-        "d": 0,
-        "ga": 2,
-        "gd": 9,
-        "gender": "Boys",
-        "gf": 11,
-        "group": "Bracket A",
-        "id": "3838378",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "name": "Oaks FC B2011 EA1",
-        "pts": 27,
-        "w": 3
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "United SoCal",
-        "d": 1,
-        "ga": 0,
-        "gd": 4,
-        "gender": "Boys",
-        "gf": 4,
-        "group": "Bracket A",
-        "id": "3849838",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal Conejo Valley B2011",
-        "pts": 22,
-        "w": 2
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "United SoCal",
-        "d": 1,
-        "ga": 6,
-        "gd": -1,
-        "gender": "Boys",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3884431",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal AV B2011",
-        "pts": 14,
-        "w": 1
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Antelope Valley Futbol Club",
-        "d": 2,
-        "ga": 4,
-        "gd": -1,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3739600",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/244/full/FFF9F640-F302-4FEB-86FF-64A777E1978D.jpeg?1649899021",
-        "mp": 3,
-        "name": "Antelope Valley Futbol Club B2011 Vela",
-        "pts": 10,
-        "w": 0
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Steel United California",
-        "d": 0,
-        "ga": 8,
-        "gd": -4,
-        "gender": "Boys",
-        "gf": 4,
-        "group": "Bracket A",
-        "id": "3796612",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "name": "Steel United California Bakersfield 2011B Elite",
-        "pts": 10,
-        "w": 1
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Socal Pride Futbol Club",
-        "d": 0,
-        "ga": 8,
-        "gd": -7,
-        "gender": "Boys",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3731476",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/023/882/full/Tue_31_03_2020_18_25_07-1.png?1645859404",
-        "mp": 3,
-        "name": "Socal Pride Futbol Club B2011 Ruiz",
-        "pts": 1,
-        "w": 0
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "United SoCal",
-        "d": 0,
-        "ga": 1,
-        "gd": 6,
-        "gender": "Girls",
-        "gf": 7,
-        "group": "Bracket A",
-        "id": "3810457",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal Santa Clarita G2011 Blue",
-        "pts": 26,
-        "w": 3
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Legends FC (CA)",
-        "d": 0,
-        "ga": 3,
-        "gd": 2,
-        "gender": "Girls",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3855471",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/030/full/lfc_crest_fullcolor_stars.png?1628123567",
-        "mp": 3,
-        "name": "Legends FC (CA) AV G11 FC",
-        "pts": 18,
-        "w": 2
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Oxnard Wave FC",
-        "d": 0,
-        "ga": 4,
-        "gd": -1,
-        "gender": "Girls",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3892012",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/430/full/Oxnard2_%281%29.png?1652812097",
-        "mp": 3,
-        "name": "Oxnard Wave FC G11",
-        "pts": 9,
-        "w": 1
-      },
-      {
-        "age": "U15",
-        "bracket": "2011 Premier",
-        "club": "Legends FC Santa Clarita",
-        "d": 0,
-        "ga": 8,
-        "gd": -7,
-        "gender": "Girls",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3822785",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/977/full/10035176_d062efd178df4d9bad10bdf22c744479.jpg?1686271867",
-        "mp": 3,
-        "name": "Legends FC Santa Clarita SCV G11 GOLD",
-        "pts": 1,
-        "w": 0
-      }
-    ],
-    "U16_2010 Premier": [
-      {
-        "age": "U16",
-        "bracket": "2010 Premier",
-        "club": "Evolution Soccer Club",
-        "d": 0,
-        "ga": 2,
-        "gd": 10,
-        "gender": "Boys",
-        "gf": 12,
-        "group": "Bracket A",
-        "id": "3773111",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/271/full/Unknown.png?1698158951",
-        "mp": 3,
-        "name": "Evolution Soccer Club Tejeda B2010",
-        "pts": 27,
-        "w": 3
-      },
-      {
-        "age": "U16",
-        "bracket": "2010 Premier",
-        "club": "Oxnard United SC",
-        "d": 1,
-        "ga": 0,
-        "gd": 3,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3844432",
-        "l": 0,
-        "logoUrl": "https://playmaker-static.onrender.com/logos/winter-fest-2026-oxnard-united-sc.png",
-        "mp": 3,
-        "name": "Oxnard United SC B2011",
-        "pts": 21,
-        "w": 2
-      },
-      {
-        "age": "U16",
-        "bracket": "2010 Premier",
-        "club": "United SoCal",
-        "d": 1,
-        "ga": 4,
-        "gd": -2,
-        "gender": "Boys",
-        "gf": 2,
-        "group": "Bracket A",
-        "id": "3701661",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal AV B2010",
-        "pts": 13,
-        "w": 1
-      },
-      {
-        "age": "U16",
-        "bracket": "2010 Premier",
-        "club": "Santos Laguna",
-        "d": 0,
-        "ga": 9,
-        "gd": -3,
-        "gender": "Boys",
-        "gf": 6,
-        "group": "Bracket A",
-        "id": "3884451",
-        "l": 2,
-        "logoUrl": "",
-        "mp": 3,
-        "name": "Santos Laguna North 2010",
-        "pts": 10,
-        "w": 1
-      },
-      {
-        "age": "U16",
-        "bracket": "2010 Premier",
-        "club": "Lightning Soccer Club",
-        "d": 0,
-        "ga": 7,
-        "gd": -2,
-        "gender": "Boys",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3887827",
-        "l": 2,
-        "logoUrl": "",
-        "mp": 3,
-        "name": "Lightning Soccer Club Red (2010)",
-        "pts": 10,
-        "w": 1
-      },
-      {
-        "age": "U16",
-        "bracket": "2010 Premier",
-        "club": "Oaks FC",
-        "d": 0,
-        "ga": 7,
-        "gd": -6,
-        "gender": "Boys",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3883895",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "name": "Oaks FC B2011 MLS Next",
-        "pts": 1,
-        "w": 0
-      }
-    ],
-    "U17_2009 Premier": [
-      {
-        "age": "U17",
-        "bracket": "2009 Premier",
-        "club": "United SoCal",
-        "d": 0,
-        "ga": 0,
-        "gd": 9,
-        "gender": "Girls",
-        "gf": 9,
-        "group": "Bracket A",
-        "id": "3853598",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal Conejo Valley G2010 White",
-        "pts": 30,
-        "w": 3
-      },
-      {
-        "age": "U17",
-        "bracket": "2009 Premier",
-        "club": "United SoCal",
-        "d": 0,
-        "ga": 3,
-        "gd": 1,
-        "gender": "Girls",
-        "gf": 4,
-        "group": "Bracket A",
-        "id": "3862288",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal Santa Clarita G2009",
-        "pts": 18,
-        "w": 2
-      },
-      {
-        "age": "U17",
-        "bracket": "2009 Premier",
-        "club": "United SoCal",
-        "d": 1,
-        "ga": 5,
-        "gd": -5,
-        "gender": "Girls",
-        "gf": 0,
-        "group": "Bracket A",
-        "id": "3806897",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "name": "United SoCal Santa Clarita G2010 White",
-        "pts": 4,
-        "w": 0
-      },
-      {
-        "age": "U17",
-        "bracket": "2009 Premier",
-        "club": "Legends FC Santa Clarita",
-        "d": 1,
-        "ga": 5,
-        "gd": -5,
-        "gender": "Girls",
-        "gf": 0,
-        "group": "Bracket A",
-        "id": "3883977",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/977/full/10035176_d062efd178df4d9bad10bdf22c744479.jpg?1686271867",
-        "mp": 3,
-        "name": "Legends FC Santa Clarita SCV G09 BLACK",
-        "pts": 4,
-        "w": 0
-      }
-    ],
-    "U18_2008/2009 Premier": [
-      {
-        "age": "U18",
-        "bracket": "2008/2009 Premier",
-        "club": "Worldwide FC",
-        "d": 1,
-        "ga": 1,
-        "gd": 4,
-        "gender": "Boys",
-        "gf": 5,
-        "group": "Bracket A",
-        "id": "3882490",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/596/915/full/WW_Logo.jpg?1750097899",
-        "mp": 3,
-        "name": "Worldwide FC B2008",
-        "pts": 22,
-        "w": 2
-      },
-      {
-        "age": "U18",
-        "bracket": "2008/2009 Premier",
-        "club": "Antelope Valley Futbol Club",
-        "d": 1,
-        "ga": 3,
-        "gd": 0,
-        "gender": "Boys",
-        "gf": 3,
-        "group": "Bracket A",
-        "id": "3739591",
-        "l": 1,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/244/full/FFF9F640-F302-4FEB-86FF-64A777E1978D.jpeg?1649899021",
-        "mp": 3,
-        "name": "Antelope Valley Futbol Club B2008 Vela",
-        "pts": 13,
-        "w": 1
-      },
-      {
-        "age": "U18",
-        "bracket": "2008/2009 Premier",
-        "club": "Kickers FC (CA)",
-        "d": 0,
-        "ga": 3,
-        "gd": -2,
-        "gender": "Boys",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3862379",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/033/627/full/WhatsApp_Image_2025-06-26_at_22.52.28.jpeg?1752256902",
-        "mp": 3,
-        "name": "Kickers FC (CA) B2009",
-        "pts": 8,
-        "w": 1
-      },
-      {
-        "age": "U18",
-        "bracket": "2008/2009 Premier",
-        "club": "TOTAL FUTBOL ACADEMY (CA)",
-        "d": 0,
-        "ga": 4,
-        "gd": -2,
-        "gender": "Boys",
-        "gf": 2,
-        "group": "Bracket A",
-        "id": "3808462",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/613/full/TFA-15.jpg?1626281272",
-        "mp": 3,
-        "name": "TOTAL FUTBOL ACADEMY (CA) AV B2009 White",
-        "pts": 8,
-        "w": 1
-      }
-    ],
-    "U9_2017 Premier": [
-      {
-        "age": "U9",
-        "bracket": "2017 Premier",
-        "club": "Premier Touch Futbol Club",
-        "d": 0,
-        "ga": 2,
-        "gd": 15,
-        "gender": "Boys",
-        "gf": 17,
-        "group": "Bracket A",
-        "id": "3827402",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/030/439/full/IMG_2306.jpeg?1702106324",
-        "mp": 2,
-        "name": "Premier Touch Futbol Club LA B2017",
-        "pts": 19,
-        "w": 2
-      },
-      {
-        "age": "U9",
-        "bracket": "2017 Premier",
-        "club": "Legends FC Santa Clarita",
-        "d": 0,
-        "ga": 1,
-        "gd": 10,
-        "gender": "Boys",
-        "gf": 11,
-        "group": "Bracket A",
-        "id": "3884402",
-        "l": 0,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/977/full/10035176_d062efd178df4d9bad10bdf22c744479.jpg?1686271867",
-        "mp": 2,
-        "name": "Legends FC Santa Clarita SFV B17 FC",
-        "pts": 19,
-        "w": 2
-      },
-      {
-        "age": "U9",
-        "bracket": "2017 Premier",
-        "club": "Central Cal Aztecs",
-        "d": 0,
-        "ga": 10,
-        "gd": -3,
-        "gender": "Boys",
-        "gf": 7,
-        "group": "Bracket A",
-        "id": "3750324",
-        "l": 2,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/249/full/0.png?1746042518",
-        "mp": 3,
-        "name": "Central Cal Aztecs B17 Academy",
-        "pts": 12,
-        "w": 1
-      },
-      {
-        "age": "U9",
-        "bracket": "2017 Premier",
-        "club": "Development Academy of CA",
-        "d": 0,
-        "ga": 23,
-        "gd": -22,
-        "gender": "Boys",
-        "gf": 1,
-        "group": "Bracket A",
-        "id": "3848184",
-        "l": 3,
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/035/572/full/DAC_REF_LOGO_.jpeg?1772039865",
-        "mp": 3,
-        "name": "Development Academy of CA BU09 Select",
-        "pts": 1,
-        "w": 0
-      }
-    ]
+    "Boys|U10|2016 Premier|Bracket A": {
+      "key": "Boys|U10|2016 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U10",
+      "bracket": "2016 Premier",
+      "division": "2016 Premier",
+      "group": "Bracket A",
+      "label": "Boys U10 2016 Premier Bracket A",
+      "teamIds": [
+        "3856738",
+        "3732271",
+        "3726722",
+        "3847960"
+      ]
+    },
+    "Boys|U11|2015 Premier|Bracket A": {
+      "key": "Boys|U11|2015 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U11",
+      "bracket": "2015 Premier",
+      "division": "2015 Premier",
+      "group": "Bracket A",
+      "label": "Boys U11 2015 Premier Bracket A",
+      "teamIds": [
+        "3829428",
+        "3835221",
+        "3860942",
+        "3867818",
+        "3835100",
+        "3869230",
+        "3866049",
+        "3726707"
+      ]
+    },
+    "Boys|U12|2014 Premier|Bracket A": {
+      "key": "Boys|U12|2014 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U12",
+      "bracket": "2014 Premier",
+      "division": "2014 Premier",
+      "group": "Bracket A",
+      "label": "Boys U12 2014 Premier Bracket A",
+      "teamIds": [
+        "3766401",
+        "3888989",
+        "3726630",
+        "3848207",
+        "3810064",
+        "3873731",
+        "3877421",
+        "3890182",
+        "3870574",
+        "3818239"
+      ]
+    },
+    "Boys|U13|2013 Premier|Bracket A": {
+      "key": "Boys|U13|2013 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U13",
+      "bracket": "2013 Premier",
+      "division": "2013 Premier",
+      "group": "Bracket A",
+      "label": "Boys U13 2013 Premier Bracket A",
+      "teamIds": [
+        "3853720",
+        "3889217",
+        "3874636",
+        "3827404",
+        "3860961",
+        "3848224"
+      ]
+    },
+    "Boys|U14|2012 Premier|Bracket A": {
+      "key": "Boys|U14|2012 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U14",
+      "bracket": "2012 Premier",
+      "division": "2012 Premier",
+      "group": "Bracket A",
+      "label": "Boys U14 2012 Premier Bracket A",
+      "teamIds": [
+        "3877150",
+        "3803119",
+        "3889911",
+        "3808406",
+        "3888921",
+        "3772985",
+        "3841868",
+        "3821451"
+      ]
+    },
+    "Boys|U15|2011 Premier|Bracket A": {
+      "key": "Boys|U15|2011 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U15",
+      "bracket": "2011 Premier",
+      "division": "2011 Premier",
+      "group": "Bracket A",
+      "label": "Boys U15 2011 Premier Bracket A",
+      "teamIds": [
+        "3838378",
+        "3849838",
+        "3884431",
+        "3739600",
+        "3796612",
+        "3731476",
+        "3810457",
+        "3855471",
+        "3892012",
+        "3822785"
+      ]
+    },
+    "Boys|U16|2010 Premier|Bracket A": {
+      "key": "Boys|U16|2010 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U16",
+      "bracket": "2010 Premier",
+      "division": "2010 Premier",
+      "group": "Bracket A",
+      "label": "Boys U16 2010 Premier Bracket A",
+      "teamIds": [
+        "3773111",
+        "3844432",
+        "3701661",
+        "3884451",
+        "3887827",
+        "3883895"
+      ]
+    },
+    "Girls|U17|2009 Premier|Bracket A": {
+      "key": "Girls|U17|2009 Premier|Bracket A",
+      "gender": "Girls",
+      "age": "U17",
+      "bracket": "2009 Premier",
+      "division": "2009 Premier",
+      "group": "Bracket A",
+      "label": "Girls U17 2009 Premier Bracket A",
+      "teamIds": [
+        "3853598",
+        "3862288",
+        "3806897",
+        "3883977"
+      ]
+    },
+    "Boys|U18|2008/2009 Premier|Bracket A": {
+      "key": "Boys|U18|2008/2009 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U18",
+      "bracket": "2008/2009 Premier",
+      "division": "2008/2009 Premier",
+      "group": "Bracket A",
+      "label": "Boys U18 2008/2009 Premier Bracket A",
+      "teamIds": [
+        "3882490",
+        "3739591",
+        "3862379",
+        "3808462"
+      ]
+    },
+    "Boys|U9|2017 Premier|Bracket A": {
+      "key": "Boys|U9|2017 Premier|Bracket A",
+      "gender": "Boys",
+      "age": "U9",
+      "bracket": "2017 Premier",
+      "division": "2017 Premier",
+      "group": "Bracket A",
+      "label": "Boys U9 2017 Premier Bracket A",
+      "teamIds": [
+        "3827402",
+        "3884402",
+        "3750324",
+        "3848184"
+      ]
+    },
+    "Boys|U10|2016 Championship|Bracket A": {
+      "key": "Boys|U10|2016 Championship|Bracket A",
+      "gender": "Boys",
+      "age": "U10",
+      "bracket": "2016 Championship",
+      "division": "2016 Championship",
+      "group": "Bracket A",
+      "label": "Boys U10 2016 Championship Bracket A",
+      "teamIds": [
+        "3848458",
+        "3836731",
+        "3744801",
+        "3793694",
+        "3846827",
+        "3848191"
+      ]
+    },
+    "Boys|U11|2015 Championship|Bracket A": {
+      "key": "Boys|U11|2015 Championship|Bracket A",
+      "gender": "Boys",
+      "age": "U11",
+      "bracket": "2015 Championship",
+      "division": "2015 Championship",
+      "group": "Bracket A",
+      "label": "Boys U11 2015 Championship Bracket A",
+      "teamIds": [
+        "3835293",
+        "3795471",
+        "3883272",
+        "3848200"
+      ]
+    }
   },
   "teams": [
     {
@@ -5180,7 +5309,9 @@
       "mp": 3,
       "name": "Views FC B2016",
       "pts": 29,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U10",
@@ -5198,7 +5329,9 @@
       "mp": 3,
       "name": "Maccabee FA 2016 Blue",
       "pts": 17,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U10",
@@ -5216,7 +5349,9 @@
       "mp": 3,
       "name": "Development Academy of CA BU10 Select",
       "pts": 9,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U10",
@@ -5234,7 +5369,9 @@
       "mp": 3,
       "name": "Sherman Oaks Extreme SC B2016",
       "pts": 2,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U10|2016 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U11",
@@ -5252,7 +5389,9 @@
       "mp": 3,
       "name": "Worldwide FC B2015A",
       "pts": 29,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U11",
@@ -5270,7 +5409,9 @@
       "mp": 3,
       "name": "Simi Valley Soccer Club B2015 White",
       "pts": 12,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U11",
@@ -5288,7 +5429,9 @@
       "mp": 3,
       "name": "Views FC B2015",
       "pts": 11,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U11",
@@ -5306,7 +5449,9 @@
       "mp": 3,
       "name": "TOTAL FUTBOL ACADEMY (CA) NE B2015 Red",
       "pts": 11,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U11",
@@ -5324,7 +5469,9 @@
       "mp": 3,
       "name": "Steel United California Bakersfield 2015G Elite",
       "pts": 24,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 5
     },
     {
       "age": "U11",
@@ -5342,7 +5489,9 @@
       "mp": 3,
       "name": "Moorpark SC G2015 Huisenga",
       "pts": 23,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 6
     },
     {
       "age": "U11",
@@ -5360,7 +5509,9 @@
       "mp": 3,
       "name": "Oxnard Wave FC G16",
       "pts": 10,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 7
     },
     {
       "age": "U11",
@@ -5378,7 +5529,9 @@
       "mp": 3,
       "name": "SVYSL U10G Haugen",
       "pts": 1,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U11|2015 Premier|Bracket A",
+      "rank": 8
     },
     {
       "age": "U12",
@@ -5396,7 +5549,9 @@
       "mp": 3,
       "name": "Lightning SC CA Red B2014",
       "pts": 30,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U12",
@@ -5414,7 +5569,9 @@
       "mp": 3,
       "name": "Sherman Oaks Extreme SC B2015",
       "pts": 23,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U12",
@@ -5432,7 +5589,9 @@
       "mp": 3,
       "name": "Development Academy of CA BU12 Select",
       "pts": 13,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U12",
@@ -5450,7 +5609,9 @@
       "mp": 3,
       "name": "Development Academy of CA BU12 Premier",
       "pts": 10,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U12",
@@ -5468,7 +5629,9 @@
       "mp": 3,
       "name": "Antelope Valley Futbol Club B2014 Israel",
       "pts": 9,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 5
     },
     {
       "age": "U12",
@@ -5486,7 +5649,9 @@
       "mp": 3,
       "name": "California Athletic SC B2014 Blue",
       "pts": 5,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 6
     },
     {
       "age": "U12",
@@ -5504,7 +5669,9 @@
       "mp": 3,
       "name": "ZeroGravity USA Academy 2014 Girls",
       "pts": 30,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 7
     },
     {
       "age": "U12",
@@ -5522,7 +5689,9 @@
       "mp": 3,
       "name": "Moorpark SC G2014 Chavez",
       "pts": 17,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 8
     },
     {
       "age": "U12",
@@ -5540,7 +5709,9 @@
       "mp": 3,
       "name": "Oaks FC G15 Pre-DPL",
       "pts": 4,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 9
     },
     {
       "age": "U12",
@@ -5558,7 +5729,9 @@
       "mp": 3,
       "name": "California United 2014G",
       "pts": 4,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U12|2014 Premier|Bracket A",
+      "rank": 10
     },
     {
       "age": "U13",
@@ -5576,7 +5749,9 @@
       "mp": 3,
       "name": "Worldwide FC B2013",
       "pts": 27,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U13",
@@ -5594,7 +5769,9 @@
       "mp": 3,
       "name": "LA SURF B2014",
       "pts": 19,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U13",
@@ -5612,7 +5789,9 @@
       "mp": 3,
       "name": "Autobahn SC B13 Blue",
       "pts": 19,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U13",
@@ -5630,7 +5809,9 @@
       "mp": 3,
       "name": "Premier Touch Futbol Club LA B2014",
       "pts": 14,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U13",
@@ -5648,7 +5829,9 @@
       "mp": 3,
       "name": "Views FC B2013",
       "pts": 5,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+      "rank": 5
     },
     {
       "age": "U13",
@@ -5666,7 +5849,9 @@
       "mp": 3,
       "name": "Development Academy of CA BU13 Premier",
       "pts": 3,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U13|2013 Premier|Bracket A",
+      "rank": 6
     },
     {
       "age": "U14",
@@ -5684,7 +5869,9 @@
       "mp": 3,
       "name": "Worldwide FC B2012",
       "pts": 30,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U14",
@@ -5702,7 +5889,9 @@
       "mp": 3,
       "name": "Legends FC (CA) SGV B12 FC",
       "pts": 20,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U14",
@@ -5720,7 +5909,9 @@
       "mp": 3,
       "name": "Lightning SC Red 2012",
       "pts": 10,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U14",
@@ -5738,7 +5929,9 @@
       "mp": 3,
       "name": "Ventura County Fusion B13 MLS Next",
       "pts": 0,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U14",
@@ -5756,7 +5949,9 @@
       "mp": 3,
       "name": "LAFC So Cal G2012 ECRL",
       "pts": 28,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 5
     },
     {
       "age": "U14",
@@ -5774,7 +5969,9 @@
       "mp": 3,
       "name": "Club Deportivo La Esperanza G12",
       "pts": 9,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 6
     },
     {
       "age": "U14",
@@ -5792,7 +5989,9 @@
       "mp": 3,
       "name": "LAFC So Cal G2013 ECNL RL",
       "pts": 9,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 7
     },
     {
       "age": "U14",
@@ -5810,7 +6009,9 @@
       "mp": 3,
       "name": "California Odyssey Soccer Club COSC ECNL RL G12",
       "pts": 8,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U14|2012 Premier|Bracket A",
+      "rank": 8
     },
     {
       "age": "U15",
@@ -5828,7 +6029,9 @@
       "mp": 3,
       "name": "Oaks FC B2011 EA1",
       "pts": 27,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U15",
@@ -5846,7 +6049,9 @@
       "mp": 3,
       "name": "United SoCal Conejo Valley B2011",
       "pts": 22,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U15",
@@ -5864,7 +6069,9 @@
       "mp": 3,
       "name": "United SoCal AV B2011",
       "pts": 14,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U15",
@@ -5882,7 +6089,9 @@
       "mp": 3,
       "name": "Antelope Valley Futbol Club B2011 Vela",
       "pts": 10,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U15",
@@ -5900,7 +6109,9 @@
       "mp": 3,
       "name": "Steel United California Bakersfield 2011B Elite",
       "pts": 10,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 5
     },
     {
       "age": "U15",
@@ -5918,7 +6129,9 @@
       "mp": 3,
       "name": "Socal Pride Futbol Club B2011 Ruiz",
       "pts": 1,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 6
     },
     {
       "age": "U15",
@@ -5936,7 +6149,9 @@
       "mp": 3,
       "name": "United SoCal Santa Clarita G2011 Blue",
       "pts": 26,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 7
     },
     {
       "age": "U15",
@@ -5954,7 +6169,9 @@
       "mp": 3,
       "name": "Legends FC (CA) AV G11 FC",
       "pts": 18,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 8
     },
     {
       "age": "U15",
@@ -5972,7 +6189,9 @@
       "mp": 3,
       "name": "Oxnard Wave FC G11",
       "pts": 9,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 9
     },
     {
       "age": "U15",
@@ -5990,7 +6209,9 @@
       "mp": 3,
       "name": "Legends FC Santa Clarita SCV G11 GOLD",
       "pts": 1,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U15|2011 Premier|Bracket A",
+      "rank": 10
     },
     {
       "age": "U16",
@@ -6008,7 +6229,9 @@
       "mp": 3,
       "name": "Evolution Soccer Club Tejeda B2010",
       "pts": 27,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U16",
@@ -6026,7 +6249,9 @@
       "mp": 3,
       "name": "Oxnard United SC B2011",
       "pts": 21,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U16",
@@ -6044,7 +6269,9 @@
       "mp": 3,
       "name": "United SoCal AV B2010",
       "pts": 13,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U16",
@@ -6062,7 +6289,9 @@
       "mp": 3,
       "name": "Santos Laguna North 2010",
       "pts": 10,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U16",
@@ -6080,7 +6309,9 @@
       "mp": 3,
       "name": "Lightning Soccer Club Red (2010)",
       "pts": 10,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+      "rank": 5
     },
     {
       "age": "U16",
@@ -6098,7 +6329,9 @@
       "mp": 3,
       "name": "Oaks FC B2011 MLS Next",
       "pts": 1,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U16|2010 Premier|Bracket A",
+      "rank": 6
     },
     {
       "age": "U17",
@@ -6116,7 +6349,9 @@
       "mp": 3,
       "name": "United SoCal Conejo Valley G2010 White",
       "pts": 30,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U17",
@@ -6134,7 +6369,9 @@
       "mp": 3,
       "name": "United SoCal Santa Clarita G2009",
       "pts": 18,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U17",
@@ -6152,7 +6389,9 @@
       "mp": 3,
       "name": "United SoCal Santa Clarita G2010 White",
       "pts": 4,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U17",
@@ -6170,7 +6409,9 @@
       "mp": 3,
       "name": "Legends FC Santa Clarita SCV G09 BLACK",
       "pts": 4,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Girls|U17|2009 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U18",
@@ -6188,7 +6429,9 @@
       "mp": 3,
       "name": "Worldwide FC B2008",
       "pts": 22,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U18",
@@ -6206,7 +6449,9 @@
       "mp": 3,
       "name": "Antelope Valley Futbol Club B2008 Vela",
       "pts": 13,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U18",
@@ -6224,7 +6469,9 @@
       "mp": 3,
       "name": "Kickers FC (CA) B2009",
       "pts": 8,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U18",
@@ -6242,7 +6489,9 @@
       "mp": 3,
       "name": "TOTAL FUTBOL ACADEMY (CA) AV B2009 White",
       "pts": 8,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U18|2008/2009 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U9",
@@ -6260,7 +6509,9 @@
       "mp": 2,
       "name": "Premier Touch Futbol Club LA B2017",
       "pts": 19,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+      "rank": 1
     },
     {
       "age": "U9",
@@ -6278,7 +6529,9 @@
       "mp": 2,
       "name": "Legends FC Santa Clarita SFV B17 FC",
       "pts": 19,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+      "rank": 2
     },
     {
       "age": "U9",
@@ -6296,7 +6549,9 @@
       "mp": 3,
       "name": "Central Cal Aztecs B17 Academy",
       "pts": 12,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+      "rank": 3
     },
     {
       "age": "U9",
@@ -6314,7 +6569,9 @@
       "mp": 3,
       "name": "Development Academy of CA BU09 Select",
       "pts": 1,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U9|2017 Premier|Bracket A",
+      "rank": 4
     },
     {
       "age": "U10",
@@ -6332,7 +6589,9 @@
       "mp": 3,
       "name": "Legends FC Santa Clarita SCV B17 GOLD",
       "pts": 29,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+      "rank": 1
     },
     {
       "age": "U10",
@@ -6350,7 +6609,9 @@
       "mp": 3,
       "name": "City SC Central Valley B2016",
       "pts": 28,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+      "rank": 2
     },
     {
       "age": "U10",
@@ -6368,7 +6629,9 @@
       "mp": 3,
       "name": "Simi Valley Soccer Club B2016/2017 White",
       "pts": 11,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+      "rank": 3
     },
     {
       "age": "U10",
@@ -6386,7 +6649,9 @@
       "mp": 3,
       "name": "Maccabee FA 2016 White",
       "pts": 11,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+      "rank": 4
     },
     {
       "age": "U10",
@@ -6404,7 +6669,9 @@
       "mp": 3,
       "name": "City SC Central Valley AV B2016 Navy",
       "pts": 9,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+      "rank": 5
     },
     {
       "age": "U10",
@@ -6422,7 +6689,9 @@
       "mp": 3,
       "name": "Development Academy of CA BU10 Premier",
       "pts": 3,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U10|2016 Championship|Bracket A",
+      "rank": 6
     },
     {
       "age": "U11",
@@ -6440,7 +6709,9 @@
       "mp": 3,
       "name": "Simi Valley Soccer Club B2015 Blue",
       "pts": 26,
-      "w": 3
+      "w": 3,
+      "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+      "rank": 1
     },
     {
       "age": "U11",
@@ -6458,7 +6729,9 @@
       "mp": 3,
       "name": "Valley United SC B2015 White",
       "pts": 19,
-      "w": 2
+      "w": 2,
+      "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+      "rank": 2
     },
     {
       "age": "U11",
@@ -6476,7 +6749,9 @@
       "mp": 3,
       "name": "GB United B2016",
       "pts": 13,
-      "w": 1
+      "w": 1,
+      "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+      "rank": 3
     },
     {
       "age": "U11",
@@ -6494,7 +6769,10 @@
       "mp": 3,
       "name": "Development Academy of CA BU11 Select",
       "pts": 5,
-      "w": 0
+      "w": 0,
+      "standingsKey": "Boys|U11|2015 Championship|Bracket A",
+      "rank": 4
     }
-  ]
+  ],
+  "schemaVersion": 2
 }

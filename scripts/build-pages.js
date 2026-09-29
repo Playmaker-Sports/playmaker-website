@@ -44,7 +44,8 @@ const partners = JSON.parse(read(path.join(dataDir, "partners.json")));
 const staticRepoDir = path.resolve(rootDir, "..", "playmaker-static");
 
 const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived", "banners"];
-const eventLogoAssets = ["playmakers-cup.jpg", "winter-fest.jpg", "summer-championship.jpg"];
+// Shared data contract (normalizer, standings, rules rendering). Never edit the copy in dist/.
+const contractScript = path.join("contract", "playmaker-data.js");
 
 const staticAssets = [
   "assets",
@@ -330,14 +331,11 @@ syncedFromStaticRepo.forEach((asset) => {
   fs.cpSync(fromPath, path.join(distDir, asset), { recursive: true });
 });
 
-eventLogoAssets.forEach((asset) => {
-  const fromPath = path.join(staticRepoDir, "logos", asset);
-  if (!fs.existsSync(fromPath)) {
-    console.error(`Missing event logo ${asset} in ${path.join(staticRepoDir, "logos")}.`);
-    process.exit(1);
-  }
-  copyIfExists(fromPath, path.join(distDir, "event-logos", asset));
-});
+if (!fs.existsSync(path.join(staticRepoDir, contractScript))) {
+  console.error(`Missing ${contractScript} in ${staticRepoDir}. Pull playmaker-static.`);
+  process.exit(1);
+}
+fs.copyFileSync(path.join(staticRepoDir, contractScript), path.join(distDir, "playmaker-data.js"));
 
 copyIfExists(dataDir, path.join(distDir, "data"));
 

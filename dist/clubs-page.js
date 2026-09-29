@@ -1,6 +1,5 @@
 var clubsPageState = {
   allMatches: [],
-  allStandings: {},
   allTeams: [],
   clubs: [],
   slug: ""
@@ -32,10 +31,10 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     var data = await fetchEventData(event);
-    clubsPageState.clubs = extractClubs(data).sort(function (a, b) { return a.name.localeCompare(b.name); });
-    clubsPageState.allTeams = extractTeams(data).sort(function (a, b) { return a.name.localeCompare(b.name); });
-    clubsPageState.allMatches = data.matches || data.games || [];
-    clubsPageState.allStandings = data.standings || {};
+    clubsPageState.clubs = data.clubs.filter(function (club) { return club.teams && club.teams.length; })
+      .sort(function (a, b) { return a.name.localeCompare(b.name); });
+    clubsPageState.allTeams = data.teams.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+    clubsPageState.allMatches = data.matches;
 
     pageUtils.populateAgeFilter("teams-age-filter", clubsPageState.allTeams, "All Age Groups");
     document.getElementById("ct-toggle").style.display = "";
@@ -103,20 +102,21 @@ function renderClubsList(clubs) {
     return;
   }
 
+  var esc = pageUtils.esc;
   grid.innerHTML = clubs.map(function (club) {
-    var teamAges = club.teams
-      ? Array.from(new Set(club.teams.map(function (team) { return team.age; }).filter(Boolean))).sort().slice(0, 4).join(", ")
-      : "";
-    var teamCount = club.teams ? club.teams.length : 0;
-    var resolvedClubId = club.id || encodeURIComponent(club.name);
+    var teamAges = pageUtils.sortAgeValues(
+      Array.from(new Set(club.teams.map(function (team) { return team.age; }).filter(Boolean)))
+    ).slice(0, 4).join(", ");
+    var teamCount = club.teams.length;
+    var logo = pageUtils.safeUrl(club.logoUrl);
 
-    return '<a class="club-card" href="clubs.html?slug=' + clubsPageState.slug + "&club=" + resolvedClubId + '">' +
+    return '<a class="club-card" href="clubs.html?slug=' + encodeURIComponent(clubsPageState.slug) + "&club=" + encodeURIComponent(club.id || club.name) + '">' +
       '<div class="club-logo">' +
-        (club.logoUrl ? '<img src="' + club.logoUrl + '" alt="" loading="lazy" />' : "") +
+        (logo ? '<img src="' + logo + '" alt="" loading="lazy" />' : "") +
       "</div>" +
       '<div class="club-info">' +
-        '<div class="club-name">' + club.name + "</div>" +
-        '<div class="club-meta">' + teamCount + " team" + (teamCount !== 1 ? "s" : "") + (teamAges ? ": " + teamAges : "") + "</div>" +
+        '<div class="club-name">' + esc(club.name) + "</div>" +
+        '<div class="club-meta">' + teamCount + " team" + (teamCount !== 1 ? "s" : "") + (teamAges ? ": " + esc(teamAges) : "") + "</div>" +
         '<div class="club-stats">' + (club.totalPoints || 0) + " pts \u2022 " + (club.ppg || 0) + " PPG \u2022 " + (club.winPercentage || 0) + "% win rate</div>" +
       "</div>" +
     "</a>";
@@ -132,7 +132,7 @@ function renderClubTeamsList(teams) {
 
   grid.innerHTML = teamDirectory.renderTeamCards(teams, {
     hrefBuilder: function (team) {
-      return "clubs.html?slug=" + clubsPageState.slug + "&team=" + team.id;
+      return "clubs.html?slug=" + encodeURIComponent(clubsPageState.slug) + "&team=" + encodeURIComponent(team.id);
     },
     hideClubInMeta: true
   });
@@ -140,7 +140,7 @@ function renderClubTeamsList(teams) {
 
 function showClubDetail(clubId) {
   var club = clubsPageState.clubs.find(function (entry) {
-    return (entry.id || entry.name) === clubId || encodeURIComponent(entry.name) === clubId;
+    return (entry.id || entry.name) === clubId || entry.name === clubId;
   });
   if (!club) {
     document.getElementById("page-title").textContent = "Club not found";
@@ -153,14 +153,15 @@ function showClubDetail(clubId) {
   document.getElementById("club-detail-view").style.display = "";
   document.getElementById("page-title").textContent = club.name;
   document.getElementById("page-lead").textContent = "";
-  pageUtils.setBackLink("back-link", "clubs.html?slug=" + clubsPageState.slug, "&larr; Back to clubs & teams");
+  pageUtils.setBackLink("back-link", "clubs.html?slug=" + encodeURIComponent(clubsPageState.slug), "← Back to clubs & teams");
 
+  var logo = pageUtils.safeUrl(club.logoUrl);
   document.getElementById("club-detail-header").innerHTML =
     '<div class="team-detail-logo">' +
-      (club.logoUrl ? '<img src="' + club.logoUrl + '" alt="" />' : "") +
+      (logo ? '<img src="' + logo + '" alt="" />' : "") +
     "</div>" +
     "<div>" +
-      '<div class="team-detail-name">' + club.name + "</div>" +
+      '<div class="team-detail-name">' + pageUtils.esc(club.name) + "</div>" +
       '<div class="team-detail-meta">' +
         (club.teams ? club.teams.length : 0) + " teams \u2022 " +
         (club.totalPoints || 0) + " total pts \u2022 " +
@@ -173,7 +174,7 @@ function showClubDetail(clubId) {
   document.getElementById("club-teams-title").textContent = "Teams (" + teams.length + ")";
   document.getElementById("club-teams-grid").innerHTML = teamDirectory.renderTeamCards(teams, {
     hrefBuilder: function (team) {
-      return "clubs.html?slug=" + clubsPageState.slug + "&team=" + team.id;
+      return "clubs.html?slug=" + encodeURIComponent(clubsPageState.slug) + "&team=" + encodeURIComponent(team.id);
     },
     secondaryLine: function (team) {
       return [team.gender, team.age, team.bracket].filter(Boolean).join(" \u2022 ");
@@ -195,10 +196,10 @@ function showClubTeamDetail(teamId) {
   document.getElementById("team-detail-view").style.display = "";
   document.getElementById("page-title").textContent = team.name;
   document.getElementById("page-lead").textContent = "";
-  pageUtils.setBackLink("back-link", "clubs.html?slug=" + clubsPageState.slug + "&view=teams", "&larr; Back to clubs & teams");
+  pageUtils.setBackLink("back-link", "clubs.html?slug=" + encodeURIComponent(clubsPageState.slug) + "&view=teams", "← Back to clubs & teams");
 
   teamDirectory.renderTeamHeader("team-header", team);
   teamDirectory.renderTeamRecord("team-record", team);
-  teamDirectory.renderTeamStandings("team-standings-container", team, clubsPageState.allTeams, clubsPageState.allStandings);
+  teamDirectory.renderTeamStandings("team-standings-container", team, clubsPageState.allTeams);
   teamDirectory.renderTeamMatches("team-matches-container", team, clubsPageState.allMatches);
 }

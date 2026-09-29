@@ -1,0 +1,43 @@
+name: Build and QA
+
+# Builds dist/ from src/ plus the sibling playmaker-static repo (event config,
+# archives and the shared contract script), then runs the Playwright QA.
+on:
+  push:
+  pull_request:
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          path: playmaker-website
+      - uses: actions/checkout@v4
+        with:
+          repository: Playmaker-Sports/playmaker-static
+          path: playmaker-static
+          # If playmaker-static is private, add a read-only token as STATIC_REPO_TOKEN.
+          token: ${{ secrets.STATIC_REPO_TOKEN || github.token }}
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install
+        working-directory: playmaker-website
+        run: npm ci && npx playwright install --with-deps chromium
+      - name: Build
+        working-directory: playmaker-website
+        run: node scripts/build-pages.js
+      - name: Check committed dist/ is current
+        working-directory: playmaker-website
+        run: |
+          if ! git diff --quiet -- dist; then
+            echo "::warning::dist/ differs from a fresh build (source or playmaker-static changed). Run npm run build and commit dist/."
+          fi
+      - name: Unit tests
+        working-directory: playmaker-website
+        run: npm test
+      - name: QA
+        working-directory: playmaker-website
+        run: node scripts/qa-dist.js

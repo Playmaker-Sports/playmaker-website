@@ -14,72 +14,36 @@ document.addEventListener("DOMContentLoaded", async function () {
     var event = loaded.event;
     document.title = event.eventName + " — Tournament Rules | Playmaker Sports";
 
-    var template = await pageUtils.fetchStaticJsonWithFallback("/rules_template.json", "rules_template.json");
-    container.innerHTML = renderRulesTemplate(template, event.eventName, event.rules || {});
+    var template = await fetchStaticJson("rules_template.json");
+    container.innerHTML = renderRulesBlocks(PlaymakerData.rulesBlocks(template, event));
   } catch (error) {
     container.innerHTML = pageUtils.renderStateMessage("Failed to load rules: " + error.message, "error");
   }
 });
 
-function renderRulesTemplate(template, eventName, eventRules) {
-  var html = "";
+var RULES_TAGS = {
+  header: ["h1", "rules-header"],
+  sectionHeader: ["h2", "rules-section-header"],
+  subHeader: ["h3", "rules-sub-header"],
+  text: ["p", "rules-text"],
+  italic: ["p", "rules-italic"],
+  listItem: ["div", "rules-list-item"]
+};
 
-  template.sections.forEach(function (section) {
-    var text = String(section.text || "").replace(/\{eventName\}/g, eventName);
-
-    switch (section.type) {
-      case "header":
-        html += '<h1 class="rules-header">' + text + "</h1>";
-        break;
-      case "sectionHeader":
-        html += '<h2 class="rules-section-header">' +
-          text.replace(/\{refundHeader\}/g, eventRules.refundHeader || "Refund Policy:") +
-        "</h2>";
-        break;
-      case "subHeader":
-        html += '<h3 class="rules-sub-header">' + text + "</h3>";
-        break;
-      case "text":
-        if (section.key) {
-          var value = eventRules[section.key];
-          if (value) html += '<p class="rules-text">' + value + "</p>";
-        } else {
-          html += '<p class="rules-text">' + text + "</p>";
-        }
-        break;
-      case "italic":
-        html += '<p class="rules-italic">' + text + "</p>";
-        break;
-      case "listItem":
-        html += '<div class="rules-list-item">' + text + "</div>";
-        break;
-      case "list":
-      case "styledList":
-        if (section.key && Array.isArray(eventRules[section.key])) {
-          eventRules[section.key].forEach(function (line) {
-            html += line.startsWith("*")
-              ? '<p class="rules-italic">' + line + "</p>"
-              : '<p class="rules-text">' + line + "</p>";
-          });
-        }
-        break;
-      case "table":
-        html += '<table class="rules-table"><thead><tr>';
-        (section.headers || []).forEach(function (header) {
-          html += "<th>" + header.replace(/\n/g, "<br>") + "</th>";
-        });
-        html += "</tr></thead><tbody>";
-        (section.rows || []).forEach(function (row) {
-          html += "<tr>";
-          row.forEach(function (cell) {
-            html += "<td>" + cell + "</td>";
-          });
-          html += "</tr>";
-        });
-        html += "</tbody></table>";
-        break;
+// Rules text is site-owned, but it is escaped like any other data.
+function renderRulesBlocks(blocks) {
+  var esc = pageUtils.esc;
+  return blocks.map(function (block) {
+    if (block.type === "table") {
+      return '<table class="rules-table"><thead><tr>' +
+        block.headers.map(function (header) { return "<th>" + esc(header).replace(/\n/g, "<br>") + "</th>"; }).join("") +
+        "</tr></thead><tbody>" +
+        block.rows.map(function (row) {
+          return "<tr>" + row.map(function (cell) { return "<td>" + esc(cell) + "</td>"; }).join("") + "</tr>";
+        }).join("") +
+        "</tbody></table>";
     }
-  });
-
-  return html;
+    var tag = RULES_TAGS[block.type] || RULES_TAGS.text;
+    return "<" + tag[0] + ' class="' + tag[1] + '">' + esc(block.text) + "</" + tag[0] + ">";
+  }).join("");
 }

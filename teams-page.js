@@ -1,6 +1,5 @@
 var teamPageState = {
   allMatches: [],
-  allStandings: {},
   allTeams: [],
   slug: ""
 };
@@ -29,9 +28,8 @@ document.addEventListener("DOMContentLoaded", async function () {
     }
 
     var data = await fetchEventData(event);
-    teamPageState.allTeams = extractTeams(data).sort(function (a, b) { return a.name.localeCompare(b.name); });
-    teamPageState.allMatches = data.matches || data.games || [];
-    teamPageState.allStandings = data.standings || {};
+    teamPageState.allTeams = data.teams.slice().sort(function (a, b) { return a.name.localeCompare(b.name); });
+    teamPageState.allMatches = data.matches;
 
     pageUtils.populateAgeFilter("teams-age-filter", teamPageState.allTeams, "All Age Groups");
 
@@ -70,7 +68,7 @@ function renderTeamsPageList(teams) {
 
   grid.innerHTML = teamDirectory.renderTeamCards(teams, {
     hrefBuilder: function (team) {
-      return "teams.html?slug=" + teamPageState.slug + "&team=" + team.id;
+      return "teams.html?slug=" + encodeURIComponent(teamPageState.slug) + "&team=" + encodeURIComponent(team.id);
     },
     hideClubInMeta: true
   });
@@ -88,10 +86,10 @@ function showTeamPageDetail(teamId) {
   document.getElementById("page-title").textContent = team.name;
   document.getElementById("page-kicker").textContent = "Team Details";
   document.getElementById("page-lead").textContent = "";
-  pageUtils.setBackLink("back-link", "teams.html?slug=" + teamPageState.slug, "&larr; Back to teams");
+  pageUtils.setBackLink("back-link", "teams.html?slug=" + encodeURIComponent(teamPageState.slug), "← Back to teams");
 
   teamDirectory.renderTeamHeader("team-header", team);
   teamDirectory.renderTeamRecord("team-record", team);
-  teamDirectory.renderTeamStandings("team-standings-container", team, teamPageState.allTeams, teamPageState.allStandings);
+  teamDirectory.renderTeamStandings("team-standings-container", team, teamPageState.allTeams);
   teamDirectory.renderTeamMatches("team-matches-container", team, teamPageState.allMatches);
 }

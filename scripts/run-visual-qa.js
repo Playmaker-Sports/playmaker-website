@@ -59,9 +59,16 @@ async function expectFooter(page) {
   await expectCount(page, ".footer-socials .social-btn", 4, "Footer should show four social buttons");
 }
 
+async function expectNoErrorState(page, selector, message) {
+  const errorText = await page.locator(selector + " .data-error").first().textContent().catch(() => null);
+  if (errorText) fail(`${message} (${errorText.trim()})`);
+}
+
 async function run() {
   const browser = await chromium.launch({ headless: true });
   const page = await browser.newPage({ viewport: { width: 1440, height: 1200 } });
+  // Any uncaught exception fails QA (this is how a missing renderer shipped).
+  page.on("pageerror", (error) => fail(`Uncaught page error on ${page.url()}: ${error.message}`));
 
   await page.goto(`${baseUrl}/index.html`, { waitUntil: "networkidle" });
   await expectTextNotContaining(page, "#hero-title", "Loading", "Homepage hero should load event content");
@@ -172,7 +179,29 @@ async function run() {
   await page.goto(`${baseUrl}/results.html?slug=winter-fest`, { waitUntil: "networkidle" });
   await expectTextNotContaining(page, "#data-container", "Loading event data...", "Results page should finish loading");
   await expectVisible(page, "#data-container", "Results data container should be visible");
+  await expectNoErrorState(page, "#data-container", "Upcoming-event results page should not show an error");
   await expectFooter(page);
+
+  // Archived results: real standings and schedule must render.
+  await page.goto(`${baseUrl}/results.html?event=50767`, { waitUntil: "networkidle" });
+  await expectNoErrorState(page, "#data-container", "Winter Fest 2026 results should load");
+  await expectCountAtLeast(page, "#ep-standings-container .standings-table tbody tr", 3, "Results page should render standings rows");
+  await expectCountAtLeast(page, "#ep-division-select option", 10, "Results page should list every division");
+  await page.click("#ep-view-schedule");
+  await expectCountAtLeast(page, "#ep-schedule-container .match-card", 3, "Schedule view should render match cards");
+
+  await page.goto(`${baseUrl}/results.html?event=51438`, { waitUntil: "networkidle" });
+  await expectNoErrorState(page, "#data-container", "Summer Championship 2026 results should load");
+  await page.click("#ep-view-schedule");
+  const scheduleText = await page.locator("#ep-schedule-container").textContent().catch(() => "");
+  if (!/Aug 0[12], 2026/.test(scheduleText || "")) fail("Schedule should show match dates for the logged-in data shape");
+  const allDivisions = await page.locator("#ep-division-select option").evaluateAll((options) => options.map((o) => o.value));
+  let sawPks = false;
+  for (const value of allDivisions) {
+    await page.selectOption("#ep-division-select", value);
+    if (((await page.locator("#ep-schedule-container").textContent()) || "").includes("PKs")) { sawPks = true; break; }
+  }
+  if (!sawPks) fail("Schedule should show penalty-kick results (Summer Championship 2026 final went to PKs)");
 
   await page.goto(`${baseUrl}/teams.html?slug=playmakers-cup`, { waitUntil: "networkidle" });
   await expectTextNotContaining(page, "#teams-grid", "Loading teams...", "Teams page should finish loading");
@@ -185,6 +214,7 @@ async function run() {
 
   await page.goto(`${baseUrl}/teams.html?slug=summer-championship`, { waitUntil: "networkidle" });
   await expectVisible(page, "#teams-grid .team-card", "Archived teams page should render team cards");
+  await expectCount(page, "#teams-grid .team-card", 98, "Teams page should list every team, including teams without a club entry");
   const teamHref = await page.locator("#teams-grid .team-card a").first().getAttribute("href");
   if (teamHref) {
     await page.goto(`${baseUrl}/${teamHref}`, { waitUntil: "networkidle" });
@@ -194,6 +224,21 @@ async function run() {
     fail("Teams page did not provide a detail link");
   }
   await expectFooter(page);
+
+  // Match lookup uses team IDs: this team used to also show another team's games.
+  await page.goto(`${baseUrl}/teams.html?slug=summer-championship&team=${encodeURIComponent(await teamIdByName(page, "California United FC 2014B"))}`, { waitUntil: "networkidle" });
+  await expectCount(page, "#team-matches-container .match-card", 4, "Team detail should show only that team's matches");
+
+  // Third-party names must be escaped, never executed.
+  await page.route("**/archived/summer-championship-2026.json", async (route) => {
+    const response = await route.fetch();
+    const data = await response.json();
+    data.teams[0].name = '<img src=x onerror="window.__xss=1">';
+    await route.fulfill({ response, json: data });
+  });
+  await page.goto(`${baseUrl}/teams.html?slug=summer-championship`, { waitUntil: "networkidle" });
+  if (await page.evaluate(() => window.__xss === 1)) fail("Team names must be HTML-escaped");
+  await page.unroute("**/archived/summer-championship-2026.json");
 
   await page.goto(`${baseUrl}/clubs.html?slug=summer-championship`, { waitUntil: "networkidle" });
   await expectVisible(page, "#clubs-grid .club-card", "Archived clubs page should render club cards");
@@ -209,6 +254,15 @@ async function run() {
   }
 
   console.log("Visual QA checks passed.");
+}
+
+async function teamIdByName(page, name) {
+  return page.evaluate(async (teamName) => {
+    const response = await fetch("archived/summer-championship-2026.json");
+    const data = await response.json();
+    const team = data.teams.find((t) => t.name === teamName);
+    return team ? team.id : "";
+  }, name);
 }
 
 run().catch((error) => {

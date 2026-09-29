@@ -33,7 +33,7 @@ function populateHero(event) {
 
   var subtext = document.querySelector(".hero-simple-subtext");
   if (subtext) {
-    subtext.textContent = [event.dateText, getFullAddress(event.locationText)]
+    subtext.textContent = [event.dateText, getFullAddress(event)]
       .filter(Boolean)
       .join(" • ");
   }
@@ -67,9 +67,9 @@ function populateDetails(event) {
     if (!label || !value || value === label) return;
 
     var labelText = label.textContent.trim().toLowerCase();
-    if (labelText.startsWith("location")) value.textContent = getFullAddress(event.locationText);
+    if (labelText.startsWith("location")) value.textContent = getFullAddress(event);
     if (labelText.startsWith("date")) value.textContent = event.dateText || "";
-    if (labelText.startsWith("age")) value.textContent = "Boys & Girls, U6–U19";
+    if (labelText.startsWith("age") && event.ageRange) value.textContent = event.ageRange;
   });
 }
 

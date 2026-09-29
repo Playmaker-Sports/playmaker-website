@@ -2,7 +2,7 @@
   "eventId": "47962",
   "eventName": "Playmakers Cup 2025",
   "lastUpdated": "2026-01-29T09:27:43.178409",
-  "dateText": "November 29\u201330, 2025",
+  "dateText": "November 29–30, 2025",
   "locationText": "Arroyo Vista Park, Moorpark, CA",
   "startDate": "2025-11-29",
   "endDate": "2025-11-30",
@@ -27,7 +27,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 1
     },
     {
       "id": "3496983",
@@ -45,7 +47,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 2
     },
     {
       "id": "3568307",
@@ -63,7 +67,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 3
     },
     {
       "id": "3654446",
@@ -81,7 +87,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 4
     },
     {
       "id": "3546803",
@@ -99,7 +107,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 5
     },
     {
       "id": "3600225",
@@ -117,7 +127,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 6
     },
     {
       "id": "3455972",
@@ -135,7 +147,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 7
     },
     {
       "id": "3667071",
@@ -153,7 +167,9 @@
       "age": "U9",
       "gender": "Boys",
       "bracket": "B2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U9|B2017 Premier|",
+      "rank": 8
     },
     {
       "id": "3629009",
@@ -171,7 +187,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Premier|",
+      "rank": 1
     },
     {
       "id": "3629322",
@@ -189,7 +207,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Premier|",
+      "rank": 2
     },
     {
       "id": "3641934",
@@ -207,7 +227,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Premier|",
+      "rank": 3
     },
     {
       "id": "3568103",
@@ -225,7 +247,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Premier|",
+      "rank": 4
     },
     {
       "id": "3609830",
@@ -243,7 +267,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Premier|",
+      "rank": 5
     },
     {
       "id": "3647204",
@@ -261,7 +287,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Premier|",
+      "rank": 6
     },
     {
       "id": "3584348",
@@ -279,7 +307,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Championship|",
+      "rank": 1
     },
     {
       "id": "3544279",
@@ -297,7 +327,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Championship|",
+      "rank": 2
     },
     {
       "id": "3653533",
@@ -315,7 +347,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Championship|",
+      "rank": 3
     },
     {
       "id": "3674185",
@@ -333,7 +367,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Championship|",
+      "rank": 4
     },
     {
       "id": "3646738",
@@ -351,7 +387,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Championship|",
+      "rank": 5
     },
     {
       "id": "3568149",
@@ -369,7 +407,9 @@
       "age": "U10",
       "gender": "Boys",
       "bracket": "B2016 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U10|B2016 Championship|",
+      "rank": 6
     },
     {
       "id": "3645945",
@@ -387,7 +427,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Premier|",
+      "rank": 1
     },
     {
       "id": "3563688",
@@ -405,7 +447,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Premier|",
+      "rank": 2
     },
     {
       "id": "3568038",
@@ -423,7 +467,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Premier|",
+      "rank": 3
     },
     {
       "id": "3570895",
@@ -441,7 +487,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Premier|",
+      "rank": 4
     },
     {
       "id": "3593005",
@@ -459,7 +507,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Championship|",
+      "rank": 1
     },
     {
       "id": "3581217",
@@ -477,7 +527,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Championship|",
+      "rank": 2
     },
     {
       "id": "3675051",
@@ -495,7 +547,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Championship|",
+      "rank": 3
     },
     {
       "id": "3646926",
@@ -513,7 +567,9 @@
       "age": "U11",
       "gender": "Boys",
       "bracket": "B2015 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U11|B2015 Championship|",
+      "rank": 4
     },
     {
       "id": "3645006",
@@ -531,7 +587,9 @@
       "age": "U12",
       "gender": "Boys",
       "bracket": "B2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U12|B2014 Premier|",
+      "rank": 1
     },
     {
       "id": "3628186",
@@ -549,7 +607,9 @@
       "age": "U12",
       "gender": "Boys",
       "bracket": "B2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U12|B2014 Premier|",
+      "rank": 2
     },
     {
       "id": "3514694",
@@ -567,7 +627,9 @@
       "age": "U12",
       "gender": "Boys",
       "bracket": "B2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U12|B2014 Premier|",
+      "rank": 3
     },
     {
       "id": "3654577",
@@ -585,7 +647,9 @@
       "age": "U12",
       "gender": "Boys",
       "bracket": "B2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U12|B2014 Premier|",
+      "rank": 4
     },
     {
       "id": "3635953",
@@ -603,7 +667,9 @@
       "age": "U12",
       "gender": "Boys",
       "bracket": "B2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U12|B2014 Premier|",
+      "rank": 5
     },
     {
       "id": "3664579",
@@ -621,7 +687,9 @@
       "age": "U12",
       "gender": "Boys",
       "bracket": "B2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U12|B2014 Premier|",
+      "rank": 6
     },
     {
       "id": "3659994",
@@ -639,7 +707,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Premier|",
+      "rank": 1
     },
     {
       "id": "3663080",
@@ -657,7 +727,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Premier|",
+      "rank": 2
     },
     {
       "id": "3642217",
@@ -675,7 +747,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Premier|",
+      "rank": 3
     },
     {
       "id": "3645943",
@@ -693,7 +767,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Premier|",
+      "rank": 4
     },
     {
       "id": "3520716",
@@ -711,7 +787,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Championship|",
+      "rank": 1
     },
     {
       "id": "3640937",
@@ -729,7 +807,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Championship|",
+      "rank": 2
     },
     {
       "id": "3630581",
@@ -747,7 +827,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Championship|",
+      "rank": 3
     },
     {
       "id": "3636280",
@@ -765,7 +847,9 @@
       "age": "U13",
       "gender": "Boys",
       "bracket": "B2013 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U13|B2013 Championship|",
+      "rank": 4
     },
     {
       "id": "3680020",
@@ -783,7 +867,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Premier|",
+      "rank": 1
     },
     {
       "id": "3594669",
@@ -801,7 +887,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Premier|",
+      "rank": 2
     },
     {
       "id": "3674535",
@@ -819,7 +907,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Premier|",
+      "rank": 3
     },
     {
       "id": "3663577",
@@ -837,7 +927,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Premier|",
+      "rank": 4
     },
     {
       "id": "3569085",
@@ -855,7 +947,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Championship|",
+      "rank": 1
     },
     {
       "id": "3638196",
@@ -873,7 +967,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Championship|",
+      "rank": 2
     },
     {
       "id": "3653995",
@@ -891,7 +987,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Championship|",
+      "rank": 3
     },
     {
       "id": "3637928",
@@ -909,7 +1007,9 @@
       "age": "U14",
       "gender": "Boys",
       "bracket": "B2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U14|B2012 Championship|",
+      "rank": 4
     },
     {
       "id": "3603727",
@@ -927,7 +1027,9 @@
       "age": "U15",
       "gender": "Boys",
       "bracket": "B2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U15|B2011 Premier|",
+      "rank": 1
     },
     {
       "id": "3587369",
@@ -945,7 +1047,9 @@
       "age": "U15",
       "gender": "Boys",
       "bracket": "B2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U15|B2011 Premier|",
+      "rank": 2
     },
     {
       "id": "3649836",
@@ -963,7 +1067,9 @@
       "age": "U15",
       "gender": "Boys",
       "bracket": "B2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U15|B2011 Premier|",
+      "rank": 3
     },
     {
       "id": "3661095",
@@ -981,7 +1087,9 @@
       "age": "U15",
       "gender": "Boys",
       "bracket": "B2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U15|B2011 Premier|",
+      "rank": 4
     },
     {
       "id": "3645128",
@@ -999,7 +1107,9 @@
       "age": "U15",
       "gender": "Boys",
       "bracket": "B2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U15|B2011 Premier|",
+      "rank": 5
     },
     {
       "id": "3568320",
@@ -1017,7 +1127,9 @@
       "age": "U15",
       "gender": "Boys",
       "bracket": "B2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U15|B2011 Premier|",
+      "rank": 6
     },
     {
       "id": "3662172",
@@ -1035,7 +1147,9 @@
       "age": "U16",
       "gender": "Boys",
       "bracket": "B2010 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U16|B2010 Premier|",
+      "rank": 1
     },
     {
       "id": "3661116",
@@ -1053,7 +1167,9 @@
       "age": "U16",
       "gender": "Boys",
       "bracket": "B2010 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U16|B2010 Premier|",
+      "rank": 2
     },
     {
       "id": "3569063",
@@ -1071,7 +1187,9 @@
       "age": "U16",
       "gender": "Boys",
       "bracket": "B2010 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U16|B2010 Premier|",
+      "rank": 3
     },
     {
       "id": "3662458",
@@ -1089,7 +1207,9 @@
       "age": "U16",
       "gender": "Boys",
       "bracket": "B2010 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Boys|U16|B2010 Premier|",
+      "rank": 4
     },
     {
       "id": "3626070",
@@ -1107,7 +1227,9 @@
       "age": "U9",
       "gender": "Girls",
       "bracket": "G2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U9|G2017 Premier|",
+      "rank": 1
     },
     {
       "id": "3656854",
@@ -1125,7 +1247,9 @@
       "age": "U9",
       "gender": "Girls",
       "bracket": "G2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U9|G2017 Premier|",
+      "rank": 2
     },
     {
       "id": "3598572",
@@ -1143,7 +1267,9 @@
       "age": "U9",
       "gender": "Girls",
       "bracket": "G2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U9|G2017 Premier|",
+      "rank": 3
     },
     {
       "id": "3656894",
@@ -1161,7 +1287,9 @@
       "age": "U9",
       "gender": "Girls",
       "bracket": "G2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U9|G2017 Premier|",
+      "rank": 4
     },
     {
       "id": "3638250",
@@ -1179,7 +1307,9 @@
       "age": "U9",
       "gender": "Girls",
       "bracket": "G2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U9|G2017 Premier|",
+      "rank": 5
     },
     {
       "id": "3681442",
@@ -1197,7 +1327,9 @@
       "age": "U9",
       "gender": "Girls",
       "bracket": "G2017 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U9|G2017 Premier|",
+      "rank": 6
     },
     {
       "id": "3654333",
@@ -1215,7 +1347,9 @@
       "age": "U11",
       "gender": "Girls",
       "bracket": "G2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U11|G2015 Premier|",
+      "rank": 1
     },
     {
       "id": "3656919",
@@ -1233,7 +1367,9 @@
       "age": "U11",
       "gender": "Girls",
       "bracket": "G2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U11|G2015 Premier|",
+      "rank": 2
     },
     {
       "id": "3646067",
@@ -1251,7 +1387,9 @@
       "age": "U11",
       "gender": "Girls",
       "bracket": "G2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U11|G2015 Premier|",
+      "rank": 3
     },
     {
       "id": "3649712",
@@ -1269,7 +1407,9 @@
       "age": "U11",
       "gender": "Girls",
       "bracket": "G2015 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U11|G2015 Premier|",
+      "rank": 4
     },
     {
       "id": "3646208",
@@ -1287,7 +1427,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 1
     },
     {
       "id": "3561510",
@@ -1305,7 +1447,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 2
     },
     {
       "id": "3503143",
@@ -1323,7 +1467,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 3
     },
     {
       "id": "3603797",
@@ -1341,7 +1487,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 4
     },
     {
       "id": "3541475",
@@ -1359,7 +1507,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 5
     },
     {
       "id": "3641966",
@@ -1377,7 +1527,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 6
     },
     {
       "id": "3654168",
@@ -1395,7 +1547,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 7
     },
     {
       "id": "3673129",
@@ -1413,7 +1567,9 @@
       "age": "U12",
       "gender": "Girls",
       "bracket": "G2014 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U12|G2014 Premier|",
+      "rank": 8
     },
     {
       "id": "3599921",
@@ -1431,7 +1587,9 @@
       "age": "U13",
       "gender": "Girls",
       "bracket": "G2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U13|G2013 Premier|",
+      "rank": 1
     },
     {
       "id": "3612343",
@@ -1449,7 +1607,9 @@
       "age": "U13",
       "gender": "Girls",
       "bracket": "G2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U13|G2013 Premier|",
+      "rank": 2
     },
     {
       "id": "3586452",
@@ -1467,7 +1627,9 @@
       "age": "U13",
       "gender": "Girls",
       "bracket": "G2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U13|G2013 Premier|",
+      "rank": 3
     },
     {
       "id": "3624302",
@@ -1485,7 +1647,9 @@
       "age": "U13",
       "gender": "Girls",
       "bracket": "G2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U13|G2013 Premier|",
+      "rank": 4
     },
     {
       "id": "3526644",
@@ -1503,7 +1667,9 @@
       "age": "U13",
       "gender": "Girls",
       "bracket": "G2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U13|G2013 Premier|",
+      "rank": 5
     },
     {
       "id": "3623781",
@@ -1521,7 +1687,9 @@
       "age": "U13",
       "gender": "Girls",
       "bracket": "G2013 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U13|G2013 Premier|",
+      "rank": 6
     },
     {
       "id": "3664474",
@@ -1539,7 +1707,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Premier|",
+      "rank": 1
     },
     {
       "id": "3576589",
@@ -1557,7 +1727,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Premier|",
+      "rank": 2
     },
     {
       "id": "3584746",
@@ -1575,7 +1747,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Premier|",
+      "rank": 3
     },
     {
       "id": "3577088",
@@ -1593,7 +1767,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Premier|",
+      "rank": 4
     },
     {
       "id": "3657037",
@@ -1611,7 +1787,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Championship|",
+      "rank": 1
     },
     {
       "id": "3662751",
@@ -1629,7 +1807,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Championship|",
+      "rank": 2
     },
     {
       "id": "3646956",
@@ -1647,7 +1827,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Championship|",
+      "rank": 3
     },
     {
       "id": "3639564",
@@ -1665,7 +1847,9 @@
       "age": "U14",
       "gender": "Girls",
       "bracket": "G2012 Championship",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U14|G2012 Championship|",
+      "rank": 4
     },
     {
       "id": "3599435",
@@ -1683,7 +1867,9 @@
       "age": "U15",
       "gender": "Girls",
       "bracket": "G2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U15|G2011 Premier|",
+      "rank": 1
     },
     {
       "id": "3642039",
@@ -1701,7 +1887,9 @@
       "age": "U15",
       "gender": "Girls",
       "bracket": "G2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U15|G2011 Premier|",
+      "rank": 2
     },
     {
       "id": "3646646",
@@ -1719,7 +1907,9 @@
       "age": "U15",
       "gender": "Girls",
       "bracket": "G2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U15|G2011 Premier|",
+      "rank": 3
     },
     {
       "id": "3594712",
@@ -1737,7 +1927,9 @@
       "age": "U15",
       "gender": "Girls",
       "bracket": "G2011 Premier",
-      "group": ""
+      "group": "",
+      "standingsKey": "Girls|U15|G2011 Premier|",
+      "rank": 4
     }
   ],
   "clubs": [
@@ -1763,7 +1955,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 28,
@@ -1793,7 +1987,9 @@
           "age": "U13",
           "gender": "Girls",
           "bracket": "G2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U13|G2013 Premier|",
+          "rank": 4
         }
       ],
       "totalPoints": 14,
@@ -1823,7 +2019,9 @@
           "age": "U9",
           "gender": "Boys",
           "bracket": "B2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U9|B2017 Premier|",
+          "rank": 8
         },
         {
           "id": "3581217",
@@ -1841,7 +2039,9 @@
           "age": "U11",
           "gender": "Boys",
           "bracket": "B2015 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U11|B2015 Championship|",
+          "rank": 2
         },
         {
           "id": "3642217",
@@ -1859,7 +2059,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Premier|",
+          "rank": 3
         },
         {
           "id": "3599921",
@@ -1877,7 +2079,9 @@
           "age": "U13",
           "gender": "Girls",
           "bracket": "G2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U13|G2013 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 64,
@@ -1907,7 +2111,9 @@
           "age": "U11",
           "gender": "Boys",
           "bracket": "B2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U11|B2015 Premier|",
+          "rank": 4
         }
       ],
       "totalPoints": 4,
@@ -1937,7 +2143,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Championship|",
+          "rank": 3
         }
       ],
       "totalPoints": 20,
@@ -1967,7 +2175,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Premier|",
+          "rank": 3
         },
         {
           "id": "3641966",
@@ -1985,7 +2195,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 6
         }
       ],
       "totalPoints": 34,
@@ -2015,7 +2227,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 28,
@@ -2045,7 +2259,9 @@
           "age": "U9",
           "gender": "Girls",
           "bracket": "G2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U9|G2017 Premier|",
+          "rank": 1
         },
         {
           "id": "3664474",
@@ -2063,7 +2279,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 47,
@@ -2093,7 +2311,9 @@
           "age": "U9",
           "gender": "Boys",
           "bracket": "B2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U9|B2017 Premier|",
+          "rank": 2
         },
         {
           "id": "3455972",
@@ -2111,7 +2331,9 @@
           "age": "U9",
           "gender": "Boys",
           "bracket": "B2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U9|B2017 Premier|",
+          "rank": 7
         },
         {
           "id": "3609830",
@@ -2129,7 +2351,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Premier|",
+          "rank": 5
         },
         {
           "id": "3628186",
@@ -2147,7 +2371,9 @@
           "age": "U12",
           "gender": "Boys",
           "bracket": "B2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U12|B2014 Premier|",
+          "rank": 2
         },
         {
           "id": "3587369",
@@ -2165,7 +2391,9 @@
           "age": "U15",
           "gender": "Boys",
           "bracket": "B2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U15|B2011 Premier|",
+          "rank": 2
         }
       ],
       "totalPoints": 80,
@@ -2195,7 +2423,9 @@
           "age": "U11",
           "gender": "Boys",
           "bracket": "B2015 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U11|B2015 Championship|",
+          "rank": 4
         },
         {
           "id": "3576589",
@@ -2213,7 +2443,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Premier|",
+          "rank": 2
         },
         {
           "id": "3599435",
@@ -2231,7 +2463,9 @@
           "age": "U15",
           "gender": "Girls",
           "bracket": "G2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U15|G2011 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 48,
@@ -2261,7 +2495,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Championship|",
+          "rank": 1
         }
       ],
       "totalPoints": 28,
@@ -2291,7 +2527,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Premier|",
+          "rank": 1
         },
         {
           "id": "3629322",
@@ -2309,7 +2547,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Premier|",
+          "rank": 2
         },
         {
           "id": "3520716",
@@ -2327,7 +2567,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Championship|",
+          "rank": 1
         },
         {
           "id": "3594669",
@@ -2345,7 +2587,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Premier|",
+          "rank": 2
         },
         {
           "id": "3646208",
@@ -2363,7 +2607,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 116,
@@ -2393,7 +2639,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Championship|",
+          "rank": 3
         }
       ],
       "totalPoints": 14,
@@ -2423,7 +2671,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Premier|",
+          "rank": 2
         },
         {
           "id": "3674535",
@@ -2441,7 +2691,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Premier|",
+          "rank": 3
         },
         {
           "id": "3663577",
@@ -2459,7 +2711,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Premier|",
+          "rank": 4
         },
         {
           "id": "3662172",
@@ -2477,7 +2731,9 @@
           "age": "U16",
           "gender": "Boys",
           "bracket": "B2010 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U16|B2010 Premier|",
+          "rank": 1
         },
         {
           "id": "3662458",
@@ -2495,7 +2751,9 @@
           "age": "U16",
           "gender": "Boys",
           "bracket": "B2010 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U16|B2010 Premier|",
+          "rank": 4
         },
         {
           "id": "3598572",
@@ -2513,7 +2771,9 @@
           "age": "U9",
           "gender": "Girls",
           "bracket": "G2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U9|G2017 Premier|",
+          "rank": 3
         },
         {
           "id": "3654333",
@@ -2531,7 +2791,9 @@
           "age": "U11",
           "gender": "Girls",
           "bracket": "G2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U11|G2015 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 106,
@@ -2561,7 +2823,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Premier|",
+          "rank": 4
         }
       ],
       "totalPoints": 2,
@@ -2591,7 +2855,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 7
         },
         {
           "id": "3657037",
@@ -2609,7 +2875,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Championship|",
+          "rank": 1
         }
       ],
       "totalPoints": 32,
@@ -2639,7 +2907,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Championship|",
+          "rank": 2
         }
       ],
       "totalPoints": 19,
@@ -2669,7 +2939,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Championship|",
+          "rank": 2
         },
         {
           "id": "3514694",
@@ -2687,7 +2959,9 @@
           "age": "U12",
           "gender": "Boys",
           "bracket": "B2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U12|B2014 Premier|",
+          "rank": 3
         },
         {
           "id": "3656894",
@@ -2705,7 +2979,9 @@
           "age": "U9",
           "gender": "Girls",
           "bracket": "G2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U9|G2017 Premier|",
+          "rank": 4
         },
         {
           "id": "3649712",
@@ -2723,7 +2999,9 @@
           "age": "U11",
           "gender": "Girls",
           "bracket": "G2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U11|G2015 Premier|",
+          "rank": 4
         },
         {
           "id": "3623781",
@@ -2741,7 +3019,9 @@
           "age": "U13",
           "gender": "Girls",
           "bracket": "G2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U13|G2013 Premier|",
+          "rank": 6
         }
       ],
       "totalPoints": 56,
@@ -2771,7 +3051,9 @@
           "age": "U13",
           "gender": "Girls",
           "bracket": "G2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U13|G2013 Premier|",
+          "rank": 3
         }
       ],
       "totalPoints": 15,
@@ -2801,7 +3083,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Championship|",
+          "rank": 4
         },
         {
           "id": "3603797",
@@ -2819,7 +3103,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 4
         },
         {
           "id": "3541475",
@@ -2837,7 +3123,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 5
         },
         {
           "id": "3526644",
@@ -2855,7 +3143,9 @@
           "age": "U13",
           "gender": "Girls",
           "bracket": "G2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U13|G2013 Premier|",
+          "rank": 5
         },
         {
           "id": "3584746",
@@ -2873,7 +3163,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Premier|",
+          "rank": 3
         },
         {
           "id": "3639564",
@@ -2891,7 +3183,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Championship|",
+          "rank": 4
         }
       ],
       "totalPoints": 63,
@@ -2921,7 +3215,9 @@
           "age": "U15",
           "gender": "Boys",
           "bracket": "B2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U15|B2011 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 25,
@@ -2951,7 +3247,9 @@
           "age": "U12",
           "gender": "Boys",
           "bracket": "B2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U12|B2014 Premier|",
+          "rank": 6
         },
         {
           "id": "3630581",
@@ -2969,7 +3267,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Championship|",
+          "rank": 3
         },
         {
           "id": "3649836",
@@ -2987,7 +3287,9 @@
           "age": "U15",
           "gender": "Boys",
           "bracket": "B2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U15|B2011 Premier|",
+          "rank": 3
         },
         {
           "id": "3645128",
@@ -3005,7 +3307,9 @@
           "age": "U15",
           "gender": "Boys",
           "bracket": "B2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U15|B2011 Premier|",
+          "rank": 5
         },
         {
           "id": "3656919",
@@ -3023,7 +3327,9 @@
           "age": "U11",
           "gender": "Girls",
           "bracket": "G2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U11|G2015 Premier|",
+          "rank": 2
         },
         {
           "id": "3503143",
@@ -3041,7 +3347,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 3
         },
         {
           "id": "3673129",
@@ -3059,7 +3367,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 8
         },
         {
           "id": "3612343",
@@ -3077,7 +3387,9 @@
           "age": "U13",
           "gender": "Girls",
           "bracket": "G2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U13|G2013 Premier|",
+          "rank": 2
         },
         {
           "id": "3594712",
@@ -3095,7 +3407,9 @@
           "age": "U15",
           "gender": "Girls",
           "bracket": "G2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U15|G2011 Premier|",
+          "rank": 4
         }
       ],
       "totalPoints": 82,
@@ -3125,7 +3439,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Championship|",
+          "rank": 5
         },
         {
           "id": "3593005",
@@ -3143,7 +3459,9 @@
           "age": "U11",
           "gender": "Boys",
           "bracket": "B2015 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U11|B2015 Championship|",
+          "rank": 1
         }
       ],
       "totalPoints": 38,
@@ -3173,7 +3491,9 @@
           "age": "U11",
           "gender": "Girls",
           "bracket": "G2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U11|G2015 Premier|",
+          "rank": 3
         }
       ],
       "totalPoints": 13,
@@ -3203,7 +3523,9 @@
           "age": "U9",
           "gender": "Boys",
           "bracket": "B2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U9|B2017 Premier|",
+          "rank": 4
         },
         {
           "id": "3584348",
@@ -3221,7 +3543,9 @@
           "age": "U10",
           "gender": "Boys",
           "bracket": "B2016 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U10|B2016 Championship|",
+          "rank": 1
         },
         {
           "id": "3645945",
@@ -3239,7 +3563,9 @@
           "age": "U11",
           "gender": "Boys",
           "bracket": "B2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U11|B2015 Premier|",
+          "rank": 1
         },
         {
           "id": "3635953",
@@ -3257,7 +3583,9 @@
           "age": "U12",
           "gender": "Boys",
           "bracket": "B2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U12|B2014 Premier|",
+          "rank": 5
         },
         {
           "id": "3645943",
@@ -3275,7 +3603,9 @@
           "age": "U13",
           "gender": "Boys",
           "bracket": "B2013 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U13|B2013 Premier|",
+          "rank": 4
         },
         {
           "id": "3653995",
@@ -3293,7 +3623,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Championship|",
+          "rank": 3
         },
         {
           "id": "3637928",
@@ -3311,7 +3643,9 @@
           "age": "U14",
           "gender": "Boys",
           "bracket": "B2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U14|B2012 Championship|",
+          "rank": 4
         },
         {
           "id": "3656854",
@@ -3329,7 +3663,9 @@
           "age": "U9",
           "gender": "Girls",
           "bracket": "G2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U9|G2017 Premier|",
+          "rank": 2
         },
         {
           "id": "3638250",
@@ -3347,7 +3683,9 @@
           "age": "U9",
           "gender": "Girls",
           "bracket": "G2017 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U9|G2017 Premier|",
+          "rank": 5
         },
         {
           "id": "3662751",
@@ -3365,7 +3703,9 @@
           "age": "U14",
           "gender": "Girls",
           "bracket": "G2012 Championship",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U14|G2012 Championship|",
+          "rank": 2
         },
         {
           "id": "3642039",
@@ -3383,7 +3723,9 @@
           "age": "U15",
           "gender": "Girls",
           "bracket": "G2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U15|G2011 Premier|",
+          "rank": 2
         },
         {
           "id": "3646646",
@@ -3401,7 +3743,9 @@
           "age": "U15",
           "gender": "Girls",
           "bracket": "G2011 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U15|G2011 Premier|",
+          "rank": 3
         }
       ],
       "totalPoints": 157,
@@ -3431,7 +3775,9 @@
           "age": "U12",
           "gender": "Boys",
           "bracket": "B2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U12|B2014 Premier|",
+          "rank": 1
         }
       ],
       "totalPoints": 27,
@@ -3461,7 +3807,9 @@
           "age": "U11",
           "gender": "Boys",
           "bracket": "B2015 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U11|B2015 Premier|",
+          "rank": 2
         }
       ],
       "totalPoints": 18,
@@ -3491,7 +3839,9 @@
           "age": "U12",
           "gender": "Boys",
           "bracket": "B2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U12|B2014 Premier|",
+          "rank": 4
         }
       ],
       "totalPoints": 16,
@@ -3521,7 +3871,9 @@
           "age": "U16",
           "gender": "Boys",
           "bracket": "B2010 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Boys|U16|B2010 Premier|",
+          "rank": 3
         }
       ],
       "totalPoints": 13,
@@ -3551,7 +3903,9 @@
           "age": "U12",
           "gender": "Girls",
           "bracket": "G2014 Premier",
-          "group": ""
+          "group": "",
+          "standingsKey": "Girls|U12|G2014 Premier|",
+          "rank": 2
         }
       ],
       "totalPoints": 14,
@@ -3579,7 +3933,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "84",
@@ -3599,7 +3960,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "88",
@@ -3619,7 +3987,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "89",
@@ -3639,7 +4014,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "86",
@@ -3659,7 +4041,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "87",
@@ -3679,7 +4068,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "91",
@@ -3699,7 +4095,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "90",
@@ -3719,7 +4122,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "92",
@@ -3739,7 +4149,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "93",
@@ -3759,7 +4176,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "95",
@@ -3779,7 +4203,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "94",
@@ -3799,7 +4230,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "96",
@@ -3819,7 +4257,14 @@
       "bracket": "B2017 Premier",
       "age": "U9",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-30T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "72",
@@ -3839,7 +4284,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "73",
@@ -3859,7 +4311,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "71",
@@ -3879,7 +4338,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "67",
@@ -3899,7 +4365,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "65",
@@ -3919,7 +4392,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "66",
@@ -3939,7 +4419,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "69",
@@ -3959,7 +4446,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "70",
@@ -3979,7 +4473,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "68",
@@ -3999,7 +4500,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-30T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "177",
@@ -4019,7 +4527,14 @@
       "bracket": "B2016 Premier",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "2:30 PM",
+      "kickoff": "2025-11-30T14:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "76",
@@ -4039,7 +4554,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "75",
@@ -4059,7 +4581,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "74",
@@ -4079,7 +4608,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "77",
@@ -4099,7 +4635,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "78",
@@ -4119,7 +4662,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "79",
@@ -4139,7 +4689,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "80",
@@ -4159,7 +4716,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "82",
@@ -4179,7 +4743,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "81",
@@ -4199,7 +4770,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "83",
@@ -4219,7 +4797,14 @@
       "bracket": "B2016 Championship",
       "age": "U10",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:30 PM",
+      "kickoff": "2025-11-30T13:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "53",
@@ -4239,7 +4824,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "54",
@@ -4259,7 +4851,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "55",
@@ -4279,7 +4878,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "56",
@@ -4299,7 +4905,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "58",
@@ -4319,7 +4932,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "57",
@@ -4339,7 +4959,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "175",
@@ -4359,7 +4986,14 @@
       "bracket": "B2015 Premier",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "12:30 PM",
+      "kickoff": "2025-11-30T12:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "59",
@@ -4379,7 +5013,14 @@
       "bracket": "B2015 Championship",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "60",
@@ -4400,7 +5041,14 @@
       "age": "U11",
       "gender": "Boys",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "62",
@@ -4420,7 +5068,14 @@
       "bracket": "B2015 Championship",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "61",
@@ -4441,7 +5096,14 @@
       "age": "U11",
       "gender": "Boys",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "63",
@@ -4462,7 +5124,14 @@
       "age": "U11",
       "gender": "Boys",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "64",
@@ -4482,7 +5151,14 @@
       "bracket": "B2015 Championship",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-30T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "176",
@@ -4502,7 +5178,14 @@
       "bracket": "B2015 Championship",
       "age": "U11",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "2:45 PM",
+      "kickoff": "2025-11-30T14:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "45",
@@ -4522,7 +5205,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "44",
@@ -4542,7 +5232,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "43",
@@ -4562,7 +5259,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "47",
@@ -4582,7 +5286,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "46",
@@ -4602,7 +5313,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "48",
@@ -4622,7 +5340,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "51",
@@ -4642,7 +5367,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "50",
@@ -4662,7 +5394,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "49",
@@ -4682,7 +5421,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "52",
@@ -4702,7 +5448,14 @@
       "bracket": "B2014 Premier",
       "age": "U12",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "12:30 PM",
+      "kickoff": "2025-11-30T12:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "29",
@@ -4722,7 +5475,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "30",
@@ -4742,7 +5502,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "32",
@@ -4762,7 +5529,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "31",
@@ -4782,7 +5556,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "33",
@@ -4802,7 +5583,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "34",
@@ -4822,7 +5610,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "35",
@@ -4842,7 +5637,14 @@
       "bracket": "B2013 Premier",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:30 PM",
+      "kickoff": "2025-11-30T13:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "36",
@@ -4862,7 +5664,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "37",
@@ -4882,7 +5691,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "38",
@@ -4902,7 +5718,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "39",
@@ -4922,7 +5745,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "40",
@@ -4942,7 +5772,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "41",
@@ -4962,7 +5799,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "42",
@@ -4982,7 +5826,14 @@
       "bracket": "B2013 Championship",
       "age": "U13",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-30T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "15",
@@ -5002,7 +5853,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "16",
@@ -5022,7 +5880,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "18",
@@ -5042,7 +5907,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "17",
@@ -5062,7 +5934,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "4:45 PM",
+      "kickoff": "2025-11-29T16:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "19",
@@ -5082,7 +5961,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "20",
@@ -5102,7 +5988,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "21",
@@ -5122,7 +6015,14 @@
       "bracket": "B2012 Premier",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-30T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "22",
@@ -5142,7 +6042,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "23",
@@ -5162,7 +6069,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "25",
@@ -5182,7 +6096,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "24",
@@ -5202,7 +6123,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "27",
@@ -5222,7 +6150,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "26",
@@ -5242,7 +6177,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "28",
@@ -5262,7 +6204,14 @@
       "bracket": "B2012 Championship",
       "age": "U14",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:30 PM",
+      "kickoff": "2025-11-30T13:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "167",
@@ -5282,7 +6231,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "168",
@@ -5302,7 +6258,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "166",
@@ -5322,7 +6285,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "171",
@@ -5342,7 +6312,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "169",
@@ -5362,7 +6339,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "170",
@@ -5382,7 +6366,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "174",
@@ -5402,7 +6393,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "172",
@@ -5422,7 +6420,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "173",
@@ -5442,7 +6447,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "14",
@@ -5462,7 +6474,14 @@
       "bracket": "B2011 Premier",
       "age": "U15",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "2:00 PM",
+      "kickoff": "2025-11-30T14:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "1",
@@ -5482,7 +6501,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "2",
@@ -5502,7 +6528,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "3",
@@ -5522,7 +6555,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "4",
@@ -5542,7 +6582,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "6",
@@ -5562,7 +6609,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-30T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "5",
@@ -5582,7 +6636,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-30T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "7",
@@ -5602,7 +6663,14 @@
       "bracket": "B2010 Premier",
       "age": "U16",
       "gender": "Boys",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "2:45 PM",
+      "kickoff": "2025-11-30T14:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "147",
@@ -5622,7 +6690,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "145",
@@ -5642,7 +6717,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "146",
@@ -5662,7 +6744,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "142",
@@ -5682,7 +6771,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "143",
@@ -5702,7 +6798,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "144",
@@ -5722,7 +6825,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "149",
@@ -5742,7 +6852,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "148",
@@ -5762,7 +6879,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "150",
@@ -5782,7 +6906,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "181",
@@ -5802,7 +6933,14 @@
       "bracket": "G2017 Premier",
       "age": "U9",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "12:00 PM",
+      "kickoff": "2025-11-30T12:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "137",
@@ -5822,7 +6960,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "136",
@@ -5842,7 +6987,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "138",
@@ -5862,7 +7014,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "139",
@@ -5882,7 +7041,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "140",
@@ -5902,7 +7068,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "141",
@@ -5922,7 +7095,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "180",
@@ -5942,7 +7122,14 @@
       "bracket": "G2015 Premier",
       "age": "U11",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:30 PM",
+      "kickoff": "2025-11-30T13:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "125",
@@ -5962,7 +7149,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "124",
@@ -5982,7 +7176,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "129",
@@ -6002,7 +7203,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "128",
@@ -6022,7 +7230,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "130",
@@ -6042,7 +7257,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "131",
@@ -6062,7 +7284,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "127",
@@ -6082,7 +7311,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "126",
@@ -6102,7 +7338,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "133",
@@ -6122,7 +7365,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "132",
@@ -6142,7 +7392,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-30T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "135",
@@ -6162,7 +7419,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "134",
@@ -6182,7 +7446,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "182",
@@ -6202,7 +7473,14 @@
       "bracket": "G2014 Premier",
       "age": "U12",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "",
+      "kickoff": "2025-11-30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "157",
@@ -6222,7 +7500,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "159",
@@ -6242,7 +7527,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-29T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "158",
@@ -6262,7 +7554,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "160",
@@ -6282,7 +7581,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "161",
@@ -6302,7 +7608,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "1:00 PM",
+      "kickoff": "2025-11-29T13:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "162",
@@ -6322,7 +7635,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "163",
@@ -6342,7 +7662,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "164",
@@ -6362,7 +7689,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "165",
@@ -6382,7 +7716,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-30T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "123",
@@ -6402,7 +7743,14 @@
       "bracket": "G2013 Premier",
       "age": "U13",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "1:15 PM",
+      "kickoff": "2025-11-30T13:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "105",
@@ -6423,7 +7771,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "104",
@@ -6444,7 +7799,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "date": "Nov 29, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-29T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "107",
@@ -6466,7 +7828,14 @@
       "gender": "Girls",
       "group": "",
       "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "106",
@@ -6486,7 +7855,14 @@
       "bracket": "G2012 Premier",
       "age": "U14",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "6:00 PM",
+      "kickoff": "2025-11-29T18:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "108",
@@ -6507,7 +7883,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/oxnard-united-sc.png",
+      "date": "Nov 30, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-30T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "109",
@@ -6528,7 +7911,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 30, 2025",
+      "startTime": "11:45 AM",
+      "kickoff": "2025-11-30T11:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "110",
@@ -6549,7 +7939,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 30, 2025",
+      "startTime": "2:45 PM",
+      "kickoff": "2025-11-30T14:45",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "112",
@@ -6569,7 +7966,14 @@
       "bracket": "G2012 Championship",
       "age": "U14",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "111",
@@ -6590,7 +7994,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/newbury-park-elite-fc.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/newbury-park-elite-fc.png",
+      "date": "Nov 29, 2025",
+      "startTime": "9:15 AM",
+      "kickoff": "2025-11-29T09:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "114",
@@ -6610,7 +8021,14 @@
       "bracket": "G2012 Championship",
       "age": "U14",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "113",
@@ -6631,7 +8049,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/newbury-park-elite-fc.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/newbury-park-elite-fc.png",
+      "date": "Nov 29, 2025",
+      "startTime": "2:15 PM",
+      "kickoff": "2025-11-29T14:15",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "116",
@@ -6652,7 +8077,14 @@
       "age": "U14",
       "gender": "Girls",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/newbury-park-elite-fc.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/newbury-park-elite-fc.png",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "115",
@@ -6672,7 +8104,14 @@
       "bracket": "G2012 Championship",
       "age": "U14",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "178",
@@ -6692,7 +8131,14 @@
       "bracket": "G2012 Championship",
       "age": "U14",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "12:00 PM",
+      "kickoff": "2025-11-30T12:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "98",
@@ -6712,7 +8158,14 @@
       "bracket": "G2011 Premier",
       "age": "U15",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "97",
@@ -6733,7 +8186,14 @@
       "age": "U15",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 29, 2025",
+      "startTime": "10:30 AM",
+      "kickoff": "2025-11-29T10:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "99",
@@ -6754,7 +8214,14 @@
       "age": "U15",
       "gender": "Girls",
       "group": "",
-      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "awayLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "100",
@@ -6774,7 +8241,14 @@
       "bracket": "G2011 Premier",
       "age": "U15",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 29, 2025",
+      "startTime": "3:30 PM",
+      "kickoff": "2025-11-29T15:30",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "101",
@@ -6794,7 +8268,14 @@
       "bracket": "G2011 Premier",
       "age": "U15",
       "gender": "Girls",
-      "group": ""
+      "group": "",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "102",
@@ -6815,7 +8296,14 @@
       "age": "U15",
       "gender": "Girls",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 30, 2025",
+      "startTime": "8:00 AM",
+      "kickoff": "2025-11-30T08:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     },
     {
       "matchNum": "103",
@@ -6836,1775 +8324,322 @@
       "age": "U15",
       "gender": "Girls",
       "group": "",
-      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png"
+      "homeLogoUrl": "https://playmaker-static.onrender.com/logos/clubs/legends-fc-ca.png",
+      "date": "Nov 30, 2025",
+      "startTime": "12:00 PM",
+      "kickoff": "2025-11-30T12:00",
+      "status": "",
+      "matchId": "",
+      "homeTeamId": "",
+      "awayTeamId": ""
     }
   ],
   "standings": {
-    "U9_B2017 Premier": [
-      {
-        "id": "3663081",
-        "name": "Central Coast Academy 2017B",
-        "club": "",
-        "logoUrl": "",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 22,
-        "ga": 1,
-        "gd": 21,
-        "pts": 29,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3496983",
-        "name": "LA Surf Soccer Club LC B2017 - SOCAL",
-        "club": "LA Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/031/full/surf.jpg?1595874562",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 26,
-        "ga": 7,
-        "gd": 19,
-        "pts": 18,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3568307",
-        "name": "I-A FC Allance 2017",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/683/807/icon/A.S_Alliance_F.C_%281%29_%281%29_%284%29.png?1759428097",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 15,
-        "ga": 15,
-        "gd": 0,
-        "pts": 13,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3654446",
-        "name": "Ventura Surf Soccer Club B2017 OV",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 1,
-        "ga": 41,
-        "gd": -40,
-        "pts": 1,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3546803",
-        "name": "SVFC Premier Arsenal",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/593/760/icon/SV_Premier_logo.jpg?1750458758",
-        "mp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 22,
-        "ga": 9,
-        "gd": 13,
-        "pts": 24,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3600225",
-        "name": "Juniors FC B17",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/532/601/icon/file_000000001c8c720c8dfb716f25d99438.png?1764372034",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 10,
-        "ga": 12,
-        "gd": -2,
-        "pts": 17,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3455972",
-        "name": "LA Surf Soccer Club LC B2018 - SOCAL",
-        "club": "LA Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/031/full/surf.jpg?1595874562",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 12,
-        "ga": 14,
-        "gd": -2,
-        "pts": 15,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3667071",
-        "name": "Central Cal Aztecs B17 Academy",
-        "club": "Central Cal Aztecs",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/249/full/0.png?1746042518",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 7,
-        "ga": 16,
-        "gd": -9,
-        "pts": 12,
-        "age": "U9",
-        "gender": "Boys",
-        "bracket": "B2017 Premier",
-        "group": ""
-      }
-    ],
-    "U10_B2016 Premier": [
-      {
-        "id": "3629009",
-        "name": "Moorpark SC B2016 Aguirre",
-        "club": "Moorpark SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 17,
-        "ga": 4,
-        "gd": 13,
-        "pts": 28,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Premier",
-        "group": ""
-      },
-      {
-        "id": "3629322",
-        "name": "Moorpark SC B2016 Fallon",
-        "club": "Moorpark SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 13,
-        "ga": 6,
-        "gd": 7,
-        "pts": 27,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Premier",
-        "group": ""
-      },
-      {
-        "id": "3641934",
-        "name": "GB United B2016",
-        "club": "GB United",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/030/293/full/GB_UNITED_transparent_bg.png?1710449320",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 15,
-        "ga": 18,
-        "gd": -3,
-        "pts": 15,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Premier",
-        "group": ""
-      },
-      {
-        "id": "3568103",
-        "name": "I-A FC Alliance 2016",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/683/802/icon/A.S_Alliance_F.C_%281%29_%281%29_%284%29.png?1759426903",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 12,
-        "ga": 17,
-        "gd": -5,
-        "pts": 12,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Premier",
-        "group": ""
-      },
-      {
-        "id": "3609830",
-        "name": "LA Surf Soccer Club LC B2016 - SOCAL",
-        "club": "LA Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/031/full/surf.jpg?1595874562",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 9,
-        "ga": 11,
-        "gd": -2,
-        "pts": 11,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Premier",
-        "group": ""
-      },
-      {
-        "id": "3647204",
-        "name": "Oxnard FC B2016 Black",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/614/918/icon/oxnard_FC.jpg?1753205380",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 7,
-        "ga": 17,
-        "gd": -10,
-        "pts": 7,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Premier",
-        "group": ""
-      }
-    ],
-    "U10_B2016 Championship": [
-      {
-        "id": "3584348",
-        "name": "Ventura Surf Soccer Club B2016 TO White",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 15,
-        "ga": 4,
-        "gd": 11,
-        "pts": 26,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Championship",
-        "group": ""
-      },
-      {
-        "id": "3544279",
-        "name": "Simi Valley Soccer Club B2016/2017-White",
-        "club": "Simi Valley Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 21,
-        "ga": 13,
-        "gd": 8,
-        "pts": 21,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Championship",
-        "group": ""
-      },
-      {
-        "id": "3653533",
-        "name": "Eagles SC 2016 Boys",
-        "club": "Eagles SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/626/full/Eagleslogo.png?1654975293",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 12,
-        "ga": 7,
-        "gd": 5,
-        "pts": 20,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Championship",
-        "group": ""
-      },
-      {
-        "id": "3674185",
-        "name": "UNICO B16",
-        "club": "",
-        "logoUrl": "",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 11,
-        "ga": 13,
-        "gd": -2,
-        "pts": 14,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Championship",
-        "group": ""
-      },
-      {
-        "id": "3646738",
-        "name": "Valley United SC B2016 Moorpark Black",
-        "club": "Valley United SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/784/full/Valley_UNited_LOGO_.PNG?1626976468",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 7,
-        "ga": 17,
-        "gd": -10,
-        "pts": 13,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Championship",
-        "group": ""
-      },
-      {
-        "id": "3568149",
-        "name": "I-A FC Alliance 2016 Silver",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/683/804/icon/A.S_Alliance_F.C_%281%29_%281%29_%284%29.png?1759427622",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 1,
-        "ga": 13,
-        "gd": -12,
-        "pts": 1,
-        "age": "U10",
-        "gender": "Boys",
-        "bracket": "B2016 Championship",
-        "group": ""
-      }
-    ],
-    "U11_B2015 Premier": [
-      {
-        "id": "3645945",
-        "name": "Ventura Surf Soccer Club B2015",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 17,
-        "ga": 0,
-        "gd": 17,
-        "pts": 30,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Premier",
-        "group": ""
-      },
-      {
-        "id": "3563688",
-        "name": "Union FC 805 Vengadores",
-        "club": "Union FC",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/666/486/icon/Avengers_Logo.jpg?1761624721",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 8,
-        "ga": 13,
-        "gd": -5,
-        "pts": 18,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Premier",
-        "group": ""
-      },
-      {
-        "id": "3568038",
-        "name": "I-A FC Alliance 2015",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/683/789/icon/A.S_Alliance_F.C_%281%29_%281%29_%284%29.png?1759425748",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 7,
-        "ga": 10,
-        "gd": -3,
-        "pts": 12,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Premier",
-        "group": ""
-      },
-      {
-        "id": "3570895",
-        "name": "City SC Central Valley AV B2016",
-        "club": "City SC Central Valley",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/030/995/full/central_valley_logo.png?1739572073",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 4,
-        "ga": 13,
-        "gd": -9,
-        "pts": 4,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Premier",
-        "group": ""
-      }
-    ],
-    "U11_B2015 Championship": [
-      {
-        "id": "3593005",
-        "name": "Valley United SC B2015 Black",
-        "club": "Valley United SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/784/full/Valley_UNited_LOGO_.PNG?1626976468",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 8,
-        "ga": 5,
-        "gd": 3,
-        "pts": 25,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Championship",
-        "group": ""
-      },
-      {
-        "id": "3581217",
-        "name": "Central Cal Aztecs B15 Academy",
-        "club": "Central Cal Aztecs",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/249/full/0.png?1746042518",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 11,
-        "ga": 6,
-        "gd": 5,
-        "pts": 18,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Championship",
-        "group": ""
-      },
-      {
-        "id": "3675051",
-        "name": "Oxnard Kickers Giants B15",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/693/258/icon/c57a4ab4-cfb5-4920-892f-0427a6216772.jpeg?1763949156",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 12,
-        "ga": 14,
-        "gd": -2,
-        "pts": 15,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Championship",
-        "group": ""
-      },
-      {
-        "id": "3646926",
-        "name": "Legends FC (CA) AV B15 FC",
-        "club": "Legends FC (CA)",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/030/full/lfc_crest_fullcolor_stars.png?1628123567",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 3,
-        "ga": 9,
-        "gd": -6,
-        "pts": 3,
-        "age": "U11",
-        "gender": "Boys",
-        "bracket": "B2015 Championship",
-        "group": ""
-      }
-    ],
-    "U12_B2014 Premier": [
-      {
-        "id": "3645006",
-        "name": "Views FC B2014 DUME",
-        "club": "Views FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/302/full/vfclogo.png?1740037540",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 11,
-        "ga": 3,
-        "gd": 8,
-        "pts": 27,
-        "age": "U12",
-        "gender": "Boys",
-        "bracket": "B2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3628186",
-        "name": "LA Surf Soccer Club SFV B2014 Black - SOCAL",
-        "club": "LA Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/031/full/surf.jpg?1595874562",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 9,
-        "ga": 4,
-        "gd": 5,
-        "pts": 19,
-        "age": "U12",
-        "gender": "Boys",
-        "bracket": "B2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3514694",
-        "name": "Simi Valley Soccer Club B2014-White",
-        "club": "Simi Valley Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 10,
-        "ga": 6,
-        "gd": 4,
-        "pts": 16,
-        "age": "U12",
-        "gender": "Boys",
-        "bracket": "B2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3654577",
-        "name": "Chivas SA The U Academy",
-        "club": "Chivas SA",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/611/171/icon/IMG_4231.jpeg?1745874196",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 7,
-        "ga": 7,
-        "gd": 0,
-        "pts": 16,
-        "age": "U12",
-        "gender": "Boys",
-        "bracket": "B2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3635953",
-        "name": "Ventura Surf Soccer Club B2014 White",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 9,
-        "ga": 10,
-        "gd": -1,
-        "pts": 13,
-        "age": "U12",
-        "gender": "Boys",
-        "bracket": "B2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3664579",
-        "name": "United SoCal AV B2014",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 0,
-        "ga": 16,
-        "gd": -16,
-        "pts": 0,
-        "age": "U12",
-        "gender": "Boys",
-        "bracket": "B2014 Premier",
-        "group": ""
-      }
-    ],
-    "U13_B2013 Premier": [
-      {
-        "id": "3659994",
-        "name": "Kickers FC (CA) B2013 Aguilas",
-        "club": "Kickers FC (CA)",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/033/627/full/WhatsApp_Image_2025-06-26_at_22.52.28.jpeg?1752256902",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 21,
-        "ga": 4,
-        "gd": 17,
-        "pts": 28,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3663080",
-        "name": "Oaks FC B14 EA",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 15,
-        "ga": 7,
-        "gd": 8,
-        "pts": 20,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3642217",
-        "name": "Central Cal Aztecs 13B EA2",
-        "club": "Central Cal Aztecs",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/249/full/0.png?1746042518",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 6,
-        "ga": 11,
-        "gd": -5,
-        "pts": 12,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3645943",
-        "name": "Ventura Surf Soccer Club B2013",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 4,
-        "ga": 24,
-        "gd": -20,
-        "pts": 4,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Premier",
-        "group": ""
-      }
-    ],
-    "U13_B2013 Championship": [
-      {
-        "id": "3520716",
-        "name": "Moorpark SC B2013 Martinez",
-        "club": "Moorpark SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 12,
-        "ga": 3,
-        "gd": 9,
-        "pts": 27,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Championship",
-        "group": ""
-      },
-      {
-        "id": "3640937",
-        "name": "Pateadores Soccer Club SCV B2013 White",
-        "club": "Pateadores Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/028/full/6logo.jpg?1622579603",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 9,
-        "ga": 2,
-        "gd": 7,
-        "pts": 19,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Championship",
-        "group": ""
-      },
-      {
-        "id": "3630581",
-        "name": "United SoCal Conejo Valley B2013 Red",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 5,
-        "ga": 12,
-        "gd": -7,
-        "pts": 8,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Championship",
-        "group": ""
-      },
-      {
-        "id": "3636280",
-        "name": "Steel United California Conejo Valley B2013 Premier",
-        "club": "Steel United California",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 1,
-        "ga": 10,
-        "gd": -9,
-        "pts": 4,
-        "age": "U13",
-        "gender": "Boys",
-        "bracket": "B2013 Championship",
-        "group": ""
-      }
-    ],
-    "U14_B2012 Premier": [
-      {
-        "id": "3680020",
-        "name": "Antelope Valley Futbol Club B2012 Olmedo",
-        "club": "Antelope Valley Futbol Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/244/full/FFF9F640-F302-4FEB-86FF-64A777E1978D.jpeg?1649899021",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 9,
-        "ga": 4,
-        "gd": 5,
-        "pts": 28,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Premier",
-        "group": ""
-      },
-      {
-        "id": "3594669",
-        "name": "Moorpark SC B2012 Francis",
-        "club": "Moorpark SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 4,
-        "ga": 5,
-        "gd": -1,
-        "pts": 10,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Premier",
-        "group": ""
-      },
-      {
-        "id": "3674535",
-        "name": "Oaks FC B12 EA2",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 3,
-        "ga": 4,
-        "gd": -1,
-        "pts": 10,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Premier",
-        "group": ""
-      },
-      {
-        "id": "3663577",
-        "name": "Oaks FC B13 MLS AD",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 1,
-        "ga": 4,
-        "gd": -3,
-        "pts": 8,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Premier",
-        "group": ""
-      }
-    ],
-    "U14_B2012 Championship": [
-      {
-        "id": "3569085",
-        "name": "Lightning SC Red B2012",
-        "club": "Lightning SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/006/237/full/lsc.png?1762883018",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 10,
-        "ga": 4,
-        "gd": 6,
-        "pts": 28,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Championship",
-        "group": ""
-      },
-      {
-        "id": "3638196",
-        "name": "Legends B2012",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/690/308/icon/IMG_4642.jpeg?1766545320",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 4,
-        "ga": 3,
-        "gd": 1,
-        "pts": 15,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Championship",
-        "group": ""
-      },
-      {
-        "id": "3653995",
-        "name": "Ventura Surf Soccer Club B2012",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 1,
-        "ga": 4,
-        "gd": -3,
-        "pts": 8,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Championship",
-        "group": ""
-      },
-      {
-        "id": "3637928",
-        "name": "Ventura Surf Soccer Club B2012 OV",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 3,
-        "ga": 7,
-        "gd": -4,
-        "pts": 6,
-        "age": "U14",
-        "gender": "Boys",
-        "bracket": "B2012 Championship",
-        "group": ""
-      }
-    ],
-    "U15_B2011 Premier": [
-      {
-        "id": "3603727",
-        "name": "Strikers FC Orange B2011 HR",
-        "club": "Strikers FC Orange",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/438/full/strikers_logo_2024.jpg?1716853869",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 9,
-        "ga": 3,
-        "gd": 6,
-        "pts": 25,
-        "age": "U15",
-        "gender": "Boys",
-        "bracket": "B2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3587369",
-        "name": "LA Surf Soccer Club SO B2011 BLACK - SOCAL",
-        "club": "LA Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/031/full/surf.jpg?1595874562",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 6,
-        "ga": 4,
-        "gd": 2,
-        "pts": 17,
-        "age": "U15",
-        "gender": "Boys",
-        "bracket": "B2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3649836",
-        "name": "United SoCal Conejo Valley B2011",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 4,
-        "ga": 3,
-        "gd": 1,
-        "pts": 14,
-        "age": "U15",
-        "gender": "Boys",
-        "bracket": "B2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3661095",
-        "name": "Formadores B2011",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/480/956/icon/Thousand_Oaks_School_Logo_V1.png?1712723063",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 3,
-        "ga": 7,
-        "gd": -4,
-        "pts": 10,
-        "age": "U15",
-        "gender": "Boys",
-        "bracket": "B2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3645128",
-        "name": "United SoCal Channel Islands B2011 Blue",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 2,
-        "ga": 3,
-        "gd": -1,
-        "pts": 8,
-        "age": "U15",
-        "gender": "Boys",
-        "bracket": "B2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3568320",
-        "name": "I-A FC Alliance 2011",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/683/809/icon/A.S_Alliance_F.C_%281%29_%281%29_%284%29.png?1759428384",
-        "mp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 3,
-        "ga": 7,
-        "gd": -4,
-        "pts": 6,
-        "age": "U15",
-        "gender": "Boys",
-        "bracket": "B2011 Premier",
-        "group": ""
-      }
-    ],
-    "U16_B2010 Premier": [
-      {
-        "id": "3662172",
-        "name": "Oaks FC B11",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 5,
-        "ga": 3,
-        "gd": 2,
-        "pts": 18,
-        "age": "U16",
-        "gender": "Boys",
-        "bracket": "B2010 Premier",
-        "group": ""
-      },
-      {
-        "id": "3661116",
-        "name": "Formadores B2010",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/479/559/icon/Thousand_Oaks_School_Logo_V1-01.jpeg?1712170720",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 5,
-        "ga": 5,
-        "gd": 0,
-        "pts": 14,
-        "age": "U16",
-        "gender": "Boys",
-        "bracket": "B2010 Premier",
-        "group": ""
-      },
-      {
-        "id": "3569063",
-        "name": "Lightning Soccer Club Red B2010",
-        "club": "Lightning Soccer Club",
-        "logoUrl": "",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 4,
-        "ga": 4,
-        "gd": 0,
-        "pts": 13,
-        "age": "U16",
-        "gender": "Boys",
-        "bracket": "B2010 Premier",
-        "group": ""
-      },
-      {
-        "id": "3662458",
-        "name": "Oaks FC B12 MLS Next AD",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 3,
-        "ga": 5,
-        "gd": -2,
-        "pts": 9,
-        "age": "U16",
-        "gender": "Boys",
-        "bracket": "B2010 Premier",
-        "group": ""
-      }
-    ],
-    "U9_G2017 Premier": [
-      {
-        "id": "3626070",
-        "name": "LAFC So Cal G2017 WHITE",
-        "club": "LAFC So Cal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/257/full/LAFC_So_Cal_Youth_Full_Color-01.png?1625763655",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 14,
-        "ga": 1,
-        "gd": 13,
-        "pts": 28,
-        "age": "U9",
-        "gender": "Girls",
-        "bracket": "G2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3656854",
-        "name": "Ventura Surf Soccer Club G2017",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 7,
-        "ga": 3,
-        "gd": 4,
-        "pts": 14,
-        "age": "U9",
-        "gender": "Girls",
-        "bracket": "G2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3598572",
-        "name": "Oaks FC G17 Blue",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 0,
-        "l": 0,
-        "d": 3,
-        "gf": 2,
-        "ga": 2,
-        "gd": 0,
-        "pts": 12,
-        "age": "U9",
-        "gender": "Girls",
-        "bracket": "G2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3656894",
-        "name": "Simi Valley Soccer Club G2018",
-        "club": "Simi Valley Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 4,
-        "ga": 10,
-        "gd": -6,
-        "pts": 10,
-        "age": "U9",
-        "gender": "Girls",
-        "bracket": "G2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3638250",
-        "name": "Ventura Surf Soccer Club G2018",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 4,
-        "ga": 12,
-        "gd": -8,
-        "pts": 10,
-        "age": "U9",
-        "gender": "Girls",
-        "bracket": "G2017 Premier",
-        "group": ""
-      },
-      {
-        "id": "3681442",
-        "name": "Newbury Park Elite FC Inferno",
-        "club": "",
-        "logoUrl": "https://system.gotsport.com/system/teams/logos/000/612/121/icon/logo-np-elite-fc.png?1746309122",
-        "mp": 3,
-        "w": 0,
-        "l": 1,
-        "d": 2,
-        "gf": 2,
-        "ga": 5,
-        "gd": -3,
-        "pts": 9,
-        "age": "U9",
-        "gender": "Girls",
-        "bracket": "G2017 Premier",
-        "group": ""
-      }
-    ],
-    "U11_G2015 Premier": [
-      {
-        "id": "3654333",
-        "name": "Oaks FC G15 Blue",
-        "club": "Oaks FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/018/858/full/IMG_4647.jpg?1660862198",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 11,
-        "ga": 1,
-        "gd": 10,
-        "pts": 29,
-        "age": "U11",
-        "gender": "Girls",
-        "bracket": "G2015 Premier",
-        "group": ""
-      },
-      {
-        "id": "3656919",
-        "name": "United SoCal Santa Clarita G2015",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 6,
-        "ga": 6,
-        "gd": 0,
-        "pts": 14,
-        "age": "U11",
-        "gender": "Girls",
-        "bracket": "G2015 Premier",
-        "group": ""
-      },
-      {
-        "id": "3646067",
-        "name": "Ventura County United SC VCU G2015",
-        "club": "Ventura County United SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/023/174/full/thumbnail_image.png?1641223103",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 5,
-        "ga": 8,
-        "gd": -3,
-        "pts": 13,
-        "age": "U11",
-        "gender": "Girls",
-        "bracket": "G2015 Premier",
-        "group": ""
-      },
-      {
-        "id": "3649712",
-        "name": "Simi Valley Soccer Club G2015-Blue",
-        "club": "Simi Valley Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 4,
-        "ga": 11,
-        "gd": -7,
-        "pts": 4,
-        "age": "U11",
-        "gender": "Girls",
-        "bracket": "G2015 Premier",
-        "group": ""
-      }
-    ],
-    "U12_G2014 Premier": [
-      {
-        "id": "3646208",
-        "name": "Moorpark SC G2014 Chavez",
-        "club": "Moorpark SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/838/full/FFC7F5C9-6DDE-423B-8DF7-57EF15DACB42.jpeg?1717296120",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 4,
-        "ga": 1,
-        "gd": 3,
-        "pts": 24,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3561510",
-        "name": "California United 2014G",
-        "club": "California United",
-        "logoUrl": "",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 5,
-        "ga": 5,
-        "gd": 0,
-        "pts": 14,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3503143",
-        "name": "United SoCal Los Angeles G2014",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 5,
-        "ga": 5,
-        "gd": 0,
-        "pts": 11,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3603797",
-        "name": "Steel United California Conejo Valley G2014 Premier",
-        "club": "Steel United California",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 2,
-        "ga": 5,
-        "gd": -3,
-        "pts": 5,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3541475",
-        "name": "Steel United California Conejo Valley G2014 Elite",
-        "club": "Steel United California",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 14,
-        "ga": 5,
-        "gd": 9,
-        "pts": 22,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3641966",
-        "name": "GB United G2014",
-        "club": "GB United",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/030/293/full/GB_UNITED_transparent_bg.png?1710449320",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 7,
-        "ga": 6,
-        "gd": 1,
-        "pts": 19,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3654168",
-        "name": "Oxnard Wave FC G14 JL",
-        "club": "Oxnard Wave FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/430/full/Oxnard2_%281%29.png?1652812097",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 4,
-        "ga": 10,
-        "gd": -6,
-        "pts": 10,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      },
-      {
-        "id": "3673129",
-        "name": "United SoCal Burbank G2014 White",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 3,
-        "ga": 7,
-        "gd": -4,
-        "pts": 9,
-        "age": "U12",
-        "gender": "Girls",
-        "bracket": "G2014 Premier",
-        "group": ""
-      }
-    ],
-    "U13_G2013 Premier": [
-      {
-        "id": "3599921",
-        "name": "Central Cal Aztecs 13G DPLO",
-        "club": "Central Cal Aztecs",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/249/full/0.png?1746042518",
-        "mp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 11,
-        "ga": 5,
-        "gd": 6,
-        "pts": 22,
-        "age": "U13",
-        "gender": "Girls",
-        "bracket": "G2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3612343",
-        "name": "United SoCal Santa Clarita G2013 White",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 1,
-        "l": 0,
-        "d": 2,
-        "gf": 4,
-        "ga": 3,
-        "gd": 1,
-        "pts": 16,
-        "age": "U13",
-        "gender": "Girls",
-        "bracket": "G2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3586452",
-        "name": "Sporting Football Club SFC G2013",
-        "club": "Sporting Football Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/651/full/thumbnail_image.png?1672330259",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 6,
-        "ga": 8,
-        "gd": -2,
-        "pts": 15,
-        "age": "U13",
-        "gender": "Girls",
-        "bracket": "G2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3624302",
-        "name": "AYSO United Channel Islands G2013",
-        "club": "AYSO United Channel Islands",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/024/926/full/Unknown.png?1698070290",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 5,
-        "ga": 5,
-        "gd": 0,
-        "pts": 14,
-        "age": "U13",
-        "gender": "Girls",
-        "bracket": "G2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3526644",
-        "name": "Steel United California Conejo Valley G2013 Elite",
-        "club": "Steel United California",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 8,
-        "ga": 7,
-        "gd": 1,
-        "pts": 13,
-        "age": "U13",
-        "gender": "Girls",
-        "bracket": "G2013 Premier",
-        "group": ""
-      },
-      {
-        "id": "3623781",
-        "name": "Simi Valley Soccer Club G2013",
-        "club": "Simi Valley Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/007/758/full/Eclipse_logo.jpg?1712728979",
-        "mp": 3,
-        "w": 0,
-        "l": 2,
-        "d": 1,
-        "gf": 2,
-        "ga": 8,
-        "gd": -6,
-        "pts": 5,
-        "age": "U13",
-        "gender": "Girls",
-        "bracket": "G2013 Premier",
-        "group": ""
-      }
-    ],
-    "U14_G2012 Premier": [
-      {
-        "id": "3664474",
-        "name": "LAFC So Cal G2012 ECRL",
-        "club": "LAFC So Cal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/257/full/LAFC_So_Cal_Youth_Full_Color-01.png?1625763655",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 5,
-        "ga": 2,
-        "gd": 3,
-        "pts": 19,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Premier",
-        "group": ""
-      },
-      {
-        "id": "3576589",
-        "name": "Legends FC (CA) AV G12 FC",
-        "club": "Legends FC (CA)",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/030/full/lfc_crest_fullcolor_stars.png?1628123567",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 6,
-        "ga": 3,
-        "gd": 3,
-        "pts": 19,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Premier",
-        "group": ""
-      },
-      {
-        "id": "3584746",
-        "name": "Steel United California CV G2012 Elite",
-        "club": "Steel United California",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 5,
-        "ga": 4,
-        "gd": 1,
-        "pts": 18,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Premier",
-        "group": ""
-      },
-      {
-        "id": "3577088",
-        "name": "Oxnard United SC G2012",
-        "club": "Oxnard United SC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/217/full/NEW_LOGO_2024.png?1709170109",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 2,
-        "ga": 9,
-        "gd": -7,
-        "pts": 2,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Premier",
-        "group": ""
-      }
-    ],
-    "U14_G2012 Championship": [
-      {
-        "id": "3657037",
-        "name": "Oxnard Wave FC G13",
-        "club": "Oxnard Wave FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/430/full/Oxnard2_%281%29.png?1652812097",
-        "mp": 3,
-        "w": 2,
-        "l": 0,
-        "d": 1,
-        "gf": 5,
-        "ga": 1,
-        "gd": 4,
-        "pts": 22,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Championship",
-        "group": ""
-      },
-      {
-        "id": "3662751",
-        "name": "Ventura Surf Soccer Club G2012 Blue",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 3,
-        "ga": 3,
-        "gd": 0,
-        "pts": 17,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Championship",
-        "group": ""
-      },
-      {
-        "id": "3646956",
-        "name": "Newbury Park Elite FC Phoenix",
-        "club": "Newbury Park Elite FC",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/027/357/full/logo638136187331767054.png?1684002157",
-        "mp": 3,
-        "w": 1,
-        "l": 1,
-        "d": 1,
-        "gf": 3,
-        "ga": 1,
-        "gd": 2,
-        "pts": 14,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Championship",
-        "group": ""
-      },
-      {
-        "id": "3639564",
-        "name": "Steel United California Conejo Valley G2012 Club",
-        "club": "Steel United California",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/260/full/steel_united.png?1628514274",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 1,
-        "ga": 7,
-        "gd": -6,
-        "pts": 1,
-        "age": "U14",
-        "gender": "Girls",
-        "bracket": "G2012 Championship",
-        "group": ""
-      }
-    ],
-    "U15_G2011 Premier": [
-      {
-        "id": "3599435",
-        "name": "Legends FC (CA) AV G11 FC",
-        "club": "Legends FC (CA)",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/009/030/full/lfc_crest_fullcolor_stars.png?1628123567",
-        "mp": 3,
-        "w": 3,
-        "l": 0,
-        "d": 0,
-        "gf": 7,
-        "ga": 2,
-        "gd": 5,
-        "pts": 26,
-        "age": "U15",
-        "gender": "Girls",
-        "bracket": "G2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3642039",
-        "name": "Ventura Surf Soccer Club G2012 TO",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 2,
-        "l": 1,
-        "d": 0,
-        "gf": 4,
-        "ga": 3,
-        "gd": 1,
-        "pts": 17,
-        "age": "U15",
-        "gender": "Girls",
-        "bracket": "G2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3646646",
-        "name": "Ventura Surf Soccer Club G2011 White",
-        "club": "Ventura Surf Soccer Club",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/025/450/full/Ventura-Surf-Logo-3D-shield-blackoutline.png?1657676067",
-        "mp": 3,
-        "w": 1,
-        "l": 2,
-        "d": 0,
-        "gf": 5,
-        "ga": 7,
-        "gd": -2,
-        "pts": 11,
-        "age": "U15",
-        "gender": "Girls",
-        "bracket": "G2011 Premier",
-        "group": ""
-      },
-      {
-        "id": "3594712",
-        "name": "United SoCal Santa Clarita G2011 White",
-        "club": "United SoCal",
-        "logoUrl": "https://system.gotsport.com/system/organizations/logos/000/013/251/full/logo-ayso-united-8-1-18-stroke28163.png?1619462311",
-        "mp": 3,
-        "w": 0,
-        "l": 3,
-        "d": 0,
-        "gf": 2,
-        "ga": 6,
-        "gd": -4,
-        "pts": 2,
-        "age": "U15",
-        "gender": "Girls",
-        "bracket": "G2011 Premier",
-        "group": ""
-      }
-    ]
-  }
+    "Boys|U9|B2017 Premier|": {
+      "key": "Boys|U9|B2017 Premier|",
+      "gender": "Boys",
+      "age": "U9",
+      "bracket": "B2017 Premier",
+      "division": "B2017 Premier",
+      "group": "",
+      "label": "Boys U9 B2017 Premier",
+      "teamIds": [
+        "3663081",
+        "3496983",
+        "3568307",
+        "3654446",
+        "3546803",
+        "3600225",
+        "3455972",
+        "3667071"
+      ]
+    },
+    "Boys|U10|B2016 Premier|": {
+      "key": "Boys|U10|B2016 Premier|",
+      "gender": "Boys",
+      "age": "U10",
+      "bracket": "B2016 Premier",
+      "division": "B2016 Premier",
+      "group": "",
+      "label": "Boys U10 B2016 Premier",
+      "teamIds": [
+        "3629009",
+        "3629322",
+        "3641934",
+        "3568103",
+        "3609830",
+        "3647204"
+      ]
+    },
+    "Boys|U10|B2016 Championship|": {
+      "key": "Boys|U10|B2016 Championship|",
+      "gender": "Boys",
+      "age": "U10",
+      "bracket": "B2016 Championship",
+      "division": "B2016 Championship",
+      "group": "",
+      "label": "Boys U10 B2016 Championship",
+      "teamIds": [
+        "3584348",
+        "3544279",
+        "3653533",
+        "3674185",
+        "3646738",
+        "3568149"
+      ]
+    },
+    "Boys|U11|B2015 Premier|": {
+      "key": "Boys|U11|B2015 Premier|",
+      "gender": "Boys",
+      "age": "U11",
+      "bracket": "B2015 Premier",
+      "division": "B2015 Premier",
+      "group": "",
+      "label": "Boys U11 B2015 Premier",
+      "teamIds": [
+        "3645945",
+        "3563688",
+        "3568038",
+        "3570895"
+      ]
+    },
+    "Boys|U11|B2015 Championship|": {
+      "key": "Boys|U11|B2015 Championship|",
+      "gender": "Boys",
+      "age": "U11",
+      "bracket": "B2015 Championship",
+      "division": "B2015 Championship",
+      "group": "",
+      "label": "Boys U11 B2015 Championship",
+      "teamIds": [
+        "3593005",
+        "3581217",
+        "3675051",
+        "3646926"
+      ]
+    },
+    "Boys|U12|B2014 Premier|": {
+      "key": "Boys|U12|B2014 Premier|",
+      "gender": "Boys",
+      "age": "U12",
+      "bracket": "B2014 Premier",
+      "division": "B2014 Premier",
+      "group": "",
+      "label": "Boys U12 B2014 Premier",
+      "teamIds": [
+        "3645006",
+        "3628186",
+        "3514694",
+        "3654577",
+        "3635953",
+        "3664579"
+      ]
+    },
+    "Boys|U13|B2013 Premier|": {
+      "key": "Boys|U13|B2013 Premier|",
+      "gender": "Boys",
+      "age": "U13",
+      "bracket": "B2013 Premier",
+      "division": "B2013 Premier",
+      "group": "",
+      "label": "Boys U13 B2013 Premier",
+      "teamIds": [
+        "3659994",
+        "3663080",
+        "3642217",
+        "3645943"
+      ]
+    },
+    "Boys|U13|B2013 Championship|": {
+      "key": "Boys|U13|B2013 Championship|",
+      "gender": "Boys",
+      "age": "U13",
+      "bracket": "B2013 Championship",
+      "division": "B2013 Championship",
+      "group": "",
+      "label": "Boys U13 B2013 Championship",
+      "teamIds": [
+        "3520716",
+        "3640937",
+        "3630581",
+        "3636280"
+      ]
+    },
+    "Boys|U14|B2012 Premier|": {
+      "key": "Boys|U14|B2012 Premier|",
+      "gender": "Boys",
+      "age": "U14",
+      "bracket": "B2012 Premier",
+      "division": "B2012 Premier",
+      "group": "",
+      "label": "Boys U14 B2012 Premier",
+      "teamIds": [
+        "3680020",
+        "3594669",
+        "3674535",
+        "3663577"
+      ]
+    },
+    "Boys|U14|B2012 Championship|": {
+      "key": "Boys|U14|B2012 Championship|",
+      "gender": "Boys",
+      "age": "U14",
+      "bracket": "B2012 Championship",
+      "division": "B2012 Championship",
+      "group": "",
+      "label": "Boys U14 B2012 Championship",
+      "teamIds": [
+        "3569085",
+        "3638196",
+        "3653995",
+        "3637928"
+      ]
+    },
+    "Boys|U15|B2011 Premier|": {
+      "key": "Boys|U15|B2011 Premier|",
+      "gender": "Boys",
+      "age": "U15",
+      "bracket": "B2011 Premier",
+      "division": "B2011 Premier",
+      "group": "",
+      "label": "Boys U15 B2011 Premier",
+      "teamIds": [
+        "3603727",
+        "3587369",
+        "3649836",
+        "3661095",
+        "3645128",
+        "3568320"
+      ]
+    },
+    "Boys|U16|B2010 Premier|": {
+      "key": "Boys|U16|B2010 Premier|",
+      "gender": "Boys",
+      "age": "U16",
+      "bracket": "B2010 Premier",
+      "division": "B2010 Premier",
+      "group": "",
+      "label": "Boys U16 B2010 Premier",
+      "teamIds": [
+        "3662172",
+        "3661116",
+        "3569063",
+        "3662458"
+      ]
+    },
+    "Girls|U9|G2017 Premier|": {
+      "key": "Girls|U9|G2017 Premier|",
+      "gender": "Girls",
+      "age": "U9",
+      "bracket": "G2017 Premier",
+      "division": "G2017 Premier",
+      "group": "",
+      "label": "Girls U9 G2017 Premier",
+      "teamIds": [
+        "3626070",
+        "3656854",
+        "3598572",
+        "3656894",
+        "3638250",
+        "3681442"
+      ]
+    },
+    "Girls|U11|G2015 Premier|": {
+      "key": "Girls|U11|G2015 Premier|",
+      "gender": "Girls",
+      "age": "U11",
+      "bracket": "G2015 Premier",
+      "division": "G2015 Premier",
+      "group": "",
+      "label": "Girls U11 G2015 Premier",
+      "teamIds": [
+        "3654333",
+        "3656919",
+        "3646067",
+        "3649712"
+      ]
+    },
+    "Girls|U12|G2014 Premier|": {
+      "key": "Girls|U12|G2014 Premier|",
+      "gender": "Girls",
+      "age": "U12",
+      "bracket": "G2014 Premier",
+      "division": "G2014 Premier",
+      "group": "",
+      "label": "Girls U12 G2014 Premier",
+      "teamIds": [
+        "3646208",
+        "3561510",
+        "3503143",
+        "3603797",
+        "3541475",
+        "3641966",
+        "3654168",
+        "3673129"
+      ]
+    },
+    "Girls|U13|G2013 Premier|": {
+      "key": "Girls|U13|G2013 Premier|",
+      "gender": "Girls",
+      "age": "U13",
+      "bracket": "G2013 Premier",
+      "division": "G2013 Premier",
+      "group": "",
+      "label": "Girls U13 G2013 Premier",
+      "teamIds": [
+        "3599921",
+        "3612343",
+        "3586452",
+        "3624302",
+        "3526644",
+        "3623781"
+      ]
+    },
+    "Girls|U14|G2012 Premier|": {
+      "key": "Girls|U14|G2012 Premier|",
+      "gender": "Girls",
+      "age": "U14",
+      "bracket": "G2012 Premier",
+      "division": "G2012 Premier",
+      "group": "",
+      "label": "Girls U14 G2012 Premier",
+      "teamIds": [
+        "3664474",
+        "3576589",
+        "3584746",
+        "3577088"
+      ]
+    },
+    "Girls|U14|G2012 Championship|": {
+      "key": "Girls|U14|G2012 Championship|",
+      "gender": "Girls",
+      "age": "U14",
+      "bracket": "G2012 Championship",
+      "division": "G2012 Championship",
+      "group": "",
+      "label": "Girls U14 G2012 Championship",
+      "teamIds": [
+        "3657037",
+        "3662751",
+        "3646956",
+        "3639564"
+      ]
+    },
+    "Girls|U15|G2011 Premier|": {
+      "key": "Girls|U15|G2011 Premier|",
+      "gender": "Girls",
+      "age": "U15",
+      "bracket": "G2011 Premier",
+      "division": "G2011 Premier",
+      "group": "",
+      "label": "Girls U15 G2011 Premier",
+      "teamIds": [
+        "3599435",
+        "3642039",
+        "3646646",
+        "3594712"
+      ]
+    }
+  },
+  "schemaVersion": 2
 }

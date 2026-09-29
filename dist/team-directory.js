@@ -1,4 +1,7 @@
 (function () {
+  var esc = pageUtils.esc;
+  var safeUrl = pageUtils.safeUrl;
+
   function buildTeamMeta(team, includeClub) {
     var parts = [];
     if (includeClub && team.club) parts.push(team.club);
@@ -8,23 +11,24 @@
     return parts;
   }
 
+  function logoImg(url, lazy) {
+    var src = safeUrl(url);
+    return src ? '<img src="' + src + '" alt=""' + (lazy ? ' loading="lazy"' : "") + " />" : "";
+  }
+
   function renderTeamCards(teams, options) {
     return teams.map(function (team) {
-      var secondaryLine = options.secondaryLine
-        ? options.secondaryLine(team)
-        : (team.club || "");
-      var metaLine = buildTeamMeta(team, !options.hideClubInMeta).join(" \u2022 ");
+      var secondaryLine = options.secondaryLine ? options.secondaryLine(team) : (team.club || "");
+      var metaLine = buildTeamMeta(team, !options.hideClubInMeta).join(" • ");
 
       return '<div class="team-card">' +
-        '<a href="' + options.hrefBuilder(team) + '">' +
-          '<div class="team-logo">' +
-            (team.logoUrl ? '<img src="' + team.logoUrl + '" alt="" loading="lazy" />' : "") +
-          "</div>" +
+        '<a href="' + esc(options.hrefBuilder(team)) + '">' +
+          '<div class="team-logo">' + logoImg(team.logoUrl, true) + "</div>" +
           '<div class="team-info">' +
-            '<div class="team-name">' + team.name + "</div>" +
-            '<div class="team-club">' + secondaryLine + "</div>" +
-            '<div class="team-age">' + metaLine + "</div>" +
-            '<div class="team-stats">' + (team.mp || 0) + "MP \u2022 " + (team.w || 0) + "W-" + (team.l || 0) + "L-" + (team.d || 0) + "D \u2022 " + (team.pts || 0) + " pts</div>" +
+            '<div class="team-name">' + esc(team.name) + "</div>" +
+            '<div class="team-club">' + esc(secondaryLine) + "</div>" +
+            '<div class="team-age">' + esc(metaLine) + "</div>" +
+            '<div class="team-stats">' + team.mp + "MP • " + team.w + "W-" + team.l + "L-" + team.d + "D • " + team.pts + " pts</div>" +
           "</div>" +
         "</a>" +
       "</div>";
@@ -36,12 +40,10 @@
     if (!el) return;
 
     el.innerHTML =
-      '<div class="team-detail-logo">' +
-        (team.logoUrl ? '<img src="' + team.logoUrl + '" alt="" />' : "") +
-      "</div>" +
+      '<div class="team-detail-logo">' + logoImg(team.logoUrl, false) + "</div>" +
       "<div>" +
-        '<div class="team-detail-name">' + team.name + "</div>" +
-        '<div class="team-detail-meta">' + buildTeamMeta(team, true).join(" \u2022 ") + "</div>" +
+        '<div class="team-detail-name">' + esc(team.name) + "</div>" +
+        '<div class="team-detail-meta">' + esc(buildTeamMeta(team, true).join(" • ")) + "</div>" +
       "</div>";
   }
 
@@ -49,116 +51,74 @@
     var el = document.getElementById(targetId);
     if (!el) return;
 
-    el.innerHTML =
-      '<div class="record-box">' +
-        '<div class="record-stat"><div class="record-stat-value">' + (team.w || 0) + '</div><div class="record-stat-label">Wins</div></div>' +
-        '<div class="record-stat"><div class="record-stat-value">' + (team.l || 0) + '</div><div class="record-stat-label">Losses</div></div>' +
-        '<div class="record-stat"><div class="record-stat-value">' + (team.d || 0) + '</div><div class="record-stat-label">Draws</div></div>' +
-        '<div class="record-stat"><div class="record-stat-value">' + (team.pts || 0) + '</div><div class="record-stat-label">Points</div></div>' +
-        '<div class="record-stat"><div class="record-stat-value">' + (team.gf || 0) + "-" + (team.ga || 0) + '</div><div class="record-stat-label">GF-GA</div></div>' +
+    function stat(value, label) {
+      return '<div class="record-stat"><div class="record-stat-value">' + esc(value) + '</div><div class="record-stat-label">' + label + "</div></div>";
+    }
+    el.innerHTML = '<div class="record-box">' +
+      stat(team.w, "Wins") + stat(team.l, "Losses") + stat(team.d, "Draws") + stat(team.pts, "Points") +
+      stat(team.gf + "-" + team.ga, "GF-GA") +
       "</div>";
   }
 
-  function findBracketTeams(team, allTeams, allStandings) {
-    var bracketTeams = [];
-
-    if (typeof allStandings === "object" && !Array.isArray(allStandings)) {
-      for (var key in allStandings) {
-        var rows = allStandings[key];
-        if (!Array.isArray(rows)) continue;
-        var found = rows.find(function (row) {
-          return row.id === team.id || row.name === team.name;
-        });
-        if (found) {
-          bracketTeams = rows.slice();
-          break;
-        }
-      }
-    }
-
-    if (!bracketTeams.length) {
-      bracketTeams = allTeams.filter(function (candidate) {
-        return candidate.bracket === team.bracket && candidate.age === team.age && candidate.gender === team.gender;
-      });
-      bracketTeams.sort(function (a, b) { return (b.pts || 0) - (a.pts || 0); });
-    }
-
-    return bracketTeams;
+  // One standings table (teams already in official rank order).
+  function renderStandingsTable(teams, highlightTeamId) {
+    var rows = teams.map(function (row, index) {
+      var style = row.id === highlightTeamId ? ' style="background:var(--accent-soft);"' : "";
+      return "<tr" + style + ">" +
+        "<td>" + (row.rank || index + 1) + "</td>" +
+        "<td>" + esc(row.name) + "</td>" +
+        "<td>" + row.mp + "</td><td>" + row.w + "</td><td>" + row.d + "</td><td>" + row.l + "</td>" +
+        "<td>" + row.gf + "</td><td>" + row.ga + "</td><td>" + row.gd + "</td><td>" + row.pts + "</td>" +
+      "</tr>";
+    }).join("");
+    return '<table class="standings-table"><thead><tr>' +
+      "<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th>" +
+      "</tr></thead><tbody>" + rows + "</tbody></table>";
   }
 
-  function renderTeamStandings(targetId, team, allTeams, allStandings) {
+  function renderTeamStandings(targetId, team, allTeams) {
     var el = document.getElementById(targetId);
     if (!el) return;
 
-    var bracketTeams = findBracketTeams(team, allTeams, allStandings);
-    if (!bracketTeams.length) {
+    var table = PlaymakerData.standingsTables(allTeams).find(function (t) { return t.key === team.standingsKey; });
+    if (!table || !team.bracket) {
       el.innerHTML = pageUtils.renderStateMessage("No bracket standings available.");
       return;
     }
+    el.innerHTML = renderStandingsTable(table.teams, team.id);
+  }
 
-    var table = '<table class="standings-table"><thead><tr>' +
-      "<th>#</th><th>Team</th><th>GP</th><th>W</th><th>D</th><th>L</th><th>GF</th><th>GA</th><th>GD</th><th>Pts</th>" +
-      "</tr></thead><tbody>";
-
-    bracketTeams.forEach(function (row, index) {
-      var isCurrent = row.id === team.id || row.name === team.name;
-      var style = isCurrent ? ' style="background:var(--accent-soft);"' : "";
-      table += '<tr' + style + ">" +
-        "<td>" + (index + 1) + "</td>" +
-        "<td>" + (row.name || "") + "</td>" +
-        "<td>" + (row.mp != null ? row.mp : "") + "</td>" +
-        "<td>" + (row.w != null ? row.w : "") + "</td>" +
-        "<td>" + (row.d != null ? row.d : "") + "</td>" +
-        "<td>" + (row.l != null ? row.l : "") + "</td>" +
-        "<td>" + (row.gf != null ? row.gf : "") + "</td>" +
-        "<td>" + (row.ga != null ? row.ga : "") + "</td>" +
-        "<td>" + (row.gd != null ? row.gd : "") + "</td>" +
-        "<td>" + (row.pts != null ? row.pts : "") + "</td>" +
-      "</tr>";
-    });
-
-    table += "</tbody></table>";
-    el.innerHTML = table;
+  // Match rows for any list of matches (used by team pages and the schedule).
+  function renderMatchCards(matches) {
+    return matches.map(function (match) {
+      var score = formatScore(match);
+      var stage = match.type === "Playoffs" ? (match.stage || "Playoffs") : "";
+      var status = match.status ? " • " + match.status : "";
+      return '<div class="match-card">' +
+        '<div class="match-team"><div class="match-team-name">' + esc(match.homeTeam || "TBD") + "</div></div>" +
+        '<div class="match-center">' +
+          '<div class="match-score' + (score ? " score-final" : "") + '">' + esc(score || "vs") + "</div>" +
+          (stage ? '<div class="match-time">' + esc(stage) + "</div>" : "") +
+        "</div>" +
+        '<div class="match-team match-team-away"><div class="match-team-name">' + esc(match.awayTeam || "TBD") + "</div></div>" +
+        '<div style="grid-column:1/-1;" class="match-meta">' +
+          esc(formatMatchWhen(match) + (match.location ? " • " + match.location : "") + status) +
+        "</div>" +
+      "</div>";
+    }).join("");
   }
 
   function renderTeamMatches(targetId, team, allMatches) {
     var el = document.getElementById(targetId);
     if (!el) return;
 
-    var teamName = team.name.toLowerCase();
-    var matches = allMatches.filter(function (match) {
-      var home = (match.homeTeam || match.home_team_name || match.home_team || match.home || "").toLowerCase();
-      var away = (match.awayTeam || match.away_team_name || match.away_team || match.away || "").toLowerCase();
-      return home.includes(teamName) || away.includes(teamName) || teamName.includes(home) || teamName.includes(away);
-    });
-
-    if (!matches.length) {
-      el.innerHTML = pageUtils.renderStateMessage("No matches found for this team.");
-      return;
-    }
-
-    el.innerHTML = matches.map(function (match) {
-      var home = match.homeTeam || match.home_team_name || match.home_team || match.home || "";
-      var away = match.awayTeam || match.away_team_name || match.away_team || match.away || "";
-      var hasScore = match.homeScore != null && match.awayScore != null;
-      var scoreText = hasScore ? match.homeScore + " - " + match.awayScore : "vs";
-      var time = match.time || match.match_time || "";
-      var field = match.location || match.field || "";
-      var stage = match.stage || match.type || "";
-
-      return '<div class="match-card">' +
-        '<div class="match-team"><div class="match-team-name">' + home + "</div></div>" +
-        '<div class="match-center">' +
-          '<div class="match-score' + (hasScore ? " score-final" : "") + '">' + scoreText + "</div>" +
-          (stage ? '<div class="match-time">' + stage + "</div>" : "") +
-        "</div>" +
-        '<div class="match-team match-team-away"><div class="match-team-name">' + away + "</div></div>" +
-        '<div style="grid-column:1/-1;" class="match-meta">' + time + (field ? " \u2022 " + field : "") + "</div>" +
-      "</div>";
-    }).join("");
+    var matches = PlaymakerData.teamMatches(team, allMatches);
+    el.innerHTML = matches.length ? renderMatchCards(matches) : pageUtils.renderStateMessage("No matches found for this team.");
   }
 
   window.teamDirectory = {
+    renderMatchCards: renderMatchCards,
+    renderStandingsTable: renderStandingsTable,
     renderTeamCards: renderTeamCards,
     renderTeamHeader: renderTeamHeader,
     renderTeamMatches: renderTeamMatches,

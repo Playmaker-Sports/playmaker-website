@@ -37,6 +37,11 @@ See [WIX_MIGRATION.md](WIX_MIGRATION.md) for the hosting architecture, domain cu
 
 Do not copy event-detail data into this repo if it belongs in `playmaker-static`.
 
+Event details (names, dates, venue `address`, `ageRange`, logos, series `slug`) come from
+`event_config.json`; do not hardcode them in page scripts. Standings order, team match
+lookup and rules rendering come from `playmaker-data.js`, which the build copies from
+`playmaker-static/contract/`. Change it there, not here.
+
 The site ships fallback copies of `event_config.json`, `rules_template.json`, and
 `archived/` (used when the cross-origin fetch from the static site fails), but they
 are synced into `dist/` from the sibling `playmaker-static` checkout at build time.

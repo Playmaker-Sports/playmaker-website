@@ -14,17 +14,18 @@ function renderHomeHero(config) {
   var event = config.events[firstId];
   if (!event) return;
 
-  var slug = eventSlug(event.eventName);
+  var slug = eventSlug(event);
   setupHomeHeroSlideshow(event);
   document.getElementById("upcoming-title").textContent = event.eventName.replace(/ \d{4}$/, "");
 
   var metaEl = document.getElementById("upcoming-meta");
   metaEl.innerHTML =
-    '<span>' + (event.dateText || "Dates coming soon") + '</span>' +
-    '<span>' + getFullAddress(event.locationText) + '</span>';
+    '<span>' + pageUtils.esc(event.dateText || "Dates coming soon") + '</span>' +
+    '<span>' + pageUtils.esc(getFullAddress(event)) + '</span>';
 
   var summaryEl = document.getElementById("upcoming-summary");
-  summaryEl.textContent = "Boys and girls U6–U19. A competitive tournament weekend designed for players, clubs, and families.";
+  summaryEl.textContent = (event.ageRange ? event.ageRange + ". " : "") +
+    "A competitive tournament weekend designed for players, clubs, and families.";
 
   var buttonsEl = document.getElementById("upcoming-actions");
   buttonsEl.innerHTML = "";
@@ -54,7 +55,9 @@ function renderHomeEventsGrid(config) {
     var event = config.events[id];
     if (!event || !event.eventName) return;
 
-    var slug = eventSlug(event.eventName);
+    var slug = eventSlug(event);
+    if (!slug) return;
+    var esc = pageUtils.esc;
     var photos = EVENT_PHOTOS[slug] || [];
     var bgPhoto = HOME_EVENT_CARD_PHOTOS[slug] || photos[0] || "";
     var article = document.createElement("a");
@@ -62,14 +65,14 @@ function renderHomeEventsGrid(config) {
     article.href = eventPageUrl(slug);
     article.innerHTML =
       '<div class="event-card-img">' +
-        (bgPhoto ? '<img class="event-card-bg" src="' + bgPhoto + '" alt="' + event.eventName + '" />' : "") +
+        (bgPhoto ? '<img class="event-card-bg" src="' + esc(bgPhoto) + '" alt="' + esc(event.eventName) + '" />' : "") +
       '</div>' +
       '<div class="event-card-body">' +
-        '<div class="event-name">' + event.eventName.replace(/ \d{4}$/, "") + '</div>' +
+        '<div class="event-name">' + esc(event.eventName.replace(/ \d{4}$/, "")) + '</div>' +
         '<div class="event-card-text">' +
-          '<div class="event-date">' + (event.dateText || "") + '</div>' +
-          '<div class="event-row">' + getFullAddress(event.locationText).replace(/\s\u2013\s/, "<br>") + '</div>' +
-          '<div class="event-meta">Boys &amp; Girls, U6&ndash;U19</div>' +
+          '<div class="event-date">' + esc(event.dateText || "") + '</div>' +
+          '<div class="event-row">' + esc(getFullAddress(event)).replace(/\s\u2013\s/, "<br>") + '</div>' +
+          (event.ageRange ? '<div class="event-meta">' + esc(event.ageRange) + '</div>' : "") +
         '</div>' +
         '<span class="event-story-arrow" aria-hidden="true">View event &rarr;</span>' +
       '</div>';
