@@ -79,7 +79,7 @@ function populateEventNav(event, slug) {
 
   var links = [
     {
-      label: "Playmaker Schedule & Standings",
+      label: "Schedule & Standings",
       href: "results.html?slug=" + slug,
       disabled: !event.archived && event.scheduleDisabled
     },

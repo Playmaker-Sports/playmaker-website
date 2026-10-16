@@ -60,7 +60,7 @@ async function expectFooter(page) {
 }
 
 async function expectNoErrorState(page, selector, message) {
-  const errorText = await page.locator(selector + " .data-error").first().textContent().catch(() => null);
+  const errorText = (await page.locator(selector + " .data-error").allTextContents()).join(" ");
   if (errorText) fail(`${message} (${errorText.trim()})`);
 }
 
@@ -126,7 +126,7 @@ async function run() {
   await expectFooter(page);
 
   await page.goto(`${baseUrl}/news.html`, { waitUntil: "networkidle" });
-  await expectCount(page, "#news-grid .news-card", 7, "News page should render seven posts");
+  await expectCount(page, "#news-grid .news-card", 8, "News page should render all eight posts, including the new tournament article");
   await expectImagesLoaded(page, "#news-grid .news-card img", "News images should load from the built site");
   const firstArticleHref = await page.locator("#news-grid .news-card").first().getAttribute("href");
   if (!firstArticleHref) {

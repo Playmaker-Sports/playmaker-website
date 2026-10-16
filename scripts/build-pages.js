@@ -73,6 +73,10 @@ function escapeHtml(value) {
     .replace(/'/g, "&#39;");
 }
 
+function renderInlineMarkdown(value) {
+  return escapeHtml(value).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+}
+
 function ensureDir(dirPath) {
   fs.mkdirSync(dirPath, { recursive: true });
 }
@@ -201,14 +205,6 @@ function renderContactCards() {
     .join("\n\n");
 }
 
-function renderContactSubjectOptions() {
-  return contact.subjectOptions
-    .map((option) => {
-      return `                <option value="${option.value}">${option.label}</option>`;
-    })
-    .join("\n");
-}
-
 function renderPartnerLogos() {
   return partners
     .map((partner) => {
@@ -223,7 +219,25 @@ function renderPartnerLogos() {
 
 function renderNewsArticle(post) {
   const paragraphs = post.body
-    .map((paragraph) => `        <p>${escapeHtml(paragraph)}</p>`)
+    .map((block) => {
+      if (typeof block === "string") {
+        return `        <p>${renderInlineMarkdown(block)}</p>`;
+      }
+      if (block.heading) {
+        return `        <h2>${escapeHtml(block.heading)}</h2>`;
+      }
+      if (block.image) {
+        const caption = block.caption
+          ? `\n          <figcaption>${escapeHtml(block.caption)}</figcaption>`
+          : "";
+        return [
+          '        <figure class="article-inline-image">',
+          `          <img src="${escapeHtml(block.image)}" alt="${escapeHtml(block.alt || "")}" loading="lazy" decoding="async" />${caption}`,
+          "        </figure>"
+        ].join("\n");
+      }
+      return "";
+    })
     .join("\n");
 
   return [
@@ -268,7 +282,6 @@ for (const page of pages) {
     contact,
     eventPage: eventMarketing[page.id] || {},
     contact_info_cards: renderContactCards(),
-    contact_subject_options: renderContactSubjectOptions(),
     partner_logos: renderPartnerLogos()
   });
 
