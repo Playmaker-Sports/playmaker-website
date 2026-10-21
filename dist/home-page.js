@@ -24,6 +24,7 @@ function renderLatestNews() {
       var image = document.getElementById("latest-news-image");
       image.src = post.image;
       image.alt = post.imageAlt || post.title;
+      image.style.objectPosition = post.imagePosition || "";
       document.getElementById("latest-news-date").textContent = post.date;
       document.getElementById("latest-news-heading").textContent = post.title;
       document.getElementById("latest-news-snippet").textContent = post.snippet;

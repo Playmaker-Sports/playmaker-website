@@ -369,6 +369,11 @@ body {
   line-height: 1.2;
 }
 
+.latest-news-card .text-link {
+  color: var(--accent);
+  margin-top: 6px;
+}
+
 .latest-news-snippet {
   margin: 0;
   color: #d1d5db;
@@ -1204,6 +1209,24 @@ body {
 .article-body strong {
   color: var(--text);
   font-weight: 700;
+}
+
+.article-body a {
+  color: var(--accent);
+}
+
+.article-list {
+  margin: 0 0 24px;
+  padding-left: 22px;
+}
+
+.article-list li {
+  margin-bottom: 10px;
+}
+
+.article-body .article-button {
+  color: #050509;
+  text-decoration: none;
 }
 
 .article-inline-image {

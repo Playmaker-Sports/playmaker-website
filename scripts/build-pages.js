@@ -74,7 +74,13 @@ function escapeHtml(value) {
 }
 
 function renderInlineMarkdown(value) {
-  return escapeHtml(value).replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>");
+  return escapeHtml(value)
+    .replace(/\*\*(.+?)\*\*/g, "<strong>$1</strong>")
+    .replace(/\[([^\]]+)\]\((https?:\/\/[^\s)]+|mailto:[^\s)]+)\)/g, '<a href="$2">$1</a>');
+}
+
+function safeLinkUrl(value) {
+  return /^(https?:\/\/|mailto:)/.test(value) ? escapeHtml(value) : "#";
 }
 
 function ensureDir(dirPath) {
@@ -226,6 +232,15 @@ function renderNewsArticle(post) {
       if (block.heading) {
         return `        <h2>${escapeHtml(block.heading)}</h2>`;
       }
+      if (block.list) {
+        const items = block.list
+          .map((item) => `          <li>${renderInlineMarkdown(item)}</li>`)
+          .join("\n");
+        return `        <ul class="article-list">\n${items}\n        </ul>`;
+      }
+      if (block.button) {
+        return `        <p><a class="btn btn-primary article-button" href="${safeLinkUrl(block.button.href)}" target="_blank" rel="noopener">${escapeHtml(block.button.label)}</a></p>`;
+      }
       if (block.image) {
         const caption = block.caption
           ? `\n          <figcaption>${escapeHtml(block.caption)}</figcaption>`
@@ -251,7 +266,7 @@ function renderNewsArticle(post) {
     `      <div class="article-byline">By ${escapeHtml(post.author)}</div>`,
     "    </header>",
     '    <figure class="article-hero">',
-    `      <img src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt)}" />`,
+    `      <img src="${escapeHtml(post.image)}" alt="${escapeHtml(post.imageAlt)}"${post.imagePosition ? ` style="object-position: ${escapeHtml(post.imagePosition)}"` : ""} />`,
     "    </figure>",
     '    <div class="article-body">',
     paragraphs,
