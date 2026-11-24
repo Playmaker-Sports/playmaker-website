@@ -43,7 +43,7 @@ const partners = JSON.parse(read(path.join(dataDir, "partners.json")));
 // always synced from playmaker-static at build time — never edited here.
 const staticRepoDir = path.resolve(rootDir, "..", "playmaker-static");
 
-const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived", "banners"];
+const syncedFromStaticRepo = ["event_config.json", "rules_template.json", "archived", "banners", "field-maps"];
 // Shared data contract (normalizer, standings, rules rendering). Never edit the copy in dist/.
 const contractScript = path.join("contract", "playmaker-data.js");
 
@@ -211,6 +211,14 @@ function renderContactCards() {
     .join("\n\n");
 }
 
+function renderHomeScheduleLink() {
+  const url = home.fieldMapSection && home.fieldMapSection.scheduleUrl;
+  if (!url) {
+    return '<span class="btn btn-primary is-inactive" aria-disabled="true">Click here to view schedule</span>';
+  }
+  return `<a class="btn btn-primary" href="${escapeHtml(url)}" target="_blank" rel="noopener">Click here to view schedule</a>`;
+}
+
 function renderPartnerLogos() {
   return partners
     .map((partner) => {
@@ -297,6 +305,7 @@ for (const page of pages) {
     contact,
     eventPage: eventMarketing[page.id] || {},
     contact_info_cards: renderContactCards(),
+    home_schedule_link: renderHomeScheduleLink(),
     partner_logos: renderPartnerLogos()
   });
 

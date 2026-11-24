@@ -3149,20 +3149,6 @@ body {
   margin-bottom: 20px;
 }
 
-.home-upcoming-photo {
-  border-radius: 20px;
-  overflow: hidden;
-}
-
-.home-upcoming-photo-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 320px;
-  object-fit: cover;
-  object-position: center 25%;
-}
-
 .home-positioning-detail p {
   margin: 0 0 28px;
   color: #465365;
@@ -3170,16 +3156,33 @@ body {
   line-height: 1.65;
 }
 
-.home-upcoming-meta {
-  display: grid;
-  gap: 8px;
-  margin-bottom: 24px;
-  color: #071629;
-  font-size: 13px;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  line-height: 1.5;
-  text-transform: uppercase;
+.home-fieldmap .home-positioning-detail {
+  align-self: center;
+}
+
+.home-fieldmap-link {
+  display: block;
+  border: 1px solid rgba(7, 22, 41, 0.14);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 18px 44px rgba(7, 22, 41, 0.14);
+  transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+.home-fieldmap-link:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 54px rgba(7, 22, 41, 0.2);
+}
+
+.home-upcoming-actions .btn.is-inactive {
+  cursor: default;
+  pointer-events: none;
+}
+
+.home-fieldmap-img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .home-upcoming-actions {

@@ -111,10 +111,10 @@ async function run() {
   await expectImagesLoaded(page, ".home-hero-media.is-active", "Homepage hero media should load");
   await expectCount(page, "#home-hero-pagination button", 3, "Homepage hero should provide three slideshow controls");
   await expectCount(page, "#home-countdown", 0, "Homepage hero should not show an event countdown");
-  await expectVisible(page, "#upcoming-event #upcoming-title", "Homepage second section should show the next tournament");
+  await expectVisible(page, "#upcoming-event #upcoming-title", "Homepage second section should show the field map and schedule");
   const secondSectionId = await page.locator("main > section").nth(1).getAttribute("id");
   if (secondSectionId !== "upcoming-event") {
-    fail(`Homepage next tournament should be the second section (got "${secondSectionId || "no id"}")`);
+    fail(`Homepage field map and schedule should be the second section (got "${secondSectionId || "no id"}")`);
   }
   await expectTextNotContaining(page, "#upcoming-title", "Loading", "Homepage next-tournament section should load event content");
   await expectCount(page, ".home-event-logo, .event-story-logo", 0, "Homepage should not show tournament logos");

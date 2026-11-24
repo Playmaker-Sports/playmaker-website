@@ -39,37 +39,7 @@ function renderHomeHero(config) {
   var event = config.events[firstId];
   if (!event) return;
 
-  var slug = eventSlug(event);
   setupHomeHeroSlideshow(event);
-  document.getElementById("upcoming-title").textContent = event.eventName.replace(/ \d{4}$/, "");
-
-  var metaEl = document.getElementById("upcoming-meta");
-  metaEl.innerHTML =
-    '<span>' + pageUtils.esc(event.dateText || "Dates coming soon") + '</span>' +
-    '<span>' + pageUtils.esc(getFullAddress(event)) + '</span>';
-
-  var summaryEl = document.getElementById("upcoming-summary");
-  summaryEl.textContent = (event.ageRange ? event.ageRange + ". " : "") +
-    "A competitive tournament weekend designed for players, clubs, and families.";
-
-  var buttonsEl = document.getElementById("upcoming-actions");
-  buttonsEl.innerHTML = "";
-  if (event.registrationUrl && !event.archived) {
-    var registerLink = document.createElement("a");
-    registerLink.className = "btn btn-primary";
-    registerLink.href = event.registrationUrl;
-    registerLink.target = "_blank";
-    registerLink.rel = "noopener";
-    registerLink.textContent = "Register Now";
-    buttonsEl.appendChild(registerLink);
-  }
-  if (slug) {
-    var detailsLink = document.createElement("a");
-    detailsLink.className = "text-link";
-    detailsLink.href = eventPageUrl(slug);
-    detailsLink.innerHTML = 'Tournament details <span aria-hidden="true">&rarr;</span>';
-    buttonsEl.appendChild(detailsLink);
-  }
 }
 
 function renderHomeEventsGrid(config) {

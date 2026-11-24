@@ -3,6 +3,9 @@
   "positioning": {
     "text": "Competitive youth soccer, thoughtful event operations, and a Southern California atmosphere that gives every team something worth playing for."
   },
+  "fieldMapSection": {
+    "scheduleUrl": ""
+  },
   "eventsSection": {
     "title": "Playmaker Sports Events",
     "subtitle": "Three competitive tournaments across Southern California."
