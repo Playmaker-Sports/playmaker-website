@@ -48,11 +48,11 @@
   "events": {
     "winter-fest-2027": {
       "eventName": "Winter Fest 2027",
-      "dateText": "February 27–28, 2027",
+      "dateText": "February 27\u201328, 2027",
       "locationText": "Central Park, Santa Clarita, CA",
       "slug": "winter-fest",
-      "address": "Central Park – 27150 Bouquet Canyon Rd, Santa Clarita, CA 91350",
-      "ageRange": "Boys & Girls, U6–U19",
+      "address": "Central Park \u2013 27150 Bouquet Canyon Rd, Santa Clarita, CA 91350",
+      "ageRange": "Boys & Girls, U6\u2013U19",
       "startDate": "2027-02-27",
       "endDate": "2027-02-28",
       "theme": "winter",
@@ -81,11 +81,11 @@
     },
     "51438": {
       "eventName": "Summer Championship 2026",
-      "dateText": "August 1–2, 2026",
+      "dateText": "August 1\u20132, 2026",
       "locationText": "Arroyo Vista Park, Moorpark, CA",
       "slug": "summer-championship",
-      "address": "Arroyo Vista Park – 4550 Tierra Rejada Rd, Moorpark, CA 93021",
-      "ageRange": "Boys & Girls, U6–U19",
+      "address": "Arroyo Vista Park \u2013 4550 Tierra Rejada Rd, Moorpark, CA 93021",
+      "ageRange": "Boys & Girls, U6\u2013U19",
       "startDate": "2026-08-01",
       "endDate": "2026-08-02",
       "theme": "summer",
@@ -131,18 +131,18 @@
         "refundLines": [
           "Team drop before June 19, 2026 - Full Refund",
           "Team drop after June 19, 2026 - 50% Refund",
-          "Team drop after July 6, 2026 – No Refund"
+          "Team drop after July 6, 2026 \u2013 No Refund"
         ],
         "cancellationPolicy": "In the unfortunate occurrence of inclement weather or unforeseen circumstances beyond the tournament's control, resulting in a complete cancellation with no games played, Playmaker Sports will provide a 50% refund, OR entry to any Playmaker Sports Event in the next 12 months. Please note that Gotsport fees and credit card processing fees are non-refundable."
       }
     },
     "50767": {
       "eventName": "Winter Fest 2026",
-      "dateText": "February 28 – March 1, 2026",
+      "dateText": "February 28 \u2013 March 1, 2026",
       "locationText": "Central Park, Santa Clarita, CA",
       "slug": "winter-fest",
-      "address": "Central Park – 27150 Bouquet Canyon Rd, Santa Clarita, CA 91350",
-      "ageRange": "Boys & Girls, U6–U19",
+      "address": "Central Park \u2013 27150 Bouquet Canyon Rd, Santa Clarita, CA 91350",
+      "ageRange": "Boys & Girls, U6\u2013U19",
       "startDate": "2026-02-28",
       "endDate": "2026-03-01",
       "theme": "winter",
@@ -180,8 +180,8 @@
       "dateText": "November 28-29, 2026",
       "locationText": "Arroyo Vista Park, Moorpark, CA",
       "slug": "playmakers-cup",
-      "address": "Arroyo Vista Park – 4550 Tierra Rejada Rd, Moorpark, CA 93021",
-      "ageRange": "Boys & Girls, U6–U19",
+      "address": "Arroyo Vista Park \u2013 4550 Tierra Rejada Rd, Moorpark, CA 93021",
+      "ageRange": "Boys & Girls, U6\u2013U19",
       "startDate": "2026-11-28",
       "endDate": "2026-11-29",
       "theme": "playmakers",
@@ -206,12 +206,12 @@
       "rulesUrl": null,
       "photoGalleryFolderId": "1M9bHIzbHnPEWKGlyVMM5bN4Rm2JEekNT",
       "photoUploadFolderId": "1987s-q36VFCUfH_JiaRHt2QnSDcxp_0l",
-      "resultsButtonText": "Schedule (Coming Soon)",
+      "resultsButtonText": "Schedule & Results",
       "resultsEventId": null,
-      "scheduleDisabled": true,
-      "fieldMapDisabled": true,
-      "photoGalleryDisabled": true,
-      "photoGalleryButtonText": "Photo Gallery (Coming Soon)",
+      "scheduleDisabled": false,
+      "fieldMapDisabled": false,
+      "photoGalleryDisabled": false,
+      "photoGalleryButtonText": "Photo Gallery",
       "previousEvents": [
         {
           "eventId": "47962",
@@ -231,7 +231,7 @@
         "refundLines": [
           "Team drop before October 4, 2026 - Full Refund",
           "Team drop before October 30, 2026 - 50% Refund",
-          "Team drop after October 30, 2026 – No Refund"
+          "Team drop after October 30, 2026 \u2013 No Refund"
         ],
         "cancellationPolicy": "In the unfortunate occurrence of inclement weather or unforeseen circumstances beyond the tournament's control, resulting in a complete cancellation with no games played, Playmaker Sports will provide a 50% refund, OR entry to any Playmaker Sports Event in the next 12 months. Please note that Gotsport fees and credit card processing fees are non-refundable."
       }
